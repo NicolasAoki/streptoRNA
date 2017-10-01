@@ -69,8 +69,12 @@ def insere_tabela_genbank(pasta):
             g.close()
     f.close()
 
-def insere_tabela_publication(pasta): #onde ficam os dados dessa tabela?
-    return ""
+def insere_tabela_publication(arquivo_pasta): #passa o caminho do arquivo
+    with open("insert_publication", "w") as f:
+        with open(arquivo_pasta, 'r') as g:
+            for i in g.readlines
+
+
 
 def insere_tabela_localization(pasta):
     return ""
@@ -94,7 +98,8 @@ def insere_tabela_feature(pasta):
                     f.write("VALUES({},{},{},{},{},{})\n".format("DEFAULT","'"+nome_chrom+"'","'"+feature_name+"'",start,fim,
                                                                  "'"+org_sequencia(nome_chrom,start,fim)+"'"))
             elif file.endswith("alienhunter.gff"):
-                i = BedTool(pasta + file)  # acrescenta na string sRNAs com o arquivo .gff
+                i = BedTool(pasta + file)  # acrescenta na string sRNAs com o arquivo .gff66693734
+                
                 aux = ''
                 for k, a in enumerate(i):  # lista todas as linhas de i(arquivo) com indice a, e k sendo cada arquivo
                     start = show_value(a['start'])
@@ -109,16 +114,11 @@ def insere_tabela_feature(pasta):
                                                                  "'" + feature_name + "'", start, fim,
                                                                  "'" + org_sequencia(nome_chrom, start, fim) + "'"))
         f.close()
-
-
                   #HGT_regions = "/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/HGT_regions/"
-
-
 def main():
     insere_tabela_organism("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/Organismos/")
     insere_tabela_genbank("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/Organismos/")
     insere_tabela_feature("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/sRNAs_annotations/")
-    #onde esta o nome da feature???
     insere_tabela_feature("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/HGT_regions/")
 if __name__ == '__main__':
     main()
