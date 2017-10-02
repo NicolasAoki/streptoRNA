@@ -4,7 +4,7 @@ from pybedtools import Interval
 import sys
 import glob, os
 
-def show_value(s): #funcoes para uso do bedtools
+def show_value(s): #retira informacoes dos arquivos .gff e .fasta
     if sys.version_info.major == 2:
         if (isinstance(s, unicode)):
             return str(s)
@@ -90,12 +90,15 @@ def insere_tabela_feature(pasta):
                     fim = show_value(a['stop'])
                     nome_chrom = show_value(a['chrom'])
                     feature_name = show_value(a['name'])
-                    #if aux != nome_chrom: #identifica proximo organismo
-                    #   f.write("INSERT INTO organism(organism_id,abbreviation)")
+                    organism_id = "(SELECT organism_id" \
+                                  "FROM organism,feature " \
+                                  "WHERE organism.abbreviation = feature.feature_name)"
+                    publication_id = 0
+                    strand = ""
                     if k == 0: #se estiver na primeira linha do arquivo
-                        f.write("INSERT INTO feature (id,chromossome,feature_name,start,fim,sequence) \n")       #preenche tabela feature
+                        f.write("INSERT INTO feature (feature_id,organism_id,feature_name,publication_id,start,end,chromossome,sequence) \n")       #preenche tabela feature
                         aux = nome_chrom
-                    f.write("VALUES({},{},{},{},{},{})\n".format("DEFAULT","'"+nome_chrom+"'","'"+feature_name+"'",start,fim,
+                    f.write("VALUES({},{},{},{},{},{},{},{})\n".format("DEFAULT",organism_id,"'"+feature_name+"'",publication_id,"'"+nome_chrom+"'",start,fim,
                                                                  "'"+org_sequencia(nome_chrom,start,fim)+"'"))
             elif file.endswith("alienhunter.gff"):
                 i = BedTool(pasta + file)  # acrescenta na string sRNAs com o arquivo .gff66693734
@@ -113,7 +116,6 @@ def insere_tabela_feature(pasta):
                                                                  "'" + feature_name + "'", start, fim,
                                                                  "'" + org_sequencia(nome_chrom, start, fim) + "'"))
         f.close()
-                  #HGT_regions = "/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/HGT_regions/"
 def main():
     insere_tabela_organism("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/Organismos/")
     insere_tabela_genbank("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/Organismos/")
