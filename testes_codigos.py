@@ -72,11 +72,19 @@ def insere_tabela_genbank(pasta):
 def insere_tabela_publication(pubmed_id,title,year,pubplace): #somente trabalho do ivan
     publication_id = "DEFAULT"
     with open("insert_publication.sql", 'w') as f:
-        f.write("INSERT INTO publication (publication_id,pubmed_id,title,year,pubplace)\n")
+        f.write("INSERT INTO publication(publication_id,pubmed_id,title,year,pubplace)\n")
         f.write("VALUES({},{},{},{},{})".format(publication_id,"'"+pubmed_id+"'","'"+title+"'",
                                                 "'"+year+"'","'"+pubplace+"'"))
 
-def insere_tabela_localization(pasta):
+def insere_tabela_analysis_type():
+    analysis_type_id = "DEFAULT"
+    analysis_name = ['Infernal','Artemis','Mauve']
+    with open("insert_tabela_analysis_type.sql", 'w') as f:
+        for tipo in analysis_name:
+            f.write("INSERT INTO analysis_type(analysis_type_id,analysis_name)\n")
+            f.write("VALUES({},{})\n".format(analysis_type_id,"'"+tipo+"'"))
+
+def insere_tabela_feature_analysis_result():
     return ""
 
 def insere_tabela_feature(pasta):
@@ -94,12 +102,11 @@ def insere_tabela_feature(pasta):
                                   "FROM organism,feature " \
                                   "WHERE organism.abbreviation = feature.feature_name)"
                     publication_id = 0
-                    strand = ""
+                    strand = show_value(a['strand'])
                     if k == 0: #se estiver na primeira linha do arquivo
-                        f.write("INSERT INTO feature (feature_id,organism_id,feature_name,publication_id,start,end,chromossome,sequence) \n")       #preenche tabela feature
+                        f.write("INSERT INTO feature (feature_id,organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence) \n")       #preenche tabela feature
                         aux = nome_chrom
-                    f.write("VALUES({},{},{},{},{},{},{},{})\n".format("DEFAULT",organism_id,"'"+feature_name+"'",publication_id,"'"+nome_chrom+"'",start,fim,
-                                                                 "'"+org_sequencia(nome_chrom,start,fim)+"'"))
+                    f.write("VALUES({},{},{},{},{},{},{},{},{})\n".format("DEFAULT",organism_id,"'"+feature_name+"'",publication_id,"'"+nome_chrom+"'",start,fim,"'"+strand+"'","'"+org_sequencia(nome_chrom,start,fim)+"'"))
             elif file.endswith("alienhunter.gff"):
                 i = BedTool(pasta + file)  # acrescenta na string sRNAs com o arquivo .gff66693734
                 aux = ''
@@ -109,8 +116,7 @@ def insere_tabela_feature(pasta):
                     nome_chrom = show_value(a['chrom'])
                     feature_name = "NaN"
                     if k == 0:  # se estiver na primeira linha do arquivo
-                        f.write(
-                            "INSERT INTO feature (id,chromossome,feature_name,start,fim,sequence) \n")  # preenche tabela feature
+                        f.write("INSERT INTO feature (id,chromossome,feature_name,start,fim,sequence) \n")  # preenche tabela feature
                         aux = nome_chrom
                     f.write("VALUES({},{},{},{},{},{})\n".format("DEFAULT", "'" + nome_chrom + "'",
                                                                  "'" + feature_name + "'", start, fim,
@@ -122,6 +128,7 @@ def main():
     insere_tabela_publication("0","Annotation and distribution of ncRNA families in genomes of Streptococcus agalactiae","2018","UTFPR")
     insere_tabela_feature("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/sRNAs_annotations/")
     insere_tabela_feature("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/HGT_regions/")
-
+    insere_tabela_analysis_type()
+    insere_tabela_feature_analysis_result()
 if __name__ == '__main__':
     main()

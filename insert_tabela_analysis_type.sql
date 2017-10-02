@@ -1,0 +1,6 @@
+INSERT INTO analysis_type(analysis_type_id,analysis_name)
+VALUES(DEFAULT,'Infernal')
+INSERT INTO analysis_type(analysis_type_id,analysis_name)
+VALUES(DEFAULT,'Artemis')
+INSERT INTO analysis_type(analysis_type_id,analysis_name)
+VALUES(DEFAULT,'Mauve')
