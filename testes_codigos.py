@@ -69,18 +69,18 @@ def insere_tabela_genbank(pasta):
             g.close()
     f.close()
 
-def insere_tabela_publication(arquivo_pasta): #passa o caminho do arquivo
-    with open("insert_publication", "w") as f:
-        with open(arquivo_pasta, 'r') as g:
-            for i in g.readlines
-
-
+def insere_tabela_publication(pubmed_id,title,year,pubplace): #somente trabalho do ivan
+    publication_id = "DEFAULT"
+    with open("insert_publication.sql", 'w') as f:
+        f.write("INSERT INTO publication (publication_id,pubmed_id,title,year,pubplace)\n")
+        f.write("VALUES({},{},{},{},{})".format(publication_id,"'"+pubmed_id+"'","'"+title+"'",
+                                                "'"+year+"'","'"+pubplace+"'"))
 
 def insere_tabela_localization(pasta):
     return ""
 
 def insere_tabela_feature(pasta):
-    with open("sRNAs_annotation.sql", 'a') as f:
+    with open("insert_feature.sql", 'a') as f:
         for file in os.listdir(pasta):
             if file.endswith("final.gff"): # se o arquivo termina com .gff
                 i = BedTool(pasta+file) #acrescenta na string sRNAs com o arquivo .gff
@@ -99,13 +99,12 @@ def insere_tabela_feature(pasta):
                                                                  "'"+org_sequencia(nome_chrom,start,fim)+"'"))
             elif file.endswith("alienhunter.gff"):
                 i = BedTool(pasta + file)  # acrescenta na string sRNAs com o arquivo .gff66693734
-                
                 aux = ''
                 for k, a in enumerate(i):  # lista todas as linhas de i(arquivo) com indice a, e k sendo cada arquivo
                     start = show_value(a['start'])
                     fim = show_value(a['stop'])
                     nome_chrom = show_value(a['chrom'])
-                    feature_name = "none"
+                    feature_name = "NaN"
                     if k == 0:  # se estiver na primeira linha do arquivo
                         f.write(
                             "INSERT INTO feature (id,chromossome,feature_name,start,fim,sequence) \n")  # preenche tabela feature
@@ -118,7 +117,9 @@ def insere_tabela_feature(pasta):
 def main():
     insere_tabela_organism("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/Organismos/")
     insere_tabela_genbank("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/Organismos/")
+    insere_tabela_publication("0","Annotation and distribution of ncRNA families in genomes of Streptococcus agalactiae","2018","UTFPR")
     insere_tabela_feature("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/sRNAs_annotations/")
     insere_tabela_feature("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/HGT_regions/")
+
 if __name__ == '__main__':
     main()

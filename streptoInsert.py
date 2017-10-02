@@ -4,14 +4,14 @@ from pybedtools import Interval
 import sys
 import glob, os
 
-def show_value(s): #funções para uso do bedtools
+def show_value(s): #funcoes para uso do bedtools
     if sys.version_info.major == 2:
         if (isinstance(s, unicode)):
             return str(s)
     return s
 
 
-def len_filter(feature, L): #funções para uso do bedtools
+def len_filter(feature, L): #funcoes para uso do bedtools
     return len(feature) > L
 
 
