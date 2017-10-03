@@ -78,14 +78,39 @@ def insere_tabela_publication(pubmed_id,title,year,pubplace): #somente trabalho 
 
 def insere_tabela_analysis_type():
     analysis_type_id = "DEFAULT"
-    analysis_name = ['Infernal','Artemis','Mauve']
+    analysis_name = ['Infernal_Rfam','Artemis','Mauve']
     with open("insert_tabela_analysis_type.sql", 'w') as f:
         for tipo in analysis_name:
             f.write("INSERT INTO analysis_type(analysis_type_id,analysis_name)\n")
             f.write("VALUES({},{})\n".format(analysis_type_id,"'"+tipo+"'"))
 
-def insere_tabela_feature_analysis_result():
-    return ""
+def insere_tabela_type():
+    type_id = "DEFAULT"
+    description = ['incRNA','mirtron','miRNA']
+    with open("insere_type.sql", 'w') as f:
+        for tipo in description:
+            f.write("INSERT INTO type(type_id,description)")
+            f.write("VALUES({},{})\n".format(type_id,"'"+tipo+"'"))
+
+def insere_tabela_group():
+    group_id ="DEFAULT"
+    group_description =['Core','Exclusive','Shared','3_tailed','5_tailed','in_silico']
+    with open("insere_group.sql", 'w') as f:
+        for tipo in group_description:
+            f.write("INSERT INTO group(group_id,group_description)")
+            f.write("VALUES({},{})\n".format(group_id,"'"+tipo+"'"))
+
+'''def insere_tabela_feature_analysis_result(pasta):
+    with open("insert_feature_analysis_result.sql", 'a') as f:
+        for file in os.listdir(pasta):
+            caminho = pasta+file
+            if file.endswith("final.gff"):
+                with open(caminho, 'r') as g:
+                    tipo_analise = g.readline().split()
+                    feature_analysis_id = "DEFAULT"
+                    f.write("INSERT INTO feature_analysis_result(feature_analysis_id,id_feature,id_analysis_type)\n")
+                    f.write("VALUES({},{},{})".format(feature_analysis_id,))'''
+
 
 def insere_tabela_feature(pasta):
     with open("insert_feature.sql", 'a') as f:
@@ -123,12 +148,21 @@ def insere_tabela_feature(pasta):
                                                                  "'" + org_sequencia(nome_chrom, start, fim) + "'"))
         f.close()
 def main():
-    insere_tabela_organism("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/Organismos/")
-    insere_tabela_genbank("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/Organismos/")
+    #Pastas
+    organismos ="/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/Organismos/"
+    sRNAs_annotations ="/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/sRNAs_annotations/"
+    hgt_regions ="/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/HGT_regions/"
+    regions_annotations ="/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/regions_annotations/"
+    #inserts
+    insere_tabela_organism(organismos)
+    insere_tabela_genbank(organismos)
     insere_tabela_publication("0","Annotation and distribution of ncRNA families in genomes of Streptococcus agalactiae","2018","UTFPR")
-    insere_tabela_feature("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/sRNAs_annotations/")
-    insere_tabela_feature("/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/HGT_regions/")
+    insere_tabela_feature(sRNAs_annotations)
+    insere_tabela_feature(hgt_regions)
     insere_tabela_analysis_type()
-    insere_tabela_feature_analysis_result()
+    insere_tabela_type()
+    insere_tabela_group()
+    '''insere_tabela_feature_analysis_result(sRNAs_annotations) #a fazer
+    insere_tabela_feature_analysis_result(hgt_regions)'''
 if __name__ == '__main__':
     main()
