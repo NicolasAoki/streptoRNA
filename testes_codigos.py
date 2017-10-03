@@ -18,12 +18,11 @@ def org_sequencia(s,comeco,fim):
         lines = f.readlines()
         for line in lines[1:]:
             nova_string += line.replace('\n', '')
-
     nova_string = nova_string[comeco:fim]
     return nova_string
 
 
-def catch_sequencia(s): #retira a sequencia
+def catch_sequencia(s):     #retira a sequencia
     nova_string = ''
     with open(s) as f:
         lines = f.readlines()
@@ -100,16 +99,18 @@ def insere_tabela_group():
             f.write("INSERT INTO group(group_id,group_description)")
             f.write("VALUES({},{})\n".format(group_id,"'"+tipo+"'"))
 
+def insere_tabela_feature_group():
+    return ""
+
 '''def insere_tabela_feature_analysis_result(pasta):
     with open("insert_feature_analysis_result.sql", 'a') as f:
         for file in os.listdir(pasta):
             caminho = pasta+file
             if file.endswith("final.gff"):
-                with open(caminho, 'r') as g:
-                    tipo_analise = g.readline().split()
-                    feature_analysis_id = "DEFAULT"
-                    f.write("INSERT INTO feature_analysis_result(feature_analysis_id,id_feature,id_analysis_type)\n")
-                    f.write("VALUES({},{},{})".format(feature_analysis_id,))'''
+                feature_analysis_id = "DEFAULT"
+
+                f.write("INSERT INTO feature_analysis_result(feature_analysis_id,id_feature,id_analysis_type)\n")
+                f.write("VALUES({},{},{})".format(feature_analysis_id,))'''
 
 
 def insere_tabela_feature(pasta):
