@@ -88,7 +88,7 @@ def insere_tabela_type():
     description = ['incRNA','mirtron','miRNA']
     with open("insere_type.sql", 'w') as f:
         for tipo in description:
-            f.write("INSERT INTO type(type_id,description)")
+            f.write("INSERT INTO type(type_id,description)\n")
             f.write("VALUES({},{})\n".format(type_id,"'"+tipo+"'"))
 
 def insere_tabela_group():
@@ -137,6 +137,9 @@ def insere_tabela_feature(pasta):
                 i = BedTool(pasta + file)  # acrescenta na string sRNAs com o arquivo .gff66693734
                 aux = ''
                 for k, a in enumerate(i):  # lista todas as linhas de i(arquivo) com indice a, e k sendo cada arquivo
+                    organism_id = "(SELECT organism_id" \
+                                  "FROM organism,feature " \
+                                  "WHERE organism.abbreviation = feature.feature_name)"
                     start = show_value(a['start'])
                     fim = show_value(a['stop'])
                     nome_chrom = show_value(a['chrom'])
@@ -144,9 +147,22 @@ def insere_tabela_feature(pasta):
                     if k == 0:  # se estiver na primeira linha do arquivo
                         f.write("INSERT INTO feature (id,chromossome,feature_name,start,fim,sequence) \n")  # preenche tabela feature
                         aux = nome_chrom
-                    f.write("VALUES({},{},{},{},{},{})\n".format("DEFAULT", "'" + nome_chrom + "'",
+                    f.write("VALUES({},{},{},{},{},{})\n".format("DEFAULT", "'" + nome_chrom + "'",organism_id,
                                                                  "'" + feature_name + "'", start, fim,
                                                                  "'" + org_sequencia(nome_chrom, start, fim) + "'"))
+            if file.startswith("CORE") or file.startswith("EXCLUSIVE"):
+                with open(pasta+file, 'r') as f:
+                    linhas = f.readlines()
+                    for line in linhas:
+                        organism_id = "(SELECT organism_id" \
+                                      "FROM organism,feature " \
+                                      "WHERE organism.abbreviation = feature.feature_name)"
+                        lista = line.split()
+                        nome_chrom = lista[0]
+                        start = lista[3]
+                        fim = lista[4]
+                        f.write("INSERT INTO feature(id,chromossome,organism_id,feature_name,start,fim,sequence)\n")
+                        f.write("VALUES({},{},{},{},{},{})\n".format("DEFAULT",organism_id,"'"+nome_chrom+"'","NaN",start,fim,"'"+org_sequencia(nome_chrom,start,fim)))
         f.close()
 def main():
     #Pastas

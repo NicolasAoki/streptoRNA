@@ -1,0 +1,6 @@
+INSERT INTO type(type_id,description)
+VALUES(DEFAULT,'incRNA')
+INSERT INTO type(type_id,description)
+VALUES(DEFAULT,'mirtron')
+INSERT INTO type(type_id,description)
+VALUES(DEFAULT,'miRNA')
