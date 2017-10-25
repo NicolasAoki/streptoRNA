@@ -1,6 +1,6 @@
-INSERT INTO group(group_id,group_description)VALUES(DEFAULT,'Core')
-INSERT INTO group(group_id,group_description)VALUES(DEFAULT,'Exclusive')
-INSERT INTO group(group_id,group_description)VALUES(DEFAULT,'Shared')
-INSERT INTO group(group_id,group_description)VALUES(DEFAULT,'3_tailed')
-INSERT INTO group(group_id,group_description)VALUES(DEFAULT,'5_tailed')
-INSERT INTO group(group_id,group_description)VALUES(DEFAULT,'in_silico')
+INSERT INTO group(group_description)VALUES('Core');
+INSERT INTO group(group_description)VALUES('Exclusive');
+INSERT INTO group(group_description)VALUES('Shared');
+INSERT INTO group(group_description)VALUES('3_tailed');
+INSERT INTO group(group_description)VALUES('5_tailed');
+INSERT INTO group(group_description)VALUES('in_silico');

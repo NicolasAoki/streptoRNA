@@ -1,6 +1,6 @@
-INSERT INTO analysis_type(analysis_type_id,analysis_name)
-VALUES(DEFAULT,'Infernal_Rfam')
-INSERT INTO analysis_type(analysis_type_id,analysis_name)
-VALUES(DEFAULT,'Artemis')
-INSERT INTO analysis_type(analysis_type_id,analysis_name)
-VALUES(DEFAULT,'Mauve')
+INSERT INTO analysis_type(analysis_name)
+VALUES('Infernal_Rfam');
+INSERT INTO analysis_type(analysis_name)
+VALUES('Artemis');
+INSERT INTO analysis_type(analysis_name)
+VALUES('Mauve');

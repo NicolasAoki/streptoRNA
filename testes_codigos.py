@@ -31,21 +31,17 @@ def catch_sequencia(s):     #retira a sequencia
     return nova_string
 
 def insere_tabela_organism(pasta): #exemplo para pasta = /home/organismo/
-    k=0
-    with open("insert_organismo1.sql", 'w') as f:           #cria arquivo insert_organismo
+    with open("insert_organismo.sql", 'w') as f:           #cria arquivo insert_organismo
         for file in os.listdir(pasta):
             caminho = pasta+file
             with open(caminho, 'r') as g:               #abre todos arquivos da pasta
                 nome_org = g.readline().split()         #separa o header do arquivo em virgulas
-                organism_id= "DEFAULT"
                 abbreviation = nome_org[0]
                 genus = nome_org[1]
-                abbreviation = abbreviation[1:8]        #retira caracteres indesejados
+                abbreviation = abbreviation[1:9]        #retira caracteres indesejados
                 specie = nome_org[2].strip(',')         #retira ',' indesejada
-                if k==0:
-                    f.write("INSERT INTO organism (organism_id,abbreviation,genus,specie)\n")
-                    k += 1
-                f.write("VALUES({},{},{},{})\n".format(organism_id,"'"+abbreviation+"'","'"+genus+"'","'"+specie+"'"))
+                f.write("INSERT INTO organism (abbreviation,genus,specie)\n")
+                f.write("VALUES({},{},{});\n".format("'"+abbreviation+"'","'"+genus+"'","'"+specie+"'"))
             g.close()
     f.close()
 
@@ -54,50 +50,47 @@ def insere_tabela_genbank(pasta):
         for file in os.listdir(pasta):
             caminho = pasta+file
             with open(caminho, 'r') as g:
-                f.write("INSERT INTO genbank(genbank_id,organism_id,genome,genome_version)\n")#verificar se esta correto
+                f.write("INSERT INTO genbank(organism_id,genome,genome_version)\n")#verificar se esta correto
                 nome_org = g.readline().split()
-                genbank_id = "DEFAULT"
-                id_organism="SELECT id_genbank FROM organism WHERE id_organism = id_genbank"
-                #genome = catch_sequencia(caminho)
-                genome = "teste"
+                id_organism="(SELECT id_genbank FROM organism WHERE id_organism = id_genbank)"
+                genome = catch_sequencia(caminho)
                 if nome_org[3] == "strain":  #nome_org.split separa string com informacoes erradas algumas vezes
                     genome_version = nome_org[4].strip(",")
                 else:
                     genome_version = nome_org[3].strip(",")
-                f.write("VALUES({},{},{},{})\n".format(genbank_id,id_organism,genome,genome_version))
+                f.write("VALUES({},{},{});\n".format(id_organism,genome,genome_version))
             g.close()
     f.close()
 
 def insere_tabela_publication(pubmed_id,title,year,pubplace): #somente trabalho do ivan
-    publication_id = "DEFAULT"
     with open("insert_publication.sql", 'w') as f:
-        f.write("INSERT INTO publication(publication_id,pubmed_id,title,year,pubplace)\n")
-        f.write("VALUES({},{},{},{},{})".format(publication_id,"'"+pubmed_id+"'","'"+title+"'",
-                                                "'"+year+"'","'"+pubplace+"'"))
+        f.write("INSERT INTO publication(pubmed_id,title,year,pubplace)\n")
+        f.write("VALUES({},{},{},{});".format("'"+pubmed_id+"'","'"+title+"'", "'"+year+"'","'"+pubplace+"'"))
+        f.close()
 
 def insere_tabela_analysis_type():
-    analysis_type_id = "DEFAULT"
     analysis_name = ['Infernal_Rfam','Artemis','Mauve']
     with open("insert_tabela_analysis_type.sql", 'w') as f:
         for tipo in analysis_name:
-            f.write("INSERT INTO analysis_type(analysis_type_id,analysis_name)\n")
-            f.write("VALUES({},{})\n".format(analysis_type_id,"'"+tipo+"'"))
+            f.write("INSERT INTO analysis_type(analysis_name)\n")
+            f.write("VALUES({});\n".format("'"+tipo+"'"))
+        f.close()
 
 def insere_tabela_type():
-    type_id = "DEFAULT"
     description = ['incRNA','mirtron','miRNA']
     with open("insere_type.sql", 'w') as f:
         for tipo in description:
-            f.write("INSERT INTO type(type_id,description)\n")
-            f.write("VALUES({},{})\n".format(type_id,"'"+tipo+"'"))
+            f.write("INSERT INTO type(description)\n")
+            f.write("VALUES({});\n".format("'"+tipo+"'"))
+        f.close()
 
 def insere_tabela_group():
-    group_id ="DEFAULT"
     group_description =['Core','Exclusive','Shared','3_tailed','5_tailed','in_silico']
     with open("insere_group.sql", 'w') as f:
         for tipo in group_description:
-            f.write("INSERT INTO group(group_id,group_description)")
-            f.write("VALUES({},{})\n".format(group_id,"'"+tipo+"'"))
+            f.write("INSERT INTO group(group_description)")
+            f.write("VALUES({});\n".format("'"+tipo+"'"))
+        f.close()
 
 def insere_tabela_feature_group():
     return ""
@@ -110,47 +103,66 @@ def insere_tabela_feature_group():
                 feature_analysis_id = "DEFAULT"
 
                 f.write("INSERT INTO feature_analysis_result(feature_analysis_id,id_feature,id_analysis_type)\n")
-                f.write("VALUES({},{},{})".format(feature_analysis_id,))'''
+                f.write("VALUES({},{},{})".format(feature_analysis_id,);)'''
 
 
-def insere_tabela_feature(pasta):
-    with open("insert_feature.sql", 'a') as f:
+def insere_tabela_feature(pasta):  #tabela feature final.gff
+    with open("insert_feature.sql", 'w') as f:
         for file in os.listdir(pasta):
-            if file.endswith("final.gff"): # se o arquivo termina com .gff
-                i = BedTool(pasta+file) #acrescenta na string sRNAs com o arquivo .gff
-                aux = ''
-                for k,a in enumerate(i): #lista todas as linhas de i(arquivo) com indice a, e k sendo cada arquivo
+            if file.endswith("final.gff"):  # se o arquivo termina com .gff
+                i = BedTool(pasta + file)  # acrescenta na string sRNAs com o arquivo .gff
+                for k, a in enumerate(i):  # lista todas as linhas de i(arquivo) com indice a, e k sendo cada arquivo
                     start = show_value(a['start'])
                     fim = show_value(a['stop'])
                     nome_chrom = show_value(a['chrom'])
                     feature_name = show_value(a['name'])
-                    organism_id = "(SELECT organism_id" \
-                                  "FROM organism,feature " \
-                                  "WHERE organism.abbreviation = feature.feature_name)"
-                    publication_id = 0
+                    # organism_id = "(SELECT o.organism_id FROM organism o,feature f WHERE o.abbreviation = f.feature_name)"
+                    organism_id = 10
+                    publication_id = 1
                     strand = show_value(a['strand'])
-                    if k == 0: #se estiver na primeira linha do arquivo
-                        f.write("INSERT INTO feature (feature_id,organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence) \n")       #preenche tabela feature
-                        aux = nome_chrom
-                    f.write("VALUES({},{},{},{},{},{},{},{},{})\n".format("DEFAULT",organism_id,"'"+feature_name+"'",publication_id,"'"+nome_chrom+"'",start,fim,"'"+strand+"'","'"+org_sequencia(nome_chrom,start,fim)+"'"))
-            elif file.endswith("alienhunter.gff"):
+                    precursor_mature = 'N'
+                    candidate_know = 'N'
+                    f.write(
+                    "INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) \n")  # preenche tabela feature
+                    f.write("VALUES({},{},{},{},{},{},{},{},{},{});\n".format(organism_id, "'" + feature_name + "'",
+                                                                            publication_id, start, fim,
+                                                                            "'" + nome_chrom + "'", "'" + strand + "'",
+                                                                            "'" + org_sequencia(nome_chrom, start,
+                                                                                                fim) + "'",
+                                                                            "'" + precursor_mature + "'",
+                                                                            "'" + candidate_know + "'"))
+        f.close()
+
+def insere_tabela_feature_alien(pasta):
+    with open("insert_feature.sql", 'w') as f:
+        for file in os.listdir(pasta):
+            if file.endswith("alienhunter.gff"):
                 i = BedTool(pasta + file)  # acrescenta na string sRNAs com o arquivo .gff66693734
                 aux = ''
                 for k, a in enumerate(i):  # lista todas as linhas de i(arquivo) com indice a, e k sendo cada arquivo
-                    organism_id = "(SELECT organism_id" \
-                                  "FROM organism,feature " \
-                                  "WHERE organism.abbreviation = feature.feature_name)"
+                    organism_id = 10
                     start = show_value(a['start'])
                     fim = show_value(a['stop'])
                     nome_chrom = show_value(a['chrom'])
-                    feature_name = "NaN"
-                    if k == 0:  # se estiver na primeira linha do arquivo
-                        f.write("INSERT INTO feature (id,chromossome,feature_name,start,fim,sequence) \n")  # preenche tabela feature
-                        aux = nome_chrom
-                    f.write("VALUES({},{},{},{},{},{})\n".format("DEFAULT", "'" + nome_chrom + "'",organism_id,
-                                                                 "'" + feature_name + "'", start, fim,
-                                                                 "'" + org_sequencia(nome_chrom, start, fim) + "'"))
-            if file.startswith("CORE") or file.startswith("EXCLUSIVE"):
+                    feature_name = show_value(a['name'])
+                    publication_id = 1
+                    strand = show_value(a['strand'])
+                    precursor_mature = 'N'
+                    candidate_know = 'N'
+                    f.write("INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) \n")  # preenche tabela feature
+                    f.write("VALUES({},{},{},{},{},{},{},{},{},{});\n".format(organism_id, "'" + feature_name + "'",
+                                                                            publication_id, start, fim,
+                                                                            "'" + nome_chrom + "'", "'" + strand + "'",
+                                                                            "'" + org_sequencia(nome_chrom, start,
+                                                                                                fim) + "'",
+                                                                            "'" + precursor_mature + "'",
+                                                                            "'" + candidate_know + "'"))
+        f.close()
+
+def insere_tabela_feature_core_exclusive(pasta):
+    with open("insert_feature.sql", 'w') as f:
+        for file in os.listdir(pasta):
+              if file.startswith("CORE") or file.startswith("EXCLUSIVE"):
                 with open(pasta+file, 'r') as f:
                     linhas = f.readlines()
                     for line in linhas:
@@ -161,9 +173,15 @@ def insere_tabela_feature(pasta):
                         nome_chrom = lista[0]
                         start = lista[3]
                         fim = lista[4]
-                        f.write("INSERT INTO feature(id,chromossome,organism_id,feature_name,start,fim,sequence)\n")
-                        f.write("VALUES({},{},{},{},{},{})\n".format("DEFAULT",organism_id,"'"+nome_chrom+"'","NaN",start,fim,"'"+org_sequencia(nome_chrom,start,fim)))
-        f.close()
+                        print("INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) \n")  # preenche tabela feature
+                        print("VALUES({},{},{},{},{},{},{},{},{},{});\n".format(organism_id, "'" + feature_name + "'",
+                                                                                publication_id, start, fim,
+                                                                                "'" + nome_chrom + "'",
+                                                                                "'" + strand + "'",
+                                                                                "'" + org_sequencia(nome_chrom, start,
+                                                                                                    fim) + "'",
+                                                                                "'" + precursor_mature + "'",
+                                                                                "'" + candidate_know + "'"))
 def main():
     #Pastas
     organismos ="/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/Organismos/"

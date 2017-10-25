@@ -13,17 +13,42 @@ def show_value(s):
 def len_filter(feature, L):
     return len(feature) > L
 
+#retira a sequencia desejada do organismo
+def org_sequencia(s,comeco,fim):
+    arquivo = "/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/Organismos/"+s+".fasta"
+    nova_string = ''
+    with open(arquivo) as f:
+        lines = f.readlines()
+        for line in lines[1:]:
+            nova_string += line.replace('\n', '')
+    nova_string = nova_string[comeco:fim]
+    return nova_string
+
 def main():
-    hgt_regions = "/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/regions_annotations/"
-    for file in os.listdir(hgt_regions):
-        if file.startswith("SHARED"):
-            with open(hgt_regions+file,'r') as f:
+    pasta = "/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/sRNAs_annotations/"
+
+    for file in os.listdir(pasta):
+        if file.startswith("CORE") or file.startswith("EXCLUSIVE"):
+            with open(pasta + file, 'r') as f:
                 linhas = f.readlines()
                 for line in linhas:
-                    separado = line.split()
-                    separado2 = separado[9].split()
-                    for outro in separado2:
-                        print outro
+                    organism_id = "(SELECT organism_id" \
+                                  "FROM organism,feature " \
+                                  "WHERE organism.abbreviation = feature.feature_name)"
+                    lista = line.split()
+                    nome_chrom = lista[0]
+                    start = lista[3]
+                    fim = lista[4]
+                    print(
+                    "INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) \n")  # preenche tabela feature
+                    print("VALUES({},{},{},{},{},{},{},{},{},{});\n".format(organism_id, "'" + feature_name + "'",
+                                                                            publication_id, start, fim,
+                                                                            "'" + nome_chrom + "'",
+                                                                            "'" + strand + "'",
+                                                                            "'" + org_sequencia(nome_chrom, start,
+                                                                                                fim) + "'",
+                                                                            "'" + precursor_mature + "'",
+                                                                            "'" + candidate_know + "'"))
 
 if __name__ == '__main__':
     main()

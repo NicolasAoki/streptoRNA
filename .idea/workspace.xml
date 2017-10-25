@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2e1f207-4f16-43ec-8159-98b7a01cee26" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/insert_organismo1.sql" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DML/project_database_model_streptornadb.mwb" afterPath="$PROJECT_DIR$/DML/project_database_model_streptornadb.mwb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streptoRNA" afterPath="$PROJECT_DIR$/streptoRNA" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insere_group.sql" afterPath="$PROJECT_DIR$/insere_group.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insere_type.sql" afterPath="$PROJECT_DIR$/insere_type.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insert_feature.sql" afterPath="$PROJECT_DIR$/insert_feature.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insert_genbank.sql" afterPath="$PROJECT_DIR$/insert_genbank.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insert_publication.sql" afterPath="$PROJECT_DIR$/insert_publication.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insert_tabela_analysis_type.sql" afterPath="$PROJECT_DIR$/insert_tabela_analysis_type.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streptoRNA/README.md" afterPath="$PROJECT_DIR$/streptoRNA/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testaArquivo.py" afterPath="$PROJECT_DIR$/testaArquivo.py" />
@@ -22,8 +28,8 @@
       <file leaf-file-name="testes_codigos.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testes_codigos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="158" column="91" lean-forward="true" selection-start-line="158" selection-start-column="91" selection-end-line="158" selection-end-column="91" />
+            <state relative-caret-position="68">
+              <caret line="163" column="8" lean-forward="false" selection-start-line="163" selection-start-column="8" selection-end-line="183" selection-end-column="108" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -34,18 +40,19 @@
       <file leaf-file-name="testaArquivo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testaArquivo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-              <folding>
-                <element signature="e#132#239#0" expanded="false" />
-                <element signature="e#172#226#0" expanded="false" />
-                <element signature="e#273#296#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="50" column="104" lean-forward="false" selection-start-line="50" selection-start-column="104" selection-end-line="50" selection-end-column="104" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>organism</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
@@ -61,14 +68,14 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2100" />
+    <option name="x" value="-1" />
     <option name="y" value="-4" />
-    <option name="width" value="1430" />
-    <option name="height" value="810" />
+    <option name="width" value="1442" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -81,24 +88,10 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="streptoRNA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="streptoRNA" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testaArquivo.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testaArquivo">
+  <component name="RunManager" selected="Python.testes_codigos">
     <configuration name="testaArquivo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,13 +146,16 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.testaArquivo" />
-        <item index="1" class="java.lang.String" itemvalue="Python.testes_codigos" />
+        <item index="0" class="java.lang.String" itemvalue="Python.testes_codigos" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testaArquivo" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -172,19 +168,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2100" y="-4" width="1442" height="867" extended-state="6" />
+    <frame x="-1" y="-4" width="1442" height="860" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33055556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -207,6 +203,117 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/testes_codigos.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testaArquivo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="98" lean-forward="false" selection-start-line="26" selection-start-column="98" selection-end-line="26" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testes_codigos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testaArquivo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="98" lean-forward="false" selection-start-line="26" selection-start-column="98" selection-end-line="26" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testes_codigos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testaArquivo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="98" lean-forward="true" selection-start-line="26" selection-start-column="98" selection-end-line="26" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testes_codigos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testes_codigos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testes_codigos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testes_codigos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testes_codigos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="158" column="91" lean-forward="true" selection-start-line="158" selection-start-column="91" selection-end-line="158" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testaArquivo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testes_codigos.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2618">
           <caret line="154" column="4" lean-forward="true" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="92" />
           <folding>
@@ -219,11 +326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="e#132#239#0" expanded="false" />
-            <element signature="e#172#226#0" expanded="false" />
-            <element signature="e#273#296#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -306,8 +408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testes_codigos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="158" column="91" lean-forward="true" selection-start-line="158" selection-start-column="91" selection-end-line="158" selection-end-column="91" />
+        <state relative-caret-position="68">
+          <caret line="163" column="8" lean-forward="false" selection-start-line="163" selection-start-column="8" selection-end-line="183" selection-end-column="108" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
@@ -316,13 +418,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testaArquivo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="e#132#239#0" expanded="false" />
-            <element signature="e#172#226#0" expanded="false" />
-            <element signature="e#273#296#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="50" column="104" lean-forward="false" selection-start-line="50" selection-start-column="104" selection-end-line="50" selection-end-column="104" />
+          <folding />
         </state>
       </provider>
     </entry>
