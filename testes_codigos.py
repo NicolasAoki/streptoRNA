@@ -12,7 +12,7 @@ def show_value(s): #retira informacoes dos arquivos .gff e .fasta
 
 #retira a sequencia desejada do organismo
 def org_sequencia(s,comeco,fim):
-    arquivo = "/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/Organismos/"+s+".fasta"
+    arquivo = "/home/nicolas/Desktop/streptoRNA/arquivos/Organismos/"+s+".fasta"
     nova_string = ''
     with open(arquivo) as f:
         lines = f.readlines()
@@ -69,7 +69,7 @@ def insere_tabela_publication(pubmed_id,title,year,pubplace): #somente trabalho 
         f.close()
 
 def insere_tabela_analysis_type():
-    analysis_name = ['Infernal_Rfam','Artemis','Mauve']
+    analysis_name = ['Infernal_Rfam','artemis','mauve','alien_hunter']
     with open("insert_tabela_analysis_type.sql", 'w') as f:
         for tipo in analysis_name:
             f.write("INSERT INTO analysis_type(analysis_name)\n")
@@ -85,7 +85,7 @@ def insere_tabela_type():
         f.close()
 
 def insere_tabela_group():
-    group_description =['Core','Exclusive','Shared','3_tailed','5_tailed','in_silico']
+    group_description =['CORE','EXCLUSIVE','SHARED','3_tailed','5_tailed','in_silico']
     with open("insere_group.sql", 'w') as f:
         for tipo in group_description:
             f.write("INSERT INTO group(group_description)")
@@ -158,7 +158,7 @@ def insere_tabela_feature_alien(pasta):
                                                                             "'" + precursor_mature + "'",
                                                                             "'" + candidate_know + "'"))
         f.close()
-
+'''
 def insere_tabela_feature_core_exclusive(pasta):
     with open("insert_feature.sql", 'w') as f:
         for file in os.listdir(pasta):
@@ -182,12 +182,13 @@ def insere_tabela_feature_core_exclusive(pasta):
                                                                                                     fim) + "'",
                                                                                 "'" + precursor_mature + "'",
                                                                                 "'" + candidate_know + "'"))
+'''
 def main():
     #Pastas
-    organismos ="/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/Organismos/"
-    sRNAs_annotations ="/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/sRNAs_annotations/"
-    hgt_regions ="/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/HGT_regions/"
-    regions_annotations ="/home/nicolas/PycharmProjects/strepto_todosArquivos/arquivos/regions_annotations/"
+    organismos ="/home/nicolas/Desktop/streptoRNA/arquivos/Organismos/"
+    sRNAs_annotations ="/home/nicolas/Desktop/streptoRNA/arquivos/sRNAs_annotations/"
+    hgt_regions ="/home/nicolas/Desktop/streptoRNA/arquivos/HGT_regions/"
+    regions_annotations ="/home/nicolas/Desktop/streptoRNA/arquivos/regions_annotations/"
     #inserts
     insere_tabela_organism(organismos)
     insere_tabela_genbank(organismos)
