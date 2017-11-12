@@ -1,6 +1,8 @@
 INSERT INTO analysis_type(analysis_name)
 VALUES('Infernal_Rfam');
 INSERT INTO analysis_type(analysis_name)
-VALUES('Artemis');
+VALUES('artemis');
 INSERT INTO analysis_type(analysis_name)
-VALUES('Mauve');
+VALUES('mauve');
+INSERT INTO analysis_type(analysis_name)
+VALUES('alien_hunter');

@@ -45,23 +45,6 @@ def insere_tabela_organism(pasta): #exemplo para pasta = /home/organismo/
             g.close()
     f.close()
 
-def insere_tabela_genbank(pasta):
-    with open("insert_genbank.sql", 'w') as f:
-        for file in os.listdir(pasta):
-            caminho = pasta+file
-            with open(caminho, 'r') as g:
-                f.write("INSERT INTO genbank(organism_id,genome,genome_version)\n")#verificar se esta correto
-                nome_org = g.readline().split()
-                id_organism="(SELECT id_genbank FROM organism WHERE id_organism = id_genbank)"
-                genome = catch_sequencia(caminho)
-                if nome_org[3] == "strain":  #nome_org.split separa string com informacoes erradas algumas vezes
-                    genome_version = nome_org[4].strip(",")
-                else:
-                    genome_version = nome_org[3].strip(",")
-                f.write("VALUES({},{},{});\n".format(id_organism,genome,genome_version))
-            g.close()
-    f.close()
-
 def insere_tabela_publication(pubmed_id,title,year,pubplace): #somente trabalho do ivan
     with open("insert_publication.sql", 'w') as f:
         f.write("INSERT INTO publication(pubmed_id,title,year,pubplace)\n")
@@ -191,10 +174,8 @@ def main():
     regions_annotations ="/home/nicolas/Desktop/streptoRNA/arquivos/regions_annotations/"
     #inserts
     insere_tabela_organism(organismos)
-    insere_tabela_genbank(organismos)
     insere_tabela_publication("0","Annotation and distribution of ncRNA families in genomes of Streptococcus agalactiae","2018","UTFPR")
     insere_tabela_feature(sRNAs_annotations)
-    insere_tabela_feature(hgt_regions)
     insere_tabela_analysis_type()
     insere_tabela_type()
     insere_tabela_group()
