@@ -76,9 +76,6 @@ def insere_tabela_group():
             f.write("VALUES({});\n".format("'"+tipo+"'"))
         f.close()
 
-def insere_tabela_feature_group():
-    return ""
-
 '''def insere_tabela_feature_analysis_result(pasta):
     with open("insert_feature_analysis_result.sql", 'a') as f:
         for file in os.listdir(pasta):
@@ -165,34 +162,14 @@ def insere_localization(pasta):
                         end = int(lista[4])
                         sequence = org_sequencia(host_gene, start, end)
                         strand = "+"
+                        feature_id = "SELECT f.feature_id FROM feature f,localization l WHERE l.loc_identification like f.chromossome and f.start > l.start and f.end < l.end"
                         f.write("INSERT INTO localization (loc_identification,host_gene,sequence,start,end,strand)\n")
                         f.write("VALUES({},{},{},{},{},{})\n".format("'"+loc_identification+"'","'"+host_gene+"'","'"+sequence+"'",start,end,"'"+strand+"'"))
+                        f.write("#insercao na tabela associativa\n")
+                        f.write("INSERT INTO featureloc (loc_id,feature_id)\n")
+                        f.write("VALUES LAST_INSERT_ID(),"+feature_id+"\n")
+                        f.write("SELECT MAX(id) FROM localization\n")
 
-'''
-def insere_tabela_feature_core_exclusive(pasta):
-    with open("insert_feature.sql", 'w') as f:
-        for file in os.listdir(pasta):
-              if file.startswith("CORE") or file.startswith("EXCLUSIVE"):
-                with open(pasta+file, 'r') as f:
-                    linhas = f.readlines()
-                    for line in linhas:
-                        organism_id = "(SELECT organism_id" \
-                                      "FROM organism,feature " \
-                                      "WHERE organism.abbreviation = feature.feature_name)"
-                        lista = line.split()
-                        nome_chrom = lista[0]
-                        start = lista[3]
-                        fim = lista[4]
-                        print("INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) \n")  # preenche tabela feature
-                        print("VALUES({},{},{},{},{},{},{},{},{},{});\n".format(organism_id, "'" + feature_name + "'",
-                                                                                publication_id, start, fim,
-                                                                                "'" + nome_chrom + "'",
-                                                                                "'" + strand + "'",
-                                                                                "'" + org_sequencia(nome_chrom, start,
-                                                                                                    fim) + "'",
-                                                                                "'" + precursor_mature + "'",
-                                                                                "'" + candidate_know + "'"))
-'''
 def main():
     #Pastas
     organismos ="/home/nicolas/Desktop/streptoRNA/arquivos/Organismos/"
