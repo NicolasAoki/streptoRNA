@@ -3,6 +3,7 @@ from pybedtools import BedTool
 from pybedtools import Interval
 import sys
 import glob, os
+import time
 
 def show_value(s): #retira informacoes dos arquivos .gff e .fasta
     if sys.version_info.major == 2:
@@ -150,6 +151,23 @@ def insere_tabela_feature_alien(pasta):
                                                                             "'" + candidate_know + "'"))
         f.close()
 
+def insere_localization(pasta):
+    with open("insere_localization_teste.sql", 'w') as f:
+        for file in os.listdir(pasta):
+            if file.startswith("CORE") or file.startswith("EXCLUSIVE"):
+                with open(pasta + file, 'r') as g:
+                    linhas = g.readlines()
+                    for line in linhas:
+                        lista = line.split()
+                        loc_identification = lista[2]
+                        host_gene =  lista[0]
+                        start = int(lista[3])
+                        end = int(lista[4])
+                        sequence = org_sequencia(host_gene, start, end)
+                        strand = "+"
+                        f.write("INSERT INTO localization (loc_identification,host_gene,sequence,start,end,strand)\n")
+                        f.write("VALUES({},{},{},{},{},{})\n".format("'"+loc_identification+"'","'"+host_gene+"'","'"+sequence+"'",start,end,"'"+strand+"'"))
+
 '''
 def insere_tabela_feature_core_exclusive(pasta):
     with open("insert_feature.sql", 'w') as f:
@@ -188,5 +206,6 @@ def main():
     insere_tabela_analysis_type()
     insere_tabela_type()
     insere_tabela_group()
+    insere_localization(regions_annotations)
 if __name__ == '__main__':
     main()
