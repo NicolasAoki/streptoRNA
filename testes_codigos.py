@@ -114,6 +114,12 @@ def insere_tabela_feature(pasta):  #tabela feature final.gff
                                                                                                 fim) + "'",
                                                                             "'" + precursor_mature + "'",
                                                                             "'" + candidate_know + "'"))
+                    f.write("#Insercao na tabela associativa analise_result\n")
+                    f.write("INSERT INTO feature_analysis_result (id_feature,id_analysis_type)\n")
+                    f.write("VALUES LAST_INSERT_ID(),0\n")
+                    f.write("SELECT MAX(id) FROM feature\n")
+                    f.write("#Insercao na tabela associativa group\n")
+                    #f.write("INSERT INTO feature_group (group_id)")
         f.close()
 
 def insere_tabela_feature_alien(pasta):
@@ -141,6 +147,13 @@ def insere_tabela_feature_alien(pasta):
                                                                             "'" + precursor_mature + "'",
                                                                             "'" + candidate_know + "'"))
         f.close()
+
+def insere_analysis_result_infernal(chromossome,nome_analise):
+    id_feature = "SELECT id_feature FROM feature WHERE feature_name like " + chromossome
+    id_analysis_type = "SELECT analysis_type_id FROM analysis_type WHERE analysis_name like "+nome_analise
+    f.write("INSERT INTO feature_analysis_result (id_feature,id_analysis_type)\n")
+    f.write("VALUES({},{})\n".format(id_feature,id_analysis_type))
+
 '''
 def insere_tabela_feature_core_exclusive(pasta):
     with open("insert_feature.sql", 'w') as f:
