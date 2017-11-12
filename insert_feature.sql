@@ -5,6 +5,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,797515,797630,'CP013202','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -12,6 +15,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,562722,562767,'CP013202','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -19,6 +25,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1319093,1319227,'CP013202','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -26,6 +35,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,179256,179314,'CP013202','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -33,6 +45,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,958677,958782,'CP013202','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -40,6 +55,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02527',1,1297942,1298108,'CP013202','-','TTAATTTTACTCCTTTATCAATGCTTTGTCAATGGCAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -47,6 +65,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,331189,331558,'CP013202','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -54,6 +75,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1941195,1941387,'CP013202','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -61,6 +85,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1418346,1418492,'CP013202','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -68,6 +95,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,892092,892182,'CP013202','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -75,6 +105,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,872671,872770,'CP013202','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -82,6 +115,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1144407,1144503,'CP013202','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -89,6 +125,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,428435,428521,'CP013202','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -96,6 +135,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1197742,1197875,'CP013202','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTATATTGACATCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -103,6 +145,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1105471,1105591,'CP013202','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -110,6 +155,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,230557,230639,'CP013202','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -117,6 +165,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1399833,1399959,'CP013202','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -124,6 +175,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1385466,1385546,'CP013202','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -131,6 +185,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,904086,904200,'CP013202','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -138,6 +195,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1592196,1592295,'CP013202','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAGCTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -145,6 +205,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1317999,1318149,'CP013202','-','AAATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -152,6 +215,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,1949982,1950166,'CP013202','+','TGAAATATGATATAATAATGAAGCAGAAAAGTTAAGACGGTGGCTCTTATTTCTGAAAGGTAGGTGGTCCCATGGGCAATTCATCAAAATCCAACAGAAAGGAGGAGCTAGATTTGTCTACCTTTGAGGTCTTAACACTCATGTTTATAGCAGGTAACTTCGTTATCGCTCTCGTGAAGTTAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -159,6 +225,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,678766,678957,'CP013202','+','GCTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -166,6 +235,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,90442,90515,'CP013202','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -173,6 +245,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1114788,1114925,'CP013202','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -180,6 +255,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,99859,99958,'CP013202','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -187,6 +265,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,679027,679117,'CP013202','-','GTTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGGTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -194,6 +275,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,1950224,1950309,'CP013202','-','TATTTTTTAACGGTTATTTTCTGCCACCGTCTTAAACGGTTCTGCTAAGCAGTTGTTAGAAGCAACTGCTTTTTATTTACAATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -201,6 +285,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,535233,535379,'CP013202','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -208,6 +295,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2131532,2131599,'CP013202','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -215,6 +305,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,293085,293212,'CP013202','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -222,6 +315,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,393248,393377,'CP013202','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -229,6 +325,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,818188,818303,'CP007572','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -236,6 +335,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,583632,583677,'CP007572','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -243,6 +345,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1359303,1359437,'CP007572','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -250,6 +355,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,992164,992255,'CP007572','-','AAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTAGCCTTATTTTAACGCGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -257,6 +365,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2189123,2189190,'CP007572','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -264,6 +375,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02527',1,1338034,1338189,'CP007572','-','AAACAAAAGTTTCTTCATGCGTTTGGCGTGCCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -271,6 +385,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,338076,338445,'CP007572','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -278,6 +395,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,2035422,2035614,'CP007572','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -285,6 +405,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,1012856,1013206,'CP007572','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -292,6 +415,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1769065,1769147,'CP007572','-','GTAGAGTAGGTCGCTGATTTGAGCCATCTCCTCAGAAACCCCTCGTCAAACCGTGCGTAAGGTTTTCCCTTACACGGCTTTC','N','N');
 #Insercao na tabela associativa analise_result
@@ -299,6 +425,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,161730,161796,'CP007572','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -306,6 +435,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,215008,215074,'CP007572','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -313,6 +445,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,429252,429318,'CP007572','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -320,6 +455,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,648978,649044,'CP007572','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -327,6 +465,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,769563,769629,'CP007572','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -334,6 +475,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,803173,803239,'CP007572','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -341,6 +485,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,828527,828593,'CP007572','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -348,6 +495,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1046343,1046409,'CP007572','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -355,6 +505,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1209521,1209587,'CP007572','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -362,6 +515,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1611131,1611197,'CP007572','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -369,6 +525,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1631606,1631672,'CP007572','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -376,6 +535,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1785371,1785437,'CP007572','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -383,6 +545,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,2150139,2150205,'CP007572','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -390,6 +555,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,2206252,2206318,'CP007572','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -397,6 +565,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,576633,576699,'CP007572','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -404,6 +575,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,107875,107941,'CP007572','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -411,6 +585,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,980699,980765,'CP007572','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -418,6 +595,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,2045638,2045704,'CP007572','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -425,6 +605,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1458979,1459125,'CP007572','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -432,6 +615,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,920600,920690,'CP007572','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -439,6 +625,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,896835,896934,'CP007572','-','ACCAATTCAAACCACAATTCCTACGCTCGTTCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -446,6 +635,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1173002,1173098,'CP007572','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -453,6 +645,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,439181,439267,'CP007572','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -460,6 +655,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1230973,1231106,'CP007572','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -467,6 +665,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1133261,1133381,'CP007572','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -474,6 +675,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,261248,261330,'CP007572','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -481,6 +685,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1441361,1441487,'CP007572','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -488,6 +695,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1426996,1427076,'CP007572','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -495,6 +705,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,932594,932708,'CP007572','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTGTCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -502,6 +715,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1645140,1645239,'CP007572','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -509,6 +725,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1358209,1358359,'CP007572','-','AAATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -516,6 +735,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,95500,95573,'CP007572','+','TGAGTGTTATGATGATGGAATCAATTGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -523,6 +745,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,204959,205017,'CP007572','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -530,6 +755,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1141949,1142086,'CP007572','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -537,6 +765,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,105502,105601,'CP007572','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -544,6 +775,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,106361,106452,'CP007572','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -551,6 +785,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,160216,160307,'CP007572','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -558,6 +795,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,213494,213585,'CP007572','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -565,6 +805,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,430741,430832,'CP007572','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -572,6 +815,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,575119,575210,'CP007572','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -579,6 +825,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,647464,647555,'CP007572','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -586,6 +835,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,768049,768140,'CP007572','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -593,6 +845,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,801659,801750,'CP007572','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -600,6 +855,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,827013,827104,'CP007572','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -607,6 +865,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,979185,979276,'CP007572','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -614,6 +875,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1044829,1044920,'CP007572','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -621,6 +885,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1211010,1211101,'CP007572','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -628,6 +895,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1612620,1612711,'CP007572','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -635,6 +905,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1630092,1630183,'CP007572','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -642,6 +915,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1786860,1786951,'CP007572','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -649,6 +925,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,2047127,2047218,'CP007572','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -656,6 +935,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,2151628,2151719,'CP007572','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -663,6 +945,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,2207741,2207832,'CP007572','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -670,6 +955,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,106169,106340,'CP007572','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -677,6 +965,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,160024,160195,'CP007572','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -684,6 +975,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,213302,213473,'CP007572','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -691,6 +985,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,430853,431024,'CP007572','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -698,6 +995,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,574927,575098,'CP007572','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -705,6 +1005,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,647272,647443,'CP007572','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -712,6 +1015,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,767857,768028,'CP007572','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -719,6 +1025,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,801467,801638,'CP007572','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -726,6 +1035,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,826821,826992,'CP007572','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -733,6 +1045,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,978993,979164,'CP007572','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -740,6 +1055,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1044637,1044808,'CP007572','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -747,6 +1065,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1211122,1211293,'CP007572','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -754,6 +1075,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1612732,1612903,'CP007572','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -761,6 +1085,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1629900,1630071,'CP007572','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -768,6 +1095,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1786972,1787143,'CP007572','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -775,6 +1105,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,2047239,2047410,'CP007572','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -782,6 +1115,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,2151740,2151911,'CP007572','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -789,6 +1125,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,2207853,2208024,'CP007572','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -796,6 +1135,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02003',1,1770884,1771061,'CP007572','-','TTTCGTTACGGACTGTAGGTTTGCTCGCTCCCACGGACTGAGATAAGACCAATGAATATCAGCCTACTGGGGATAACGTTAGTCGGCATTGCTTCCGCATTTGGATTACTCCGCATACGTATGCCATAGCTACCTAACCGAACTGGTTAATTGTTAGGACAGGACTTTCACCTGTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -803,6 +1145,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,551284,551430,'CP007572','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -810,6 +1155,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,298412,298539,'CP007572','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -817,6 +1165,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,402138,402267,'CP007572','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -824,6 +1175,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,311925,312294,'CP007632','+','ATTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -831,6 +1185,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,753002,753117,'CP007632','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -838,6 +1195,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,570281,570326,'CP007632','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -845,6 +1205,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1233803,1233937,'CP007632','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -852,6 +1215,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,179039,179097,'CP007632','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -859,6 +1225,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,915697,915803,'CP007632','-','AAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTAAATACGGACTGGATTAAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -866,6 +1235,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1856151,1856343,'CP007632','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -873,6 +1245,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,934968,935318,'CP007632','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -880,6 +1255,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,737988,738054,'CP007632','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -887,6 +1265,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,905791,905857,'CP007632','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -894,6 +1275,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1353049,1353195,'CP007632','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -901,6 +1285,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,847299,847389,'CP007632','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -908,6 +1295,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,828231,828330,'CP007632','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -915,6 +1305,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1069931,1070027,'CP007632','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -922,6 +1315,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,407203,407289,'CP007632','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -929,6 +1325,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1123267,1123400,'CP007632','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -936,6 +1335,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1031376,1031496,'CP007632','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -943,6 +1345,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,231613,231695,'CP007632','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -950,6 +1355,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1333948,1334074,'CP007632','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -957,6 +1365,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1301697,1301777,'CP007632','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -964,6 +1375,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,859293,859407,'CP007632','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTGTCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -971,6 +1385,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1516690,1516789,'CP007632','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -978,6 +1395,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,1865035,1865219,'CP007632','+','TGAAATATGATATAATAATGAAGCAGAAAAGTTAAGACGGTGGCTCTTATTTCTGAAAGGTAGGTGGTCCCATGGGCAATTCATCAAAATCCAACAGAAAGGAGGAGCTAGATTTGTCTACCTTTGAGGTCTTAACACTCATGTTTATAGCAGGTAACTTCGTTATCGCTCTCGTGAAGTTAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -985,6 +1405,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,90969,91042,'CP007632','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -992,6 +1415,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1040312,1040449,'CP007632','-','ATGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -999,6 +1425,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,100196,100295,'CP007632','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1006,6 +1435,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,1865277,1865362,'CP007632','-','TATTTTTTAACGGTTATTTTCTGCCACCGTCTTAAACGGTTCTGCTAAGCAGTTGTTAGAAGCAACTGCTTTTTATTTACAATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1013,6 +1445,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,736486,736565,'CP007632','+','CTAGTAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1020,6 +1455,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,904289,904368,'CP007632','+','CTAGTAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1027,6 +1465,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1222328,1222407,'CP007632','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTACTAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1034,6 +1475,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,904085,904256,'CP007632','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1041,6 +1485,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1222440,1222611,'CP007632','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1048,6 +1495,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,736282,736453,'CP007632','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCATGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1055,6 +1505,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,542792,542938,'CP007632','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1062,6 +1515,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2027079,2027146,'CP007632','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1069,6 +1525,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,273829,273956,'CP007632','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1076,6 +1535,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,372468,372597,'CP007632','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1083,6 +1545,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02527',1,1220710,1220870,'CP007632','-','TTAATTTTACTCCTTTATCAATGCTTTGTCAATGACAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACAATCGAGTAGAGGCTAATCTCTAGCCCCTCTC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1090,6 +1555,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,922411,922761,'AE009948','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1097,6 +1565,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,739285,739400,'AE009948','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1104,6 +1575,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,545552,545597,'AE009948','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1111,6 +1585,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1312355,1312489,'AE009948','-','ATAAGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1118,6 +1595,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,179027,179085,'AE009948','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1125,6 +1605,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,901773,901878,'AE009948','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1132,6 +1615,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,311667,312036,'AE009948','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1139,6 +1625,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1961969,1962161,'AE009948','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1146,6 +1635,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,570754,570836,'AE009948','+','GAAAGCCGTGTAAGGGAAAACCTTACGCACGGTTTGACGAGGGGTTTCTGAGGAGATGGCTCAAATCAGCGACCTACTCTAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1153,6 +1645,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1411732,1411878,'AE009948','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1160,6 +1655,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,835189,835279,'AE009948','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1167,6 +1665,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,815767,815866,'AE009948','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1174,6 +1675,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1094209,1094305,'AE009948','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1181,6 +1685,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,408900,408986,'AE009948','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1188,6 +1695,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1147543,1147676,'AE009948','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1195,6 +1705,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1054598,1054718,'AE009948','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1202,6 +1715,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,230705,230787,'AE009948','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1209,6 +1725,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1394080,1394206,'AE009948','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1216,6 +1735,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1379714,1379794,'AE009948','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCTCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1223,6 +1745,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,847183,847297,'AE009948','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1230,6 +1755,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1593686,1593785,'AE009948','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1237,6 +1765,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1311261,1311411,'AE009948','-','AACAAAAATCCTGCCAAAGAATTTTTGGCAGGATTTTTGGCAGGAAACCAAATCAATTTATCAGTTTCTATCAATCGCTTATCGCTCTCAAAGACTGGTAAATAGGGATTCCGCAATCTAATTATGATATGACTCTTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1244,6 +1775,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,1978492,1978676,'AE009948','+','TGAAATATGATATAATAATGAAGCAGAAAAGTTAAGACGGTGGCTCTTATTTCTGAAAGGTAGGTGGTCCCATGGGCAATTCATCAAAATCCAACAGAAAGGAGGAGCTAGATTTGTCTACCTTTGAGGTCTTAACACTCATGTTTATAGCAGGTAACTTCGTTATCGCTCTCGTGAAGTTAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1251,6 +1785,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,90641,90714,'AE009948','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1258,6 +1795,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1063155,1063292,'AE009948','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1265,6 +1805,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,100058,100157,'AE009948','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1272,6 +1815,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,1978734,1978819,'AE009948','-','TATTTTTTAACGGTTATTTTCTGCCACCGTCTTAAACGGTTCTGCTAAGCAGTTGTTAGAAGCAACTGCTTTTTATTTACAATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1279,6 +1825,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1246073,1246164,'AE009948','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1286,6 +1835,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1246185,1246356,'AE009948','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1293,6 +1845,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02003',1,568840,569017,'AE009948','+','TAACAGGTGAAAGTCCTGTCCTAACAATTAACCAGTTCGGTTAGGTAGCTATGGCATACGTATGCGGAGTAATCCAAATGCGGAAGCAATGCCGACTAACGTTATCCCCAGTAGGCTGATATTCATTGGTCTTATCTCAGTCCGTGGGAGCGAGCAAACCTACAGTCCGTAACGAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1300,6 +1855,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,518063,518209,'AE009948','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1307,6 +1865,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2125820,2125887,'AE009948','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1314,6 +1875,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,273557,273684,'AE009948','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1321,6 +1885,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,373712,373841,'AE009948','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1328,6 +1895,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02527',1,1244455,1244615,'AE009948','-','TTAATTTTACTCCTTTATCAATGCTTTGTCAATGACAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACAATCGAGTAGAGGCTAATCTCTAGCCCCTCTC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1335,6 +1905,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,953559,953909,'HF952104','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1342,6 +1915,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,772683,772798,'HF952104','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1349,6 +1925,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,552633,552678,'HF952104','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1356,6 +1935,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1340966,1341100,'HF952104','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1363,6 +1945,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,178831,178889,'HF952104','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1370,6 +1955,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,933845,933950,'HF952104','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1377,6 +1965,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02527',1,1273223,1273389,'HF952104','-','TTAATTTTACTCCTTTATCAATGCTTTGTCAATGGCAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1384,6 +1975,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,321092,321461,'HF952104','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1391,6 +1985,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1962311,1962503,'HF952104','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1398,6 +1995,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1439358,1439504,'HF952104','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1405,6 +2005,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,867260,867350,'HF952104','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1412,6 +2015,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,847839,847938,'HF952104','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1419,6 +2025,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1118828,1118924,'HF952104','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1426,6 +2035,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,418336,418422,'HF952104','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1433,6 +2045,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1173023,1173156,'HF952104','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTATATTGACATCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1440,6 +2055,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1079987,1080107,'HF952104','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1447,6 +2065,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,230132,230214,'HF952104','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1454,6 +2075,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1421706,1421832,'HF952104','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1461,6 +2085,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1407339,1407419,'HF952104','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1468,6 +2095,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,879254,879368,'HF952104','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1475,6 +2105,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1614018,1614117,'HF952104','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAGCTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1482,6 +2115,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1339872,1340022,'HF952104','-','AACAAAAATCCTGCCAAAAATTTTTTGGCAGGATTTTTGGCAGGAAACTAAATCAATTTATCAGTTTCTTCAAATCGCTATAAGCTCTAAAAGACTGGTAAATCGGGATTCCGCTCTCAAATTGCTATAAGCTTCTTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1489,6 +2125,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1293281,1293431,'HF952104','-','AAATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1496,6 +2135,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,653845,654036,'HF952104','+','GCTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1503,6 +2145,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,90443,90516,'HF952104','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1510,6 +2155,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1089209,1089346,'HF952104','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1517,6 +2165,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,99863,99962,'HF952104','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1524,6 +2175,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,654106,654196,'HF952104','-','GTTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGGTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1531,6 +2185,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,525144,525290,'HF952104','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1538,6 +2195,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2104257,2104324,'HF952104','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1545,6 +2205,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,282988,283115,'HF952104','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1552,6 +2215,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,383149,383278,'HF952104','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1559,6 +2225,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,650864,650979,'FO393392','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1566,6 +2235,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1109429,1109563,'FO393392','-','ATAAGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1573,6 +2245,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,810571,810662,'FO393392','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTAGCCTTATTTTAACTCGCTGTGCCGTTTCGAATAGTTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1580,6 +2255,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,71724,72093,'FO393392','+','ATTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1587,6 +2265,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1702249,1702441,'FO393392','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1594,6 +2275,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,828785,829135,'FO393392','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGGGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1601,6 +2285,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1204083,1204229,'FO393392','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1608,6 +2295,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,743997,744087,'FO393392','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTACACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1615,6 +2305,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,724428,724527,'FO393392','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1622,6 +2315,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,960354,960450,'FO393392','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1629,6 +2325,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,163592,163678,'FO393392','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1636,6 +2335,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1019025,1019158,'FO393392','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1643,6 +2345,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,923276,923396,'FO393392','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAAATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAGTACCTTAAATGTTTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1650,6 +2355,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,532873,532918,'FO393392','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1657,6 +2365,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,379215,379297,'FO393392','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1664,6 +2375,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1186432,1186558,'FO393392','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTATATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1671,6 +2385,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1172061,1172141,'FO393392','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCTTTGCTCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1678,6 +2395,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,755975,756089,'FO393392','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATACTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1685,6 +2405,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1373678,1373777,'FO393392','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1692,6 +2415,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,241334,241407,'FO393392','+','TGAGTGTTATGATGATGTAATCGATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATAATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1699,6 +2425,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,329261,329319,'FO393392','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1706,6 +2435,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,931858,931995,'FO393392','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1713,6 +2445,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,250471,250570,'FO393392','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1720,6 +2455,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,505506,505652,'FO393392','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1727,6 +2465,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,1804686,1804753,'FO393392','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1734,6 +2475,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,34125,34252,'FO393392','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1741,6 +2485,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,128397,128526,'FO393392','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1748,6 +2495,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,784994,785109,'AL732656','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1755,6 +2505,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,600151,600196,'AL732656','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1762,6 +2515,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1424495,1424629,'AL732656','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1769,6 +2525,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,178932,178990,'AL732656','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1776,6 +2535,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,945496,945601,'AL732656','-','AAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAGTTCTAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1783,6 +2545,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02527',1,1351515,1351681,'AL732656','-','TTAATTTTACTCCTTTATCAATGCTTTGTCAATGGCAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1790,6 +2555,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,313607,313976,'AL732656','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1797,6 +2565,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,2036263,2036455,'AL732656','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1804,6 +2575,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,965426,965776,'AL732656','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1811,6 +2585,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1522881,1523027,'AL732656','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1818,6 +2595,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,879268,879358,'AL732656','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1825,6 +2605,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,860205,860304,'AL732656','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1832,6 +2615,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1163394,1163490,'AL732656','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1839,6 +2625,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,457916,458002,'AL732656','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1846,6 +2635,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1250639,1250772,'AL732656','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1853,6 +2645,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1124363,1124483,'AL732656','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1860,6 +2655,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,231805,231887,'AL732656','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1867,6 +2665,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1505227,1505353,'AL732656','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1874,6 +2675,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1490862,1490942,'AL732656','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1881,6 +2685,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,891257,891371,'AL732656','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1888,6 +2695,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1698123,1698222,'AL732656','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1895,6 +2705,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1423401,1423551,'AL732656','-','AACAAAAATCCTGCCAAAGATTTTTTGGCAGGATTTTTGGCAGGAAACCGAATCAATTTATCAGTTTCTTCAAATCGCTATGAGCTCTAAAAGACTGGTAAATCGGGATTCCGCTCTCAAATCGCTATGTGCTTCTTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1902,6 +2715,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1371734,1371884,'AL732656','-','AAATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1909,6 +2725,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,503864,504049,'AL732656','-','ACTAACTTCACGAGAGCGATAACGAAGTTACCTGCTATAAACATGAGTGTTAAGACCTCAAAGGTAGACAAATCTAGCTCCTCCTTTCTGTTGGATTTTGATGAATTGCCCATGGGCACCACCTACCTTTCAGAAATAAGAGCCACCGTCTTAACTTTTCTGCCTTTTTATTATAACATACCGTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1916,6 +2735,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,90857,90930,'AL732656','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1923,6 +2745,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1133776,1133913,'AL732656','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -1930,6 +2755,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,100086,100185,'AL732656','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1937,6 +2765,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,503718,503806,'AL732656','+','TAATAAAAATAGAAAAGGGCAGTTGCGGAAACAACTACCCAATGCAGAACCGTTTAAGACGGTGGCAGAAAATAACCGTTAAAAAATA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1944,6 +2775,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,572662,572808,'AL732656','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1951,6 +2785,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2177112,2177179,'AL732656','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1958,6 +2795,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,275504,275631,'AL732656','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1965,6 +2805,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,375651,375780,'AL732656','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1972,6 +2815,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,954552,954902,'CP010867','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -1979,6 +2825,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,774072,774187,'CP010867','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -1986,6 +2835,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,552844,552889,'CP010867','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -1993,6 +2845,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1294169,1294303,'CP010867','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2000,6 +2855,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,178823,178881,'CP010867','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2007,6 +2865,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,935234,935339,'CP010867','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2014,6 +2875,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02527',1,1273017,1273183,'CP010867','-','TTAATTTTACTCCTTTATCAATGCTTTGTCAATGGCAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2021,6 +2885,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,321072,321441,'CP010867','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2028,6 +2895,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1916364,1916556,'CP010867','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2035,6 +2905,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1392561,1392707,'CP010867','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2042,6 +2915,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,868649,868739,'CP010867','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2049,6 +2925,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,849228,849327,'CP010867','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2056,6 +2935,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1119483,1119579,'CP010867','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2063,6 +2945,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,418320,418406,'CP010867','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2070,6 +2955,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1172818,1172951,'CP010867','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTATATTGACATCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2077,6 +2965,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1080979,1081099,'CP010867','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2084,6 +2975,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,230124,230206,'CP010867','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2091,6 +2985,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1374909,1375035,'CP010867','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2098,6 +2995,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1360542,1360622,'CP010867','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2105,6 +3005,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,880643,880757,'CP010867','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2112,6 +3015,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1567206,1567305,'CP010867','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAGCTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -2119,6 +3025,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1293075,1293225,'CP010867','-','AAATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -2126,6 +3035,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,655234,655425,'CP010867','+','GCTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2133,6 +3045,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,90442,90515,'CP010867','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2140,6 +3055,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1089864,1090001,'CP010867','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2147,6 +3065,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,99859,99958,'CP010867','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2154,6 +3075,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,655495,655585,'CP010867','-','GTTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGGTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2161,6 +3085,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,525355,525501,'CP010867','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2168,6 +3095,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2057635,2057702,'CP010867','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2175,6 +3105,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,282968,283095,'CP010867','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2182,6 +3115,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,383133,383262,'CP010867','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2189,6 +3125,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,869865,870215,'CP010319','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -2196,6 +3135,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,688923,689038,'CP010319','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2203,6 +3145,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1245438,1245572,'CP010319','-','TAGGCACAAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2210,6 +3155,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,173614,173672,'CP010319','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2217,6 +3165,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,850371,850477,'CP010319','-','AAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2224,6 +3175,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,296230,296599,'CP010319','+','ATTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2231,6 +3185,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1851319,1851511,'CP010319','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2238,6 +3195,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1213695,1213792,'CP010319','-','GTAGGCTAAGTATCCAGCGCCTTACCGTATTACTACGGCAGGTTTCCAGATACTCGCCCCCGAACCGTACGTACACCTCTCAATGTATACGGCTCTC','N','N');
 #Insercao na tabela associativa analise_result
@@ -2245,6 +3205,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1343828,1343974,'CP010319','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2252,6 +3215,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,783785,783875,'CP010319','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2259,6 +3225,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,763963,764062,'CP010319','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTC','N','N');
 #Insercao na tabela associativa analise_result
@@ -2266,6 +3235,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1033602,1033698,'CP010319','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACTGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2273,6 +3245,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,393480,393566,'CP010319','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2280,6 +3255,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1086888,1087021,'CP010319','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2287,6 +3265,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,994571,994691,'CP010319','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2294,6 +3275,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,543754,543799,'CP010319','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2301,6 +3285,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,224915,224997,'CP010319','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2308,6 +3295,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1326175,1326301,'CP010319','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTACTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2315,6 +3305,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1311804,1311884,'CP010319','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGACTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACCGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2322,6 +3315,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,795779,795893,'CP010319','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2329,6 +3325,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1518272,1518371,'CP010319','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -2336,6 +3335,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1244342,1244492,'CP010319','-','AACAAAAATCCTGCCAAAGTTTTTTTGGCAGGATTTTTGGCAGGAAACCAAATCAATTTATCAGTTTCTCTAAATCGCTATAAGCTCTAAAAGACTGGTAAATCGGGCTTCCGCTCTCAAATTGCTATGTGCTTCTTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -2343,6 +3345,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1177654,1177803,'CP010319','-','AAATAAAACACCCCCACAATAATTTGTGGGGGTGTTTTTTAGGGAATATTCAAATGAATTATCCCTTTTTTAATCGCCTTAACTTTAACGAAAAGGCTTTAAAAATAGGCTTTCACCTTTAAATAATCAGGAACTGATTATTTAAGAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2350,6 +3355,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,85414,85487,'CP010319','+','TGAGTGTTATGATGATGGAATCAATTGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2357,6 +3365,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1003984,1004121,'CP010319','-','AGGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2364,6 +3375,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,94603,94702,'CP010319','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2371,6 +3385,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,516265,516411,'CP010319','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2378,6 +3395,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,1961690,1961757,'CP010319','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2385,6 +3405,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02425',1,565289,565366,'CP010319','+','TCTTTATGGGGTTAAGGCTTAAAAGCCTTGATATTAAGCACTTTGGGACATCATCCCAAGGTGCTTTTTTAGAATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2392,6 +3415,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02435',1,573302,573405,'CP010319','+','CAAGCACAAGGGATAGTATAGAAGGAGTACACCTTGATAGAGGTAGCCACGGTGCGAATCCGTGTCATTGTGCTTGCATCTAGGAAACTAGGTGCCTTTTATT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2399,6 +3425,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,258133,258260,'CP010319','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2406,6 +3435,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,358290,358419,'CP010319','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2413,6 +3445,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,650835,650950,'CP007482','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2420,6 +3455,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1109357,1109491,'CP007482','-','ATAAGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2427,6 +3465,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,810542,810633,'CP007482','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTAGCCTTATTTTAACTCGCTGTGCCGTTTCGAATAGTTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2434,6 +3475,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,71723,72092,'CP007482','+','ATTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2441,6 +3485,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1702130,1702322,'CP007482','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2448,6 +3495,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,828756,829106,'CP007482','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGGGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -2455,6 +3505,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1204011,1204157,'CP007482','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2462,6 +3515,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,743968,744058,'CP007482','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTACACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2469,6 +3525,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,724399,724498,'CP007482','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2476,6 +3535,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,960325,960421,'CP007482','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2483,6 +3545,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,163577,163663,'CP007482','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2490,6 +3555,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1018953,1019086,'CP007482','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2497,6 +3565,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,923247,923367,'CP007482','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAAATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAGTACCTTAAATGTTTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2504,6 +3575,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,532844,532889,'CP007482','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2511,6 +3585,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,379187,379269,'CP007482','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2518,6 +3595,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1186360,1186486,'CP007482','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTATATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2525,6 +3605,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1171989,1172069,'CP007482','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCTTTGCTCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2532,6 +3615,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,755946,756060,'CP007482','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATACTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2539,6 +3625,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1373559,1373658,'CP007482','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -2546,6 +3635,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,241316,241389,'CP007482','+','TGAGTGTTATGATGATGTAATCGATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATAATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2553,6 +3645,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,329233,329291,'CP007482','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2560,6 +3655,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,931829,931966,'CP007482','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2567,6 +3665,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,250443,250542,'CP007482','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2574,6 +3675,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,505477,505623,'CP007482','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2581,6 +3685,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,1804520,1804587,'CP007482','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2588,6 +3695,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,34124,34251,'CP007482','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2595,6 +3705,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,128382,128511,'CP007482','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2602,6 +3715,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,702661,702776,'HG939456','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2609,6 +3725,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,549753,549798,'HG939456','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2616,6 +3735,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1225451,1225585,'HG939456','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2623,6 +3745,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,181609,181667,'HG939456','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2630,6 +3755,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,865368,865474,'HG939456','-','AAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTAAATACGGACTGGATTAAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2637,6 +3765,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,312987,313356,'HG939456','+','ATTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2644,6 +3775,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1846990,1847182,'HG939456','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2651,6 +3785,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,884638,884988,'HG939456','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -2658,6 +3795,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,687647,687713,'HG939456','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2665,6 +3805,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,855462,855528,'HG939456','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2672,6 +3815,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1342467,1342613,'HG939456','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2679,6 +3825,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,796970,797060,'HG939456','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2686,6 +3835,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,777903,778002,'HG939456','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2693,6 +3845,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1051031,1051127,'HG939456','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2700,6 +3855,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,410227,410313,'HG939456','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2707,6 +3865,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1104369,1104502,'HG939456','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2714,6 +3875,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1012572,1012692,'HG939456','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2721,6 +3885,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,231810,231892,'HG939456','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2728,6 +3895,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1323366,1323492,'HG939456','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2735,6 +3905,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1291798,1291878,'HG939456','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2742,6 +3915,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,808964,809078,'HG939456','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTGTCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2749,6 +3925,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1508060,1508159,'HG939456','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -2756,6 +3935,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,1852580,1852764,'HG939456','+','TGAAATATGATATAATAATGAAGCAGAAAAGTTAAGACGGTGGCTCTTATTTCTGAAAGGTAGGTGGTCCCATGGGCAATTCATCAAAATCCAACAGAAAGGAGGAGCTAGATTTGTCTACCTTTGAGGTCTTAACACTCATGTTTATAGCAGGTAACTTCGTTATCGCTCTCGTGAAGTTAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2763,6 +3945,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,91256,91329,'HG939456','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2770,6 +3955,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1021412,1021549,'HG939456','-','ATGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2777,6 +3965,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,101274,101373,'HG939456','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2784,6 +3975,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,1852822,1852907,'HG939456','-','TATTTTTTAACGGTTATTTTCTGCCACCGTCTTAAACGGTTCTGCTAAGCAGTTGTTAGAAGCAACTGCTTTTTATTTACAATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2791,6 +3985,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,686145,686224,'HG939456','+','CTAGTAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2798,6 +3995,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,853960,854039,'HG939456','+','CTAGTAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2805,6 +4005,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1204219,1204298,'HG939456','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTACTAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2812,6 +4015,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,853756,853927,'HG939456','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2819,6 +4025,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1204331,1204502,'HG939456','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2826,6 +4035,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,685941,686112,'HG939456','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCATGGCTCTATGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2833,6 +4045,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,520826,520972,'HG939456','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2840,6 +4055,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2030691,2030758,'HG939456','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2847,6 +4065,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,274888,275015,'HG939456','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2854,6 +4075,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,375055,375184,'HG939456','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2861,6 +4085,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02527',1,1202602,1202762,'HG939456','-','TTAATTTTACTCCTTTATCAATGCTTTGTCAATGACAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACAATCGAGTAGAGGCTAATCTCTAGCCCCTCTC','N','N');
 #Insercao na tabela associativa analise_result
@@ -2868,6 +4095,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,650404,650519,'CP007565','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2875,6 +4105,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1108839,1108973,'CP007565','-','ATAAGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2882,6 +4115,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,810111,810202,'CP007565','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTAGCCTTATTTTAACTCGCTGTGCCGTTTCGAATAGTTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2889,6 +4125,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,71524,71893,'CP007565','+','ATTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2896,6 +4135,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1701596,1701788,'CP007565','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2903,6 +4145,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,828325,828675,'CP007565','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGGGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -2910,6 +4155,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1203493,1203639,'CP007565','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2917,6 +4165,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,743537,743627,'CP007565','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTACACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2924,6 +4175,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,723968,724067,'CP007565','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2931,6 +4185,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,959874,959970,'CP007565','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2938,6 +4195,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,163322,163408,'CP007565','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2945,6 +4205,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1018435,1018568,'CP007565','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2952,6 +4215,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,922796,922916,'CP007565','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAAATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAGTACCTTAAATGTTTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -2959,6 +4225,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,532413,532458,'CP007565','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2966,6 +4235,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,378839,378921,'CP007565','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2973,6 +4245,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1185842,1185968,'CP007565','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTATATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -2980,6 +4255,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1171471,1171551,'CP007565','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCTTTGCTCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2987,6 +4265,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,755515,755629,'CP007565','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATACTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -2994,6 +4275,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1373025,1373124,'CP007565','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -3001,6 +4285,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,241038,241111,'CP007565','+','TGAGTGTTATGATGATGTAATCGATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATAATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3008,6 +4295,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,328885,328943,'CP007565','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3015,6 +4305,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,931378,931515,'CP007565','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3022,6 +4315,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,250095,250194,'CP007565','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3029,6 +4325,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,505046,505192,'CP007565','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3036,6 +4335,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,1803962,1804029,'CP007565','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3043,6 +4345,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,33925,34052,'CP007565','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3050,6 +4355,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,128127,128256,'CP007565','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3057,6 +4365,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,740550,740665,'CP006910','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3064,6 +4375,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1247092,1247226,'CP006910','-','ATAAGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3071,6 +4385,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,181064,181122,'CP006910','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3078,6 +4395,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,906670,906775,'CP006910','-','AAAAAAAGCACCGATTCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3085,6 +4405,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,298075,298444,'CP006910','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3092,6 +4415,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1849571,1849763,'CP006910','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3099,6 +4425,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,926429,926779,'CP006910','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -3106,6 +4435,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1345939,1346085,'CP006910','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3113,6 +4445,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,839215,839305,'CP006910','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3120,6 +4455,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,820065,820164,'CP006910','-','ACCAATTCAAACCACAATTCCTACGCTCGTTCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3127,6 +4465,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1099934,1100030,'CP006910','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3134,6 +4475,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,428191,428277,'CP006910','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3141,6 +4485,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1152974,1153107,'CP006910','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3148,6 +4495,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1061039,1061163,'CP006910','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGTAACTAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3155,6 +4505,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,618886,618931,'CP006910','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3162,6 +4515,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,231875,231957,'CP006910','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3169,6 +4525,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1328287,1328413,'CP006910','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3176,6 +4535,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1313922,1314002,'CP006910','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3183,6 +4545,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,851209,851323,'CP006910','+','TATGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3190,6 +4555,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1520583,1520682,'CP006910','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -3197,6 +4565,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,91443,91516,'CP006910','+','TGAGTGTTATGATGATGGAATCAATTGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3204,6 +4575,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1070317,1070454,'CP006910','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTACGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3211,6 +4585,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,101708,101807,'CP006910','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3218,6 +4595,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,550516,550662,'CP006910','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3225,6 +4605,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,1979380,1979447,'CP006910','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3232,6 +4615,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02435',1,763019,763129,'CP006910','+','TTGACACAAGGAGTAGTTTAGAGGGAGAACGCCTTGATAGAGGAGGCTCACGTTCAAATCGTGGCTATTGTGTTGAAAAAACACCTATCATTTGATAAGTGTTTTTTATT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3239,6 +4625,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02435',1,762767,762878,'CP006910','+','TCAACACATTGAGTAGTATATTGGAATTGCGCCTTGATGGAAGAGATTCCGGTTCAAATCGTGGCTATTGTGTTGAAAAAAACACTTATCAAATGATAGGTGTTTTTTATT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3246,6 +4635,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,259974,260101,'CP006910','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAAAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3253,6 +4645,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,360119,360248,'CP006910','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3260,6 +4655,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,987570,987920,'CP007631','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -3267,6 +4665,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,805374,805489,'CP007631','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3274,6 +4675,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,541528,541573,'CP007631','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3281,6 +4685,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1394300,1394434,'CP007631','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3288,6 +4695,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,178963,179021,'CP007631','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3295,6 +4705,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,686615,686704,'CP007631','-','AGTTATATCGAAATATTGGGTCACCGTCTTTTTAACGGTTCTACATTGGAGTTGAGTTGGTAGCTCAACTCCTTTTTCTACGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3302,6 +4715,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,966536,966641,'CP007631','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3309,6 +4725,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02434',1,1368517,1368621,'CP007631','-','AAAAAAGACGACAGAATTATTATTTTCTATCGTCTAAAATATGTGTATTAAATTTTCATCATTAGATAACCTTAAAAACTCTTTTTCATCCAATAATATTGTCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3316,6 +4735,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02527',1,1297995,1298161,'CP007631','-','TTAATTTTACTCCTTTATCAATGCTTTGTCAATGGCAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3323,6 +4745,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,311338,311707,'CP007631','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3330,6 +4755,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,2017989,2018181,'CP007631','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3337,6 +4765,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1492707,1492853,'CP007631','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3344,6 +4775,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,899951,900041,'CP007631','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3351,6 +4785,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,880530,880629,'CP007631','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3358,6 +4795,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1143987,1144083,'CP007631','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3365,6 +4805,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,408582,408668,'CP007631','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3372,6 +4815,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1201987,1202120,'CP007631','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3379,6 +4825,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1104285,1104405,'CP007631','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3386,6 +4835,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,231124,231206,'CP007631','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3393,6 +4845,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1475055,1475181,'CP007631','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3400,6 +4855,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1460688,1460768,'CP007631','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3407,6 +4865,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,911945,912059,'CP007631','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3414,6 +4875,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1668804,1668903,'CP007631','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAGCTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -3421,6 +4885,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1393206,1393356,'CP007631','-','AACAAAAATCCTGCCAAAAATTTTTTGGCAGGATTTTTGGCAGGAAACTAAATCAATTTATCAGTTTCTTCAAATCGCTATAGGCTCTAAAAGACTGGTAAATCGGGATTCCGCTCTCAAATTGCTATAAGCTTCTTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -3428,6 +4895,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,686358,686549,'CP007631','+','GCTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3435,6 +4905,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,90574,90647,'CP007631','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3442,6 +4915,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1114367,1114504,'CP007631','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3449,6 +4925,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,99992,100091,'CP007631','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3456,6 +4935,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,686849,686939,'CP007631','-','GTTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGTTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3463,6 +4945,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02032',1,572782,573158,'CP007631','+','AGCAGGCGTTGCGCATTTTGTTGTTCAAAAGGCGACGAAACGCAAGGCAATGCACGTCTGCGATACACGAAAACAATGCTATTTGTTGAAAATATTGGAATAAAGCAAAAGTCATTGCCCGTCGCAAACGAAAGTGTGCTTCGGTAGCTAGGCTACCTGCTAGAGTCTCGCAAGGATAATAGCAAAGTCAAAGAGTAAAGCAGCTTAGACCTTTAGCGGGGTTTTCGTTAATTGAAAAATGGCTTAGTAGTTTGTGGCGTAACGAGTGGTTAGCGATACTAACCGCGCATGGTTGTTACTTGAAGGGATTTGAGTGGATAAAAAACTAAAACATAAGGTTTTGAAAGACAACTGACTAAACGTGTAATCTCAGCGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3470,6 +4955,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,514039,514185,'CP007631','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3477,6 +4965,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2186880,2186947,'CP007631','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3484,6 +4975,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,273240,273367,'CP007631','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3491,6 +4985,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,373395,373524,'CP007631','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3498,6 +4995,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,652339,652454,'CP011328','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3505,6 +5005,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1111195,1111329,'CP011328','-','ATAAGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3512,6 +5015,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,812046,812137,'CP011328','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTAGCCTTATTTTAACTCGCTGTGCCGTTTCGAATAGTTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3519,6 +5025,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,71689,72058,'CP011328','+','ATTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3526,6 +5035,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1703926,1704118,'CP011328','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3533,6 +5045,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,830260,830610,'CP011328','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGGGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -3540,6 +5055,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1205762,1205908,'CP011328','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3547,6 +5065,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,745472,745562,'CP011328','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTACACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3554,6 +5075,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,725903,726002,'CP011328','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3561,6 +5085,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,961818,961914,'CP011328','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3568,6 +5095,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,163557,163643,'CP011328','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3575,6 +5105,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1020782,1020915,'CP011328','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3582,6 +5115,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,924740,924860,'CP011328','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAAATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAGTACCTTAAATGTTTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3589,6 +5125,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,534348,534393,'CP011328','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3596,6 +5135,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,380691,380773,'CP011328','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3603,6 +5145,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1188111,1188237,'CP011328','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTATATGGAATCTTGGCATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3610,6 +5155,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1173740,1173820,'CP011328','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCTTTGCTCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3617,6 +5165,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,757450,757564,'CP011328','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATACTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3624,6 +5175,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1375358,1375457,'CP011328','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -3631,6 +5185,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,241856,241929,'CP011328','+','TGAGTGTTATGATGATGTAATCGATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATAATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3638,6 +5195,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,330737,330795,'CP011328','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3645,6 +5205,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,933322,933459,'CP011328','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3652,6 +5215,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,251947,252046,'CP011328','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3659,6 +5225,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,506981,507127,'CP011328','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3666,6 +5235,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,1806362,1806429,'CP011328','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3673,6 +5245,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,34090,34217,'CP011328','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3680,6 +5255,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,128362,128491,'CP011328','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3687,6 +5265,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,643861,643976,'CP003919','+','AAATTACGGTCTTCGTTTACCACATTCATTTTCAGATGATGAATTGCGTGAAATCGCTAAATTAGTACATGATGCTGGTAAAGAATTGACAGTAGCTTGTAATGCACTCATGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3694,6 +5275,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1095243,1095377,'CP003919','-','GTATACCGTACTTTTCATCAATCCAAACTTGGTTCATCTCAGGTCGTAATAATGGAATATGATGATCGCCGCTTAAATTTGTTCCTGCTTTGTTATTAATTAAAAAAGATATTTGTTTTCGTTGTTTTTCAGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3701,6 +5285,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,803293,803384,'CP003919','-','GATGCTTTCTTGCTAAAGAAAATATTATGAAAACATGGTATAATGTAGACGATGGAAAATAAGAAATCAAGGAGTTAAGCAAGAAACTCTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3708,6 +5295,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,295288,295657,'CP003919','+','ATTGAAAATATGTATTTTTACCACAAGGTAATGGCTGTATTTTCAATGATTTTGCTTCTATTGCACAAAATTGGTCTTGGACAAGGCGGACATGGAAGTGAGTTTGCAAAGACTATTGGCAGTGCGGGATTATATCTTTTTCTAAGTATTGTTTTTGTAGCTTATTTCTGAAATTTTTTAAAGTATGAAATTTGGCGTTTTATTCATCGCTTTGTTTATTTAGCCTACATTTTGGGATTGGTACATACTTTTATGATTTTAGGAGATAGGACACTAGGAAATACTTTACTCAGTTTAATCGTATTAGGTTATGCTGTCATTGGGGTTATATCTGGATTTTATATTATTTTCCTATATTCTAGAATGCGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3715,6 +5305,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1680401,1680593,'CP003919','+','AACAAAATACAACATTAAACTTTAAAACTAACTTTCAGGAATTGTCGCCAGAACAACTAAATAATATCACTGGTGGTGGTTGGATTGATGATATTAAGAAAATAATAAACTTAGATAAATTGAACTTTTTAAGACTATAATATGATTTCGAAAGTTTGGCAGAAACTAAAATCTTGGCTACTTGTTGCAATA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3722,6 +5315,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,822057,822407,'CP003919','-','GAGATTATTCAGGATATTCTGCATGCAGATGCTCCAACACCATTCCCATCAAATGAAACTAATCCTGAAAAAATGCGTCAGTGGCTTGCAACTGTTACTAAGATTAACATTGGACAAAGAACCAATCCATTCCAGCGTTTTGGTCTATCATTGATGCCTAATATTGAAGTTCTAGGAATTGGGTTTACTCCGATTAATGATATGACGCCAGTTTTGCAATTCAAAAAACTTAAACAGCTTTGGATGACAGATACTGGTATTACAGATTATTCTTTCCTTGATAAGATGCCACTATTAGAAGGATTGGATATTTCACAAAACGGTATTAAGCATTTATCTTTCCTTACAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3729,6 +5325,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1183955,1184101,'CP003919','-','AGGCAAAATCAACATCAAAATCTTTAACATCAAATTTATCTGCACCTATACCAATTTCTTCATCTGGTCCAAAGCCAACTCTAATTTCACAATGCTCAATTTCTGGATGCGAAGCCAAATATTCCATAGCTGTCATGATTTCTGCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3736,6 +5335,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,737100,737190,'CP003919','+','CAAGTTAATGGCGAACCTTGTAATCATTGTGATATTTGTCGAGATATTACAAATGGTAGTTTAGAGGATGTCATTGAAATTGATGCTGCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3743,6 +5345,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,717665,717764,'CP003919','-','TGGTTGGATTTCTGGAAATCCAAAGGACATTCCGTTGAGCCTTCAGCTAACTTGGTTCCTGTGAACGACCCAACGCTTCTTTGGATCAACTCAGGTGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3750,6 +5355,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,951217,951313,'CP003919','-','TGGATGATAACCAGACGGTACCCAATGAAAATAATAATAATTAATGCTATCAAACGTTTTAAAAATTTAAACATATTATTTATTTTGAATATCCTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3757,6 +5365,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,384860,384946,'CP003919','+','TTTTTAAACTTTGTCCCTCCTATTATATCATATCACTATATCATACTAGGAATTATTATTTTTGGATAATTAAATAAAGAAAACGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3764,6 +5375,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1005773,1005906,'CP003919','+','CATTACCTAAAATCAATTTTGAGCCCTCTTTTTTATAGGCTGTTTTTTCACCATTTTTCACAATATTACCATAGAACGCATTTGCCTTTTTATTGATATGCGATACTTTAATAACACTTGTTAAGCGATGTAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -3771,6 +5385,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,913824,913944,'CP003919','-','TAAAAAGAGTGTCATTAAATCTCTCCAAAGTATTAATTAGTCCGTTATAACATAGGTATAAAATGATTCATTTCATTACTCATTTAAAATGTCTCTCTATCAAGTATTCTCAAGACAATT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3778,6 +5395,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,539192,539237,'CP003919','-','AAAACATGCCAGACGTGTCATCTCGTCTAACTTTTTAAAATTAGA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3785,6 +5405,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,228455,228537,'CP003919','+','CAAACGAATCAGTTGTTTTTGATGTTGTAATCAGCCAACGCGCTAGCCTTCACCAAGGTACTCACGCGGTTAAAAACCGTTC','N','N');
 #Insercao na tabela associativa analise_result
@@ -3792,6 +5415,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1166304,1166430,'CP003919','-','AGAAGAATCTTTAGACAGATTAGTCATTCCAAGAAGGTAAGACTCAAATAATAATTGAACCTTATCCTCTTTATGTTGTGGTATAGAAGATAAATCTATCTTCATATAACCACCTTCAACGTCATT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3799,6 +5425,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1152062,1152142,'CP003919','-','CAAGCTGCTAACTCTCTGACTATCTCCATTTAAACCAATTGGGACATAAGGGGTTAAAATTCTAACACCTGATGCCTTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3806,6 +5435,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,749094,749208,'CP003919','+','CAAAGGCGGTCAAAACAGGAATGTTAGCGGAGAGGGAAACGATTAGTTTAGTCGCTTCATATTTAAAAAAATATCCGCAACCTTATGTATTAGATCCTGTTATGGTGGCAACTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3813,6 +5445,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1349578,1349677,'CP003919','-','CAGTCGAACCTGCTCGTAAGGGCTATGCTGGTACAATGTTTTTATATCGTAAAGGGTTAAATCCTATTGTTAGCTTCCCTGAAATCGATGCTCCTACTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3820,6 +5455,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,90638,90711,'CP003919','+','GCACGAGCGATGGCTGAGCTGACACATCCTAATATTGTCGCTATTCGTGATATAGGTGAAGAAGACGGACAGC','N','N');
 #Insercao na tabela associativa analise_result
@@ -3827,6 +5465,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,178849,178907,'CP003919','+','CAAGTTGGTGCTTTAGAGTCTCAACAATCAGAATTAGAAGCGCAAAATGTTCAACTTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3834,6 +5475,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,922435,922572,'CP003919','-','ATTGTTTTTAATCCTAATTTGAGTTCTGCCATTTCAAATGACTTATGTGTTCTTGTTGAATTCTCAAAAAAGAGATTTGACACATAGTAATCTTTATCAAAACCAATGTTGCTAGGATTTTCTTTGACTTCGATACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3841,6 +5485,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,100042,100141,'CP003919','+','TAAAGGGGATCAAATATGATAAAAATTGGTTTATTCTGTGCAGCAGGTTTTTCAACAGGTATGTTAGTAAACAATATGAAAATCGCAGCGGATAAAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3848,6 +5495,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,511888,512034,'CP003919','-','CCAAGGGGCGTCCTTTTTTAGAGAAAGATTTAAGAAGATTTTGAGGAGTGATACCTTCTAGATTTTTAACATAATGCCAATCAGGTTCACCGCCAGGATAACCAATATGGAGCCCATCGTGGTGATAACCTATACTAGTCAGGTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3855,6 +5505,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,1786789,1786856,'CP003919','-','ATTCTTTAATTTTAATTTTGACATTCATCTTATCCAACTGTGTTTGCGTTGCTGGAACATGAACTGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3862,6 +5515,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,257661,257788,'CP003919','+','AAAGAATTCTTTGGTTCATCACAGCTGTCACAATTCATGGACCAACACAACCCTCTATCAGAATTGTCGCACAAACGCCGTCTCTCTGCCTTAGGACCTGGTGGTTTGACACGTGACCGTGCTGGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3869,6 +5525,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,351733,351862,'CP003919','-','AATGCAGAGACACCAATGATGTTTAATCCATTGTTCAGGACACCAATAATGAGAGCACCAATCAATGTTCCAATGATACGTCCTTTCCCACCAGATAAAGACGTTCCACCTAAGACAACGGTGGCAATA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3876,6 +5535,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,974563,974913,'HF952106','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -3883,6 +5545,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,793460,793575,'HF952106','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTGCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3890,6 +5555,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1262552,1262686,'HF952106','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3897,6 +5565,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,181826,181884,'HF952106','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3904,6 +5575,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,954827,954933,'HF952106','-','AAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3911,6 +5585,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,304689,305058,'HF952106','+','ATTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3918,6 +5595,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1876074,1876266,'HF952106','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3925,6 +5605,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,649723,649800,'HF952106','-','GTCGAGTAGGTCGGGGATATTACTATCCCTTTCCCCTCTAAGAACCGTGCATGAGAGTTTCCCCTCACACGGCTCAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3932,6 +5615,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,630868,630959,'HF952106','+','GAACGCGGAGTGCGGTGAAAGTCGCACGCTCCGTGTGAATGGGGGGAAAAGTTTGAGATATTTATAATATCAGGAACTTACCTATCCATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3939,6 +5625,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1360970,1361116,'HF952106','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3946,6 +5635,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,888240,888330,'HF952106','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -3953,6 +5645,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,868659,868758,'HF952106','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3960,6 +5655,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1114307,1114403,'HF952106','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3967,6 +5665,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,401981,402067,'HF952106','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3974,6 +5675,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1167639,1167772,'HF952106','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3981,6 +5685,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1075809,1075929,'HF952106','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -3988,6 +5695,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,559085,559130,'HF952106','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -3995,6 +5705,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,232163,232245,'HF952106','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4002,6 +5715,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1343314,1343440,'HF952106','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4009,6 +5725,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1328938,1329018,'HF952106','-','CCCTCTGTGAAGACTCGCCTATGAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4016,6 +5735,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,900234,900348,'HF952106','+','TGTGATATACTTAGTAAGTTGTTTTACACGACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTGTCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4023,6 +5745,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1538293,1538392,'HF952106','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -4030,6 +5755,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1261456,1261605,'HF952106','-','AAATAAAACACCCCCACAATAATTTGTGGGGGTGTTTTTTAGGGAATATTCAAATGAATTATCCCTTTTTTAATCGCCTTAACTTTAACGAAAAGGCTTTAAAAATAGGCTTTCACCTTTAAATAATCAGGAACTGATTATTTAAGAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4037,6 +5765,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,91692,91765,'HF952106','+','TGAGTGTTATGATGATGGAATCAATTGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4044,6 +5775,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1084695,1084832,'HF952106','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4051,6 +5785,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,101344,101443,'HF952106','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4058,6 +5795,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02004',1,628266,628475,'HF952106','+','GAGAACTGATAATCTGACAGGTGGAATGATGAAGTAACGCTCTGAAACGCCTGCCCTGAGCCTCCGACAAGCATTGAATGAGGAAACTCAGAATGTTTGAAGCTCGGTAAAGACGGCTGAAAGATACCGTAATAGTTGATGAACATATATCTTCTATCGAAAACTATCCAGAGGTGGGTAGCGTATCCAACAGGTCGGGGGTCTATAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4065,6 +5805,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02012',1,651888,652017,'HF952106','-','CTCCCTAACCACTTTGTTGCTGGCAGTTTCGGTATTTCCTCACGGTTTTACCTCAAGTAGGGCTACTTTAATATCGGCTTACCACACTTAAGTGCAGTCGATACTCGGCTCAACTAACGGAATAGTTGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4072,6 +5815,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,531602,531748,'HF952106','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4079,6 +5825,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,1994729,1994796,'HF952106','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4086,6 +5835,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,266583,266710,'HF952106','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4093,6 +5845,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,366758,366887,'HF952106','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4100,6 +5855,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,949715,950065,'CP011326','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -4107,6 +5865,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,767274,767389,'CP011326','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4114,6 +5875,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,577769,577814,'CP011326','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4121,6 +5885,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1257874,1258008,'CP011326','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4128,6 +5895,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,186965,187023,'CP011326','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4135,6 +5905,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,659830,659919,'CP011326','-','AGTTATATCGAAATATTGGGTCACCGTCTTTTTAACGGTTCTACATTGGAGTTGAGTTGGTAGCTCAACTCCTTTTTCTACGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4142,6 +5915,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,930199,930304,'CP011326','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4149,6 +5925,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,318812,319181,'CP011326','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4156,6 +5935,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1871291,1871483,'CP011326','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4163,6 +5945,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,93247,93313,'CP011326','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4170,6 +5955,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,518516,518582,'CP011326','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4177,6 +5965,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,750920,750986,'CP011326','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4184,6 +5975,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1497363,1497429,'CP011326','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4191,6 +5985,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1550247,1550313,'CP011326','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4198,6 +5995,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,533433,533499,'CP011326','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4205,6 +6005,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,570765,570831,'CP011326','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4212,6 +6015,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1975280,1975346,'CP011326','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4219,6 +6025,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,920295,920361,'CP011326','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4226,6 +6035,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,98303,98369,'CP011326','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4233,6 +6045,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1345150,1345296,'CP011326','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4240,6 +6055,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,861848,861938,'CP011326','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4247,6 +6065,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,842426,842525,'CP011326','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4254,6 +6075,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1098743,1098839,'CP011326','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4261,6 +6085,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,416043,416129,'CP011326','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4268,6 +6095,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1152887,1153020,'CP011326','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4275,6 +6105,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1060002,1060122,'CP011326','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4282,6 +6115,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,237318,237400,'CP011326','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4289,6 +6125,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1327497,1327623,'CP011326','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4296,6 +6135,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1313130,1313210,'CP011326','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4303,6 +6145,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,873751,873865,'CP011326','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4310,6 +6155,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1526360,1526459,'CP011326','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -4317,6 +6165,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1256780,1256930,'CP011326','-','AAATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -4324,6 +6175,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,659573,659764,'CP011326','+','GCTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4331,6 +6185,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,84513,84586,'CP011326','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4338,6 +6195,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1069131,1069268,'CP011326','-','AGGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTCATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCAACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4345,6 +6205,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,95930,96029,'CP011326','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4352,6 +6215,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,660064,660154,'CP011326','-','GTTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGTTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4359,6 +6225,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,91733,91824,'CP011326','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4366,6 +6235,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,96789,96880,'CP011326','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4373,6 +6245,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,517002,517093,'CP011326','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4380,6 +6255,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,531919,532010,'CP011326','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4387,6 +6265,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,569251,569342,'CP011326','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4394,6 +6275,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,749406,749497,'CP011326','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4401,6 +6285,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,918781,918872,'CP011326','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4408,6 +6295,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1498852,1498943,'CP011326','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4415,6 +6305,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1551736,1551827,'CP011326','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4422,6 +6315,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1976769,1976860,'CP011326','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4429,6 +6325,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,91541,91712,'CP011326','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4436,6 +6335,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,96597,96768,'CP011326','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4443,6 +6345,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,516810,516981,'CP011326','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4450,6 +6355,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,531727,531898,'CP011326','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4457,6 +6365,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,569059,569230,'CP011326','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4464,6 +6375,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,749214,749385,'CP011326','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4471,6 +6385,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,918589,918760,'CP011326','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4478,6 +6395,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1498964,1499135,'CP011326','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4485,6 +6405,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1551848,1552019,'CP011326','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4492,6 +6415,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1976881,1977052,'CP011326','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4499,6 +6425,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,546856,547002,'CP011326','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4506,6 +6435,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2013486,2013553,'CP011326','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAACTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4513,6 +6445,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,280709,280836,'CP011326','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4520,6 +6455,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,380857,380986,'CP011326','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4527,6 +6465,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,954429,954779,'CP003810','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -4534,6 +6475,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,771824,771939,'CP003810','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4541,6 +6485,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,583001,583046,'CP003810','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4548,6 +6495,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1262493,1262627,'CP003810','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4555,6 +6505,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,192429,192487,'CP003810','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4562,6 +6515,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,934847,934952,'CP003810','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4569,6 +6525,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,324280,324649,'CP003810','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4576,6 +6535,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1886444,1886636,'CP003810','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4583,6 +6545,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,98710,98776,'CP003810','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4590,6 +6555,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,523744,523810,'CP003810','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4597,6 +6565,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,755470,755536,'CP003810','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4604,6 +6575,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1512992,1513058,'CP003810','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4611,6 +6585,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1565878,1565944,'CP003810','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4618,6 +6595,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,538663,538729,'CP003810','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4625,6 +6605,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,575997,576063,'CP003810','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4632,6 +6615,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1990435,1990501,'CP003810','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4639,6 +6625,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,103766,103832,'CP003810','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4646,6 +6635,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,924943,925009,'CP003810','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGGTTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4653,6 +6645,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1360887,1361033,'CP003810','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4660,6 +6655,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,866398,866488,'CP003810','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4667,6 +6665,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,846977,847076,'CP003810','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4674,6 +6675,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1103361,1103457,'CP003810','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4681,6 +6685,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,421515,421601,'CP003810','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4688,6 +6695,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1157505,1157638,'CP003810','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4695,6 +6705,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1064716,1064836,'CP003810','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4702,6 +6715,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,242782,242864,'CP003810','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4709,6 +6725,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1343234,1343360,'CP003810','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4716,6 +6735,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1328867,1328947,'CP003810','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4723,6 +6745,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,878391,878505,'CP003810','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4730,6 +6755,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1541991,1542090,'CP003810','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -4737,6 +6765,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1261399,1261549,'CP003810','-','AAATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -4744,6 +6775,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,664121,664312,'CP003810','+','GCTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4751,6 +6785,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,90347,90420,'CP003810','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4758,6 +6795,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1073749,1073886,'CP003810','-','AGGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTCATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCAACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4765,6 +6805,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,101393,101492,'CP003810','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4772,6 +6815,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,664612,664702,'CP003810','-','GTTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGTTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4779,6 +6825,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,664378,664467,'CP003810','-','AGTTATATCGAAATATTGGGTCACCGTCTTTTTAACGGTTCTACATTGGAGTTGAGTTGGTAGCTCAACTCCTTTTTCTACGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4786,6 +6835,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,97193,97284,'CP003810','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4793,6 +6845,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,102252,102343,'CP003810','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4800,6 +6855,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,522230,522321,'CP003810','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4807,6 +6865,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,537147,537238,'CP003810','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4814,6 +6875,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,574481,574572,'CP003810','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4821,6 +6885,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,753955,754046,'CP003810','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4828,6 +6895,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,923421,923512,'CP003810','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4835,6 +6905,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1514483,1514574,'CP003810','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4842,6 +6915,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1567367,1567458,'CP003810','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4849,6 +6925,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1991924,1992015,'CP003810','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4856,6 +6935,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,97001,97172,'CP003810','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4863,6 +6945,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,102060,102231,'CP003810','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4870,6 +6955,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,522038,522209,'CP003810','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4877,6 +6965,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,536955,537126,'CP003810','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4884,6 +6975,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,574289,574460,'CP003810','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4891,6 +6985,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,753763,753934,'CP003810','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4898,6 +6995,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,923229,923400,'CP003810','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4905,6 +7005,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1514595,1514766,'CP003810','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4912,6 +7015,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1567479,1567650,'CP003810','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4919,6 +7025,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1992036,1992207,'CP003810','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4926,6 +7035,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,552086,552232,'CP003810','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4933,6 +7045,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2028641,2028708,'CP003810','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAACTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4940,6 +7055,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,286176,286303,'CP003810','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4947,6 +7065,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,386328,386457,'CP003810','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4954,6 +7075,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,955571,955921,'CP011325','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -4961,6 +7085,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,772973,773088,'CP011325','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4968,6 +7095,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,583467,583512,'CP011325','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -4975,6 +7105,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1263729,1263863,'CP011325','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -4982,6 +7115,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,192660,192718,'CP011325','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4989,6 +7125,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,935989,936094,'CP011325','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -4996,6 +7135,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,324508,324877,'CP011325','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5003,6 +7145,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1888055,1888247,'CP011325','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5010,6 +7155,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,98942,99008,'CP011325','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5017,6 +7165,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,524214,524280,'CP011325','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5024,6 +7175,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,756619,756685,'CP011325','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5031,6 +7185,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1514444,1514510,'CP011325','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5038,6 +7195,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1567328,1567394,'CP011325','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5045,6 +7205,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,539131,539197,'CP011325','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5052,6 +7215,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,576463,576529,'CP011325','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5059,6 +7225,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1992045,1992111,'CP011325','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5066,6 +7235,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,926085,926151,'CP011325','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5073,6 +7245,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,103998,104064,'CP011325','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5080,6 +7255,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1362123,1362269,'CP011325','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5087,6 +7265,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,867548,867638,'CP011325','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5094,6 +7275,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,848126,848225,'CP011325','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5101,6 +7285,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1104599,1104695,'CP011325','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5108,6 +7295,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,421740,421826,'CP011325','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5115,6 +7305,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1158743,1158876,'CP011325','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5122,6 +7315,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1065858,1065978,'CP011325','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5129,6 +7325,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,243013,243095,'CP011325','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5136,6 +7335,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1344470,1344596,'CP011325','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5143,6 +7345,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1330103,1330183,'CP011325','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5150,6 +7355,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,879541,879655,'CP011325','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5157,6 +7365,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1543441,1543540,'CP011325','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -5164,6 +7375,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1262635,1262785,'CP011325','-','AAATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -5171,6 +7385,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,665271,665462,'CP011325','+','GCTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5178,6 +7395,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,90345,90418,'CP011325','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5185,6 +7405,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1074987,1075124,'CP011325','-','AGGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTCATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCAACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5192,6 +7415,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,101625,101724,'CP011325','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5199,6 +7425,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,665762,665852,'CP011325','-','GTTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGTTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5206,6 +7435,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,665528,665617,'CP011325','-','AGTTATATCGAAATATTGGGTCACCGTCTTTTTAACGGTTCTACATTGGAGTTGAGTTGGTAGCTCAACTCCTTTTTCTACGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5213,6 +7445,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,97428,97519,'CP011325','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5220,6 +7455,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,102484,102575,'CP011325','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5227,6 +7465,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,522700,522791,'CP011325','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5234,6 +7475,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,537617,537708,'CP011325','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5241,6 +7485,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,574949,575040,'CP011325','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5248,6 +7495,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,755105,755196,'CP011325','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5255,6 +7505,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,924571,924662,'CP011325','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5262,6 +7515,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1515933,1516024,'CP011325','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5269,6 +7525,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1568817,1568908,'CP011325','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5276,6 +7535,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1993534,1993625,'CP011325','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5283,6 +7545,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,97236,97407,'CP011325','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5290,6 +7555,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,102292,102463,'CP011325','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5297,6 +7565,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,522508,522679,'CP011325','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5304,6 +7575,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,537425,537596,'CP011325','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5311,6 +7585,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,574757,574928,'CP011325','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5318,6 +7595,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,754913,755084,'CP011325','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5325,6 +7605,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,924379,924550,'CP011325','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5332,6 +7615,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1516045,1516216,'CP011325','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5339,6 +7625,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1568929,1569100,'CP011325','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5346,6 +7635,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1993646,1993817,'CP011325','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5353,6 +7645,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,552554,552700,'CP011325','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5360,6 +7655,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2030251,2030318,'CP011325','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAACTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5367,6 +7665,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,286404,286531,'CP011325','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5374,6 +7675,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,386553,386682,'CP011325','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5381,6 +7685,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,787742,787857,'CP007570','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5388,6 +7695,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,563271,563316,'CP007570','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5395,6 +7705,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1332921,1333055,'CP007570','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5402,6 +7715,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,962013,962104,'CP007570','-','AAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTAGCCTTATTTTAACGCGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5409,6 +7725,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02527',1,1311652,1311807,'CP007570','-','AAACAAAAGTTTCTTCATGCGTTTGGCGTGCCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5416,6 +7735,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,323177,323546,'CP007570','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5423,6 +7745,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,2052399,2052591,'CP007570','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5430,6 +7755,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,982705,983055,'CP007570','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -5437,6 +7765,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1742168,1742250,'CP007570','-','GTAGAGTAGGTCGCTGATTTGAGCCATCTCCTCAGAAACCCCTCGTCAAACCGTGCGTAAGGTTTTCCCTTACACGGCTTTC','N','N');
 #Insercao na tabela associativa analise_result
@@ -5444,6 +7775,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1196536,1196602,'CP007570','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5451,6 +7785,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1758476,1758542,'CP007570','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5458,6 +7795,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,2218480,2218546,'CP007570','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5465,6 +7805,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,161727,161793,'CP007570','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5472,6 +7815,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,201548,201614,'CP007570','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5479,6 +7825,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,415459,415525,'CP007570','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5486,6 +7835,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,740681,740747,'CP007570','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5493,6 +7845,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,772727,772793,'CP007570','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5500,6 +7855,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,798081,798147,'CP007570','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5507,6 +7865,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,929698,929764,'CP007570','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5514,6 +7875,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1014629,1014695,'CP007570','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5521,6 +7885,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1095006,1095072,'CP007570','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5528,6 +7895,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1179716,1179782,'CP007570','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5535,6 +7905,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1584256,1584322,'CP007570','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5542,6 +7915,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1604731,1604797,'CP007570','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5549,6 +7925,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,2163681,2163747,'CP007570','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5556,6 +7935,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,556272,556338,'CP007570','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5563,6 +7945,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,107875,107941,'CP007570','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5570,6 +7955,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,952108,952174,'CP007570','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5577,6 +7965,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1432598,1432744,'CP007570','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5584,6 +7975,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,890153,890243,'CP007570','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5591,6 +7985,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,866388,866487,'CP007570','-','ACCAATTCAAACCACAATTCCTACGCTCGTTCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5598,6 +7995,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1143197,1143293,'CP007570','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5605,6 +8005,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,425388,425474,'CP007570','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5612,6 +8015,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1204592,1204725,'CP007570','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5619,6 +8025,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1103504,1103624,'CP007570','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5626,6 +8035,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,246349,246431,'CP007570','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5633,6 +8045,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1414979,1415105,'CP007570','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5640,6 +8055,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1400614,1400694,'CP007570','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5647,6 +8065,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,902146,902260,'CP007570','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTGTCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5654,6 +8075,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1618260,1618359,'CP007570','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -5661,6 +8085,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1331827,1331977,'CP007570','-','AAATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -5668,6 +8095,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,95500,95573,'CP007570','+','TGAGTGTTATGATGATGGAATCAATTGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5675,6 +8105,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,191499,191557,'CP007570','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5682,6 +8115,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1112144,1112281,'CP007570','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5689,6 +8125,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,105502,105601,'CP007570','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5696,6 +8135,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,106361,106452,'CP007570','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5703,6 +8145,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,160213,160304,'CP007570','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5710,6 +8155,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,200034,200125,'CP007570','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5717,6 +8165,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,416948,417039,'CP007570','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5724,6 +8175,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,554758,554849,'CP007570','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5731,6 +8185,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,739167,739258,'CP007570','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5738,6 +8195,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,771213,771304,'CP007570','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5745,6 +8205,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,796567,796658,'CP007570','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5752,6 +8215,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,928184,928275,'CP007570','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5759,6 +8225,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,950594,950685,'CP007570','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5766,6 +8235,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1013115,1013206,'CP007570','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5773,6 +8245,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1093492,1093583,'CP007570','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5780,6 +8255,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1181205,1181296,'CP007570','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5787,6 +8265,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1198025,1198116,'CP007570','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5794,6 +8275,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1585745,1585836,'CP007570','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5801,6 +8285,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1603217,1603308,'CP007570','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5808,6 +8295,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1759965,1760056,'CP007570','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5815,6 +8305,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,2165170,2165261,'CP007570','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5822,6 +8315,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,2219969,2220060,'CP007570','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5829,6 +8325,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,106169,106340,'CP007570','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5836,6 +8335,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,160021,160192,'CP007570','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5843,6 +8345,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,199842,200013,'CP007570','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5850,6 +8355,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,417060,417231,'CP007570','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5857,6 +8365,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,554566,554737,'CP007570','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5864,6 +8375,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,738975,739146,'CP007570','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5871,6 +8385,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,771021,771192,'CP007570','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5878,6 +8395,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,796375,796546,'CP007570','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5885,6 +8405,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,927992,928163,'CP007570','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5892,6 +8415,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,950402,950573,'CP007570','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5899,6 +8425,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1012923,1013094,'CP007570','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5906,6 +8435,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1093300,1093471,'CP007570','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5913,6 +8445,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1181317,1181488,'CP007570','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5920,6 +8455,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1198137,1198308,'CP007570','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5927,6 +8465,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1585857,1586028,'CP007570','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5934,6 +8475,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1603025,1603196,'CP007570','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5941,6 +8485,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1760077,1760248,'CP007570','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5948,6 +8495,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,2165282,2165453,'CP007570','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5955,6 +8505,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,2220081,2220252,'CP007570','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5962,6 +8515,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02003',1,1743987,1744164,'CP007570','-','TTTCGTTACGGACTGTAGGTTTGCTCGCTCCCACGGACTGAGATAAGACCAATGAATATCAGCCTACTGGGGATAACGTTAGTCGGCATTGCTTCCGCATTTGGATTACTCCGCATACGTATGCCATAGCTACCTAACCGAACTGGTTAATTGTTAGGACAGGACTTTCACCTGTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5969,6 +8525,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02032',1,1814702,1815078,'CP007570','-','ACGCTGAGATTACACGTTTAGTCAGTTGTCTTTCAAAACCTTATGTTTTAGTTTTTTATCCACTCAAATCCCTTCAAGTAACAACCATGCGCGGTTAGTATCGCTAACCACTCGTTACGCCGCAAACTACTAAGCCATTTTTCAATTAACGAAAACCCCGCTAAAGGTCTAAGCTGCTTTACTCTTTGACTTTGCTATTATCCTTGCGAGACTCTAGCAGGTAGCCTAGCTACCGAAGCACACTTTCGTTTGCGACGGGCAATGACTTTTGCTTTATTCCAATATTTTCAACAAATAGCATTGTTTTCGTGTATCGCAGACGTGCATTGCCTTGCGTTTCGTCGCCTTTTGAGCAACAAAATGCGCAACGCCTACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -5976,6 +8535,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,532487,532633,'CP007570','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -5983,6 +8545,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2202675,2202742,'CP007570','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5990,6 +8555,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,283513,283640,'CP007570','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -5997,6 +8565,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,388345,388474,'CP007570','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6004,6 +8575,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,955317,955667,'CP011327','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -6011,6 +8585,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,772719,772834,'CP011327','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6018,6 +8595,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,583231,583276,'CP011327','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6025,6 +8605,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1263489,1263623,'CP011327','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6032,6 +8615,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,192426,192484,'CP011327','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6039,6 +8625,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,665292,665381,'CP011327','-','AGTTATATCGAAATATTGGGTCACCGTCTTTTTAACGGTTCTACATTGGAGTTGAGTTGGTAGCTCAACTCCTTTTTCTACGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6046,6 +8635,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,935735,935840,'CP011327','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6053,6 +8645,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,324274,324643,'CP011327','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6060,6 +8655,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1887683,1887875,'CP011327','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6067,6 +8665,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,523978,524044,'CP011327','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6074,6 +8675,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,756365,756431,'CP011327','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6081,6 +8685,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1514072,1514138,'CP011327','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6088,6 +8695,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1566956,1567022,'CP011327','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6095,6 +8705,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,538895,538961,'CP011327','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6102,6 +8715,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,576227,576293,'CP011327','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6109,6 +8725,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1991673,1991739,'CP011327','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6116,6 +8735,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,925831,925897,'CP011327','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6123,6 +8745,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,103764,103830,'CP011327','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6130,6 +8755,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1361883,1362029,'CP011327','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6137,6 +8765,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,867294,867384,'CP011327','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6144,6 +8775,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,847872,847971,'CP011327','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6151,6 +8785,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1104441,1104537,'CP011327','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6158,6 +8795,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,421504,421590,'CP011327','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6165,6 +8805,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1158539,1158672,'CP011327','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6172,6 +8815,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1065604,1065724,'CP011327','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6179,6 +8825,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,242779,242861,'CP011327','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6186,6 +8835,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1344230,1344356,'CP011327','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6193,6 +8845,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1329863,1329943,'CP011327','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6200,6 +8855,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,879287,879401,'CP011327','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6207,6 +8865,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1543069,1543168,'CP011327','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -6214,6 +8875,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1262395,1262545,'CP011327','-','AAATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -6221,6 +8885,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,665035,665226,'CP011327','+','GCTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6228,6 +8895,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,90346,90419,'CP011327','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6235,6 +8905,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1074829,1074966,'CP011327','-','AGGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTCATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCAACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6242,6 +8915,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,665526,665616,'CP011327','-','GTTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGTTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6249,6 +8925,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,102250,102341,'CP011327','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6256,6 +8935,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,522464,522555,'CP011327','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6263,6 +8945,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,537381,537472,'CP011327','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6270,6 +8955,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,574713,574804,'CP011327','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6277,6 +8965,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,754851,754942,'CP011327','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6284,6 +8975,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,924317,924408,'CP011327','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6291,6 +8985,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1515561,1515652,'CP011327','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6298,6 +8995,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1568445,1568536,'CP011327','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6305,6 +9005,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1993162,1993253,'CP011327','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6312,6 +9015,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,102058,102229,'CP011327','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6319,6 +9025,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,522272,522443,'CP011327','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6326,6 +9035,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,537189,537360,'CP011327','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6333,6 +9045,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,574521,574692,'CP011327','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6340,6 +9055,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,754659,754830,'CP011327','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6347,6 +9065,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,924125,924296,'CP011327','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6354,6 +9075,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1515673,1515844,'CP011327','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6361,6 +9085,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1568557,1568728,'CP011327','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6368,6 +9095,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1993274,1993445,'CP011327','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6375,6 +9105,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,552318,552464,'CP011327','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6382,6 +9115,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2029879,2029946,'CP011327','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAACTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6389,6 +9125,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,286170,286297,'CP011327','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6396,6 +9135,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,386317,386446,'CP011327','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6403,6 +9145,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,929087,929437,'CP012419','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -6410,6 +9155,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,748376,748491,'CP012419','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6417,6 +9165,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,597388,597433,'CP012419','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6424,6 +9175,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1286512,1286646,'CP012419','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6431,6 +9185,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,205599,205657,'CP012419','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6438,6 +9195,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,909484,909589,'CP012419','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6445,6 +9205,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02527',1,1265198,1265364,'CP012419','-','TTAATTTTACTCCTTTATCAATGCTTTGTCAATGGCAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6452,6 +9215,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,336828,337197,'CP012419','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6459,6 +9225,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1900136,1900328,'CP012419','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6466,6 +9235,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1384908,1385054,'CP012419','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6473,6 +9245,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,842899,842989,'CP012419','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6480,6 +9255,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,823476,823575,'CP012419','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6487,6 +9265,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1077660,1077756,'CP012419','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6494,6 +9275,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,434033,434119,'CP012419','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6501,6 +9285,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1131849,1131982,'CP012419','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTATAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6508,6 +9295,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1039303,1039423,'CP012419','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6515,6 +9305,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,256900,256982,'CP012419','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6522,6 +9315,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1367257,1367383,'CP012419','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6529,6 +9325,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1352892,1352972,'CP012419','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTGACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6536,6 +9335,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,854893,855007,'CP012419','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6543,6 +9345,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1560350,1560449,'CP012419','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -6550,6 +9355,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1285418,1285568,'CP012419','-','AAATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -6557,6 +9365,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,70921,70994,'CP012419','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6564,6 +9375,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1048048,1048185,'CP012419','-','AGGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTCATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCAACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6571,6 +9385,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,80344,80443,'CP012419','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6578,6 +9395,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02032',1,97850,98226,'CP012419','+','AGCAGGCGTTGCGCATTTTGTAGCTCAAAAGGCGACGAAACGCAAGGCAATGCACGTCTGCGATACACGAACACAATGCTATTTGTTGAAAATATTGGAATAAAGCAAAAGTCATTGCCCGTCGCAAACGAAAGTGTGCTTCGGTAGCTAGGCTACCTGCTAGAGTCTCGCAAGGATAATAGCAAAGTCAAAGAGTAAAGCAGCTTAGACCTTTCGCGGGGTTTTCGTTAATTGAAAAATGGCTTAGTAGTTTGTGACGTAACGAGTGGTTAGCGATACTAACCGTGCATGGTTGTTACTTGAAGGGATTTGAGTGGATAAAAAACTAAAACATAAGGTTTTGAAAGACAGCTGATAAGACGTGTAATCTCAGCGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6585,6 +9405,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,569899,570045,'CP012419','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6592,6 +9415,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2062910,2062977,'CP012419','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAACTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6599,6 +9425,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,298724,298851,'CP012419','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6606,6 +9435,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,398859,398988,'CP012419','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6613,6 +9445,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,753836,753951,'CP011329','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6620,6 +9455,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,547458,547503,'CP011329','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6627,6 +9465,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1372272,1372406,'CP011329','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6634,6 +9475,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,179031,179089,'CP011329','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6641,6 +9485,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,633697,633786,'CP011329','-','AGTTATATCGAAATATTGGGTCACCGTCTTTTTAACGGTTCTACATTGGAGTTGAGTTGGTAGCTCAACTCCTTTTTCTACGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6648,6 +9495,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,915000,915105,'CP011329','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6655,6 +9505,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02527',1,1247720,1247875,'CP011329','-','AAACAAAAGTTTCTTCATGCGTTTGGCGTGCCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6662,6 +9515,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,315556,315925,'CP011329','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6669,6 +9525,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1967194,1967386,'CP011329','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6676,6 +9535,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,936875,937225,'CP011329','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -6683,6 +9545,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1471980,1472126,'CP011329','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6690,6 +9555,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,848414,848504,'CP011329','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6697,6 +9565,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,828992,829091,'CP011329','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6704,6 +9575,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1090719,1090815,'CP011329','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6711,6 +9585,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,412789,412875,'CP011329','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6718,6 +9595,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1145357,1145490,'CP011329','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTACTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6725,6 +9605,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,229397,229479,'CP011329','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6732,6 +9615,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1453003,1453129,'CP011329','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6739,6 +9625,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1438637,1438717,'CP011329','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCTCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6746,6 +9635,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,860408,860522,'CP011329','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6753,6 +9645,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1634325,1634424,'CP011329','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -6760,6 +9655,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1371178,1371328,'CP011329','-','AACAAAAATCCTGCCAAAGAATTTTTGGCAGGATTTTTGGCAGGAAACCAAATCAATTTATCAGTTTCTATCAATCGCTTATCGCTCTCAAAGACTGGTAAATAGGGATTCCGCAATCTAATTATGATATGACTCTTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -6767,6 +9665,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,1974087,1974272,'CP011329','+','TGAAATATGATATAATAATGAAGCAGAAAAGTTAAGACGGTGGCTCTTATTTCTGAAAGGTAGGTGGTGCCCATGGGCAATTCATCAAAATCCAACAGAAAGGAGGAGCTAGATTTGTCTACCTTTGAGGTCTTAACACTCATGTTTATAGCAGGTAACTTCGTTATCGCTCTCGTGAAGTTAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6774,6 +9675,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,633440,633631,'CP011329','+','GCTTTAATGGTATACTATTAAATGTAGAAAAGTGAAGACGGTGGCTCCTAAATCCTGAAAGAGAGAGGTGAAGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6781,6 +9685,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,90639,90712,'CP011329','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6788,6 +9695,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1059665,1059802,'CP011329','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6795,6 +9705,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,100056,100155,'CP011329','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6802,6 +9715,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,633931,634021,'CP011329','-','GTTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTTCTACATTGGGAGTTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6809,6 +9725,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,519969,520115,'CP011329','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6816,6 +9735,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2112968,2113035,'CP011329','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6823,6 +9745,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,277451,277578,'CP011329','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6830,6 +9755,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,377601,377730,'CP011329','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6837,6 +9765,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,947724,948074,'HF952105','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -6844,6 +9775,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,764992,765107,'HF952105','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTGCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6851,6 +9785,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1305081,1305215,'HF952105','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6858,6 +9795,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,181089,181147,'HF952105','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACTTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6865,6 +9805,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,927357,927462,'HF952105','-','AAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6872,6 +9815,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,303906,304275,'HF952105','+','ATTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6879,6 +9825,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1934034,1934226,'HF952105','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6886,6 +9835,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1403471,1403617,'HF952105','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6893,6 +9845,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,862083,862173,'HF952105','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6900,6 +9855,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,841550,841649,'HF952105','-','ACCAATTCAAACCACAATTCCTACGCTCGTTCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6907,6 +9865,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1097557,1097653,'HF952105','-','GCTATTTATTAGCTTACTTATTGCTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6914,6 +9875,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,402666,402752,'HF952105','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6921,6 +9885,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1150853,1150986,'HF952105','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6928,6 +9895,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1058816,1058936,'HF952105','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -6935,6 +9905,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,558933,558978,'HF952105','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6942,6 +9915,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,231411,231493,'HF952105','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6949,6 +9925,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1385818,1385944,'HF952105','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6956,6 +9935,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1371446,1371526,'HF952105','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGGGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6963,6 +9945,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,872766,872880,'HF952105','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTGTCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6970,6 +9955,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1587447,1587546,'HF952105','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -6977,6 +9965,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1303987,1304137,'HF952105','-','AAACAAAATCCTGCCAAAGAATTTTTGGCAGGATTTTTGGCAGGAAACCAAATTAATTTATCAGTTTCTCTAAATCGCTATATGCTCTAAAAGACTGGTAAATCGGGCTTCCGCTCTCAAATTGCTACGTGCTTCTTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -6984,6 +9975,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,1547937,1548126,'HF952105','+','GTCCCTATGATATAATAAACCTCGTAACAAAGTAAAAGACGGTAGTCGTAGCCTTATGTCTGGAGGTGGTGCTTATGTATGTAAGTCACAGAAACCAAAAGAAAGGAGACGACAAAGTTTGCCAGTTTATGAAACGCTTACTTTGATGATTGCCTTTGGTACTCTGATAGTAGCTATCATGAATAGCAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -6991,6 +9985,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,90589,90662,'HF952105','+','TGAGTGTTATGATGATGGAATCAATTGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -6998,6 +9995,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1067939,1068076,'HF952105','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7005,6 +10005,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,100851,100950,'HF952105','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCAATGTAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7012,6 +10015,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,1548180,1548267,'HF952105','-','AATATAAACAAATACGGTAAGGCTGCCGTCTTAAACGGTGTTACCACAGGAGATTGTTTGCGCAATCTCCTTTTTCTATGTCCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7019,6 +10025,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,531443,531589,'HF952105','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7026,6 +10035,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2075290,2075357,'HF952105','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7033,6 +10045,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02425',1,2053384,2053465,'HF952105','-','TGAAATCAAAAAAAGCACCTTGGAATAACGCCCCAAAGTGCTTAGTATCAAGGCTTTTAAGCCTATCTTATTCAATAAAAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7040,6 +10055,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,265807,265934,'HF952105','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7047,6 +10065,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,367462,367591,'HF952105','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7054,6 +10075,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,999963,1000313,'CP000114','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -7061,6 +10085,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,817262,817377,'CP000114','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7068,6 +10095,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,615163,615208,'CP000114','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7075,6 +10105,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1320017,1320151,'CP000114','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7082,6 +10115,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,188954,189012,'CP000114','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7089,6 +10125,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,979986,980091,'CP000114','-','TAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7096,6 +10135,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02527',1,1298737,1298903,'CP000114','-','TTAATTTTACTCCTTTATCAATGCTTTGTCAATGGCAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7103,6 +10145,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,321748,322117,'CP000114','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7110,6 +10155,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,1938824,1939016,'CP000114','+','ACATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7117,6 +10165,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1418411,1418557,'CP000114','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7124,6 +10175,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,913401,913491,'CP000114','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7131,6 +10185,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,892418,892517,'CP000114','-','ACCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7138,6 +10195,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1149088,1149184,'CP000114','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7145,6 +10205,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,418980,419066,'CP000114','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7152,6 +10215,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00240',1,2043962,2044032,'CP000114','+','TCGCACATCTTGTTGTCTGATTATTGATTTTTCGCGAAACCATTTGATCATATGACAAGATGTGTATCCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7159,6 +10225,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1203250,1203383,'CP000114','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7166,6 +10235,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1110251,1110371,'CP000114','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7173,6 +10245,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,240255,240337,'CP000114','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7180,6 +10255,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1400758,1400884,'CP000114','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7187,6 +10265,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1386391,1386471,'CP000114','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7194,6 +10275,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,925395,925509,'CP000114','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7201,6 +10285,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1597643,1597742,'CP000114','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -7208,6 +10295,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1318923,1319073,'CP000114','-','AAATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -7215,6 +10305,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01492',1,698451,698642,'CP000114','+','GCTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7222,6 +10315,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,90351,90424,'CP000114','+','TGAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7229,6 +10325,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1119476,1119613,'CP000114','-','AGGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTCATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCAACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7236,6 +10335,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,99776,99875,'CP000114','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7243,6 +10345,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,698942,699032,'CP000114','-','GTTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGTTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7250,6 +10355,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01776',1,698708,698797,'CP000114','-','AGTTATATCGAAATATTGGGTCACCGTCTTTTTAACGGTTCTACATTGGAGTTGAGTTGGTAGCTCAACTCCTTTTTCTACGTTCATTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7257,6 +10365,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,548695,548841,'CP000114','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7264,6 +10375,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2093369,2093436,'CP000114','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAACTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7271,6 +10385,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,283644,283771,'CP000114','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7278,6 +10395,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,383793,383922,'CP000114','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7285,6 +10405,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,826173,826288,'CP007571','+','GAATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7292,6 +10415,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00522',1,562142,562187,'CP007571','-','AGTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7299,6 +10425,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00557',1,1363040,1363174,'CP007571','-','ATAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7306,6 +10435,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02348',1,997416,997507,'CP007571','-','AAAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTAGCCTTATTTTAACGCGCTGTGCTGTTTCGAATAATTCCAACA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7313,6 +10445,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02527',1,1341806,1341961,'CP007571','-','AAACAAAAGTTTCTTCATGCGTTTGGCGTGCCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7320,6 +10455,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00011',1,321132,321501,'CP007571','+','ATTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7327,6 +10465,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00013',1,2020090,2020282,'CP007571','-','AGGAAGCTGTATTGGCACCGATGATCCACTTTTTGTATTGATCCCGCACAAAATAAGCAGGTGGGTAACTCGCACCTCTTTAAGTGGCTTCCGCGTGTTAACGGCTTGCGCACTAGAGATGACTTCGTTTCCCGAAATACAAAGAAATAGTCGGTCAACACTTAGATGTGGATTCGTATGCCACAGCAATGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7334,6 +10475,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00023',1,1018108,1018458,'CP007571','-','ATATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','N','N');
 #Insercao na tabela associativa analise_result
@@ -7341,6 +10485,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,160176,160242,'CP007571','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7348,6 +10495,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,199997,200063,'CP007571','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7355,6 +10505,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,413415,413481,'CP007571','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7362,6 +10515,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,811158,811224,'CP007571','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7369,6 +10525,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,834426,834492,'CP007571','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7376,6 +10535,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1050033,1050099,'CP007571','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7383,6 +10545,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1213311,1213377,'CP007571','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7390,6 +10555,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1614869,1614935,'CP007571','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7397,6 +10565,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,1780532,1780598,'CP007571','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7404,6 +10575,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,2134276,2134342,'CP007571','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7411,6 +10585,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,2190637,2190703,'CP007571','-','ATCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7418,6 +10595,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,555143,555209,'CP007571','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7425,6 +10605,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,519358,519424,'CP007571','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7432,6 +10615,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,107875,107941,'CP007571','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7439,6 +10625,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00029',1,987511,987577,'CP007571','+','AACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7446,6 +10635,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00050',1,1462716,1462862,'CP007571','-','CTTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7453,6 +10645,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,928976,929066,'CP007571','+','ATAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7460,6 +10655,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00059',1,905211,905310,'CP007571','-','ACCAATTCAAACCACAATTCCTACGCTCGTTCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7467,6 +10665,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00167',1,1176793,1176889,'CP007571','-','GCTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7474,6 +10675,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00169',1,423344,423430,'CP007571','+','TCTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7481,6 +10685,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00504',1,1234763,1234896,'CP007571','+','AGACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7488,6 +10695,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00515',1,1137052,1137172,'CP007571','-','TAGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7495,6 +10705,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00555',1,244798,244880,'CP007571','+','GGTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7502,6 +10715,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00558',1,1445098,1445224,'CP007571','-','AGAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7509,6 +10725,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF00559',1,1430733,1430813,'CP007571','-','CCCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7516,6 +10735,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01054',1,940970,941084,'CP007571','+','TGTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTGTCTAAACGTTAAAGGAGAAATTATG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7523,6 +10745,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01065',1,1643884,1643983,'CP007571','-','AAAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','N','N');
 #Insercao na tabela associativa analise_result
@@ -7530,6 +10755,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01470',1,1361946,1362096,'CP007571','-','AAATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','N','N');
 #Insercao na tabela associativa analise_result
@@ -7537,6 +10765,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01708',1,95500,95573,'CP007571','+','TGAGTGTTATGATGATGGAATCAATTGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7544,6 +10775,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01709',1,189948,190006,'CP007571','+','ATTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7551,6 +10785,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01732',1,1145740,1145877,'CP007571','-','AGAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7558,6 +10795,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01764',1,105502,105601,'CP007571','+','TCGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7565,6 +10805,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,106361,106452,'CP007571','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7572,6 +10815,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,158662,158753,'CP007571','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7579,6 +10825,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,198483,198574,'CP007571','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7586,6 +10835,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,414904,414995,'CP007571','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7593,6 +10845,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,517844,517935,'CP007571','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7600,6 +10855,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,553629,553720,'CP007571','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7607,6 +10865,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,809644,809735,'CP007571','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7614,6 +10875,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,832912,833003,'CP007571','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7621,6 +10885,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,985997,986088,'CP007571','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7628,6 +10895,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1048519,1048610,'CP007571','+','CGAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7635,6 +10905,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1214800,1214891,'CP007571','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7642,6 +10915,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1616358,1616449,'CP007571','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7649,6 +10925,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,1782021,1782112,'CP007571','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7656,6 +10935,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,2135765,2135856,'CP007571','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7663,6 +10945,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF01998',1,2192126,2192217,'CP007571','-','CCCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7670,6 +10955,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,106169,106340,'CP007571','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7677,6 +10965,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,158470,158641,'CP007571','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7684,6 +10975,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,198291,198462,'CP007571','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7691,6 +10985,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,415016,415187,'CP007571','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7698,6 +10995,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,517652,517823,'CP007571','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7705,6 +11005,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,553437,553608,'CP007571','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7712,6 +11015,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,809452,809623,'CP007571','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7719,6 +11025,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,832720,832891,'CP007571','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7726,6 +11035,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,985805,985976,'CP007571','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7733,6 +11045,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1048327,1048498,'CP007571','+','ACTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7740,6 +11055,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1214912,1215083,'CP007571','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7747,6 +11065,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1616470,1616641,'CP007571','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7754,6 +11075,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,1782133,1782304,'CP007571','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7761,6 +11085,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,2135877,2136048,'CP007571','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7768,6 +11095,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02001',1,2192238,2192409,'CP007571','-','CGGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','N','N');
 #Insercao na tabela associativa analise_result
@@ -7775,6 +11105,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02391',1,532793,532939,'CP007571','-','TGTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7782,6 +11115,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02419',1,2174834,2174901,'CP007571','-','AAACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7789,6 +11125,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02447',1,281468,281595,'CP007571','+','GCTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','N','N');
 #Insercao na tabela associativa analise_result
@@ -7796,6 +11135,9 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature
 INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) 
 VALUES(10,'RF02526',1,386301,386430,'CP007571','-','TCTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','N','N');
 #Insercao na tabela associativa analise_result
@@ -7803,3 +11145,6 @@ INSERT INTO feature_analysis_result (id_feature,id_analysis_type)
 VALUES LAST_INSERT_ID(),0
 SELECT MAX(id) FROM feature
 #Insercao na tabela associativa group
+INSERT INTO feature_group (group_id,feature_id)
+VALUES 11,LAST_INSERT_ID()
+SELECT MAX(id) FROM feature

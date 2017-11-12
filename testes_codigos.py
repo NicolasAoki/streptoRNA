@@ -88,7 +88,7 @@ def insere_tabela_feature_group():
                 f.write("INSERT INTO feature_analysis_result(feature_analysis_id,id_feature,id_analysis_type)\n")
                 f.write("VALUES({},{},{})".format(feature_analysis_id,);)'''
 
-
+#somente sRNAs annotations
 def insere_tabela_feature(pasta):  #tabela feature final.gff
     with open("insert_feature.sql", 'w') as f:
         for file in os.listdir(pasta):
@@ -118,9 +118,9 @@ def insere_tabela_feature(pasta):  #tabela feature final.gff
                     f.write("INSERT INTO feature_analysis_result (id_feature,id_analysis_type)\n")
                     f.write("VALUES LAST_INSERT_ID(),0\n")
                     f.write("SELECT MAX(id) FROM feature\n")
-                    f.write("#Insercao na tabela associativa group\n")
-                    f.write("INSERT INTO feature_group (group_id,feature_id)\n")
-                    f.write("VALUES 11,LAST_INSERT_ID()\n")
+                    f.write("#Insercao na tabela associativa type\n")
+                    f.write("INSERT INTO feature_type (feature_id,type_id)\n")
+                    f.write("VALUES LAST_INSERT_ID(),3\n")
                     f.write("SELECT MAX(id) FROM feature\n")
         f.close()
 
@@ -149,12 +149,6 @@ def insere_tabela_feature_alien(pasta):
                                                                             "'" + precursor_mature + "'",
                                                                             "'" + candidate_know + "'"))
         f.close()
-
-def insere_analysis_result_infernal(chromossome,nome_analise):
-    id_feature = "SELECT id_feature FROM feature WHERE feature_name like " + chromossome
-    id_analysis_type = "SELECT analysis_type_id FROM analysis_type WHERE analysis_name like "+nome_analise
-    f.write("INSERT INTO feature_analysis_result (id_feature,id_analysis_type)\n")
-    f.write("VALUES({},{})\n".format(id_feature,id_analysis_type))
 
 '''
 def insere_tabela_feature_core_exclusive(pasta):
@@ -194,7 +188,5 @@ def main():
     insere_tabela_analysis_type()
     insere_tabela_type()
     insere_tabela_group()
-    '''insere_tabela_feature_analysis_result(sRNAs_annotations) #a fazer
-    insere_tabela_feature_analysis_result(hgt_regions)'''
 if __name__ == '__main__':
     main()
