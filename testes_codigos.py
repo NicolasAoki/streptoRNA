@@ -119,7 +119,9 @@ def insere_tabela_feature(pasta):  #tabela feature final.gff
                     f.write("VALUES LAST_INSERT_ID(),0\n")
                     f.write("SELECT MAX(id) FROM feature\n")
                     f.write("#Insercao na tabela associativa group\n")
-                    #f.write("INSERT INTO feature_group (group_id)")
+                    f.write("INSERT INTO feature_group (group_id,feature_id)\n")
+                    f.write("VALUES 11,LAST_INSERT_ID()\n")
+                    f.write("SELECT MAX(id) FROM feature\n")
         f.close()
 
 def insere_tabela_feature_alien(pasta):
