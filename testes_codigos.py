@@ -97,29 +97,19 @@ def insere_tabela_feature(pasta):  #tabela feature final.gff
                     fim = show_value(a['stop'])
                     nome_chrom = show_value(a['chrom'])
                     feature_name = show_value(a['name'])
-                    # organism_id = "(SELECT o.organism_id FROM organism o,feature f WHERE o.abbreviation = f.feature_name)"
-                    organism_id = 10
+                    organism_id = ("(SELECT o.organims_id FROM organism as o WHERE abbreviation like "+nome_chrom+")")
                     publication_id = 1
                     strand = show_value(a['strand'])
-                    precursor_mature = 'N'
-                    candidate_know = 'N'
-                    f.write(
-                    "INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) \n")  # preenche tabela feature
-                    f.write("VALUES({},{},{},{},{},{},{},{},{},{});\n".format(organism_id, "'" + feature_name + "'",
-                                                                            publication_id, start, fim,
-                                                                            "'" + nome_chrom + "'", "'" + strand + "'",
-                                                                            "'" + org_sequencia(nome_chrom, start,
-                                                                                                fim) + "'",
-                                                                            "'" + precursor_mature + "'",
-                                                                            "'" + candidate_know + "'"))
+                    f.write("INSERT INTO feature (organism_id,feature_name,publication_id,start,end,strand,sequence) \n")  # preenche tabela feature
+                    f.write("VALUES({},{},{},{},{},{},{});\n".format(organism_id, "'" + feature_name + "'",
+                                                                            publication_id, start, fim, "'" + strand + "'",
+                                                                            "'" + org_sequencia(nome_chrom, start,fim)+"'"))
                     f.write("#Insercao na tabela associativa analise_result\n")
                     f.write("INSERT INTO feature_analysis_result (id_feature,id_analysis_type)\n")
-                    f.write("VALUES LAST_INSERT_ID(),0\n")
-                    f.write("SELECT MAX(id) FROM feature\n")
+                    f.write("VALUES (SELECT MAX(id) FROM feature),0)\n")
                     f.write("#Insercao na tabela associativa type\n")
                     f.write("INSERT INTO feature_type (feature_id,type_id)\n")
-                    f.write("VALUES LAST_INSERT_ID(),3\n")
-                    f.write("SELECT MAX(id) FROM feature\n")
+                    f.write("(VALUES (SELECT MAX(id) FROM feature),3)\n")
         f.close()
 
 def insere_tabela_feature_alien(pasta):
@@ -148,6 +138,13 @@ def insere_tabela_feature_alien(pasta):
                                                                             "'" + candidate_know + "'"))
         f.close()
 
+def insere_localization_shared(pasta):
+    with open("insert_feature_shared.mysql",'w') as f:
+        for file in os.listdir(pasta):
+            if file.startswith("SHARED"):
+                with open(pasta+file, 'r') as g:
+                    linhas = g.readlines
+
 def insere_localization(pasta):
     with open("insere_localization_teste.sql", 'w') as f:
         for file in os.listdir(pasta):
@@ -167,8 +164,7 @@ def insere_localization(pasta):
                         f.write("VALUES({},{},{},{},{},{})\n".format("'"+loc_identification+"'","'"+host_gene+"'","'"+sequence+"'",start,end,"'"+strand+"'"))
                         f.write("#insercao na tabela associativa\n")
                         f.write("INSERT INTO featureloc (loc_id,feature_id)\n")
-                        f.write("VALUES LAST_INSERT_ID(),"+feature_id+"\n")
-                        f.write("SELECT MAX(id) FROM localization\n")
+                        f.write("VALUES (SELECT MAX(id) FROM localization),"+feature_id+")\n")
 
 def main():
     #Pastas

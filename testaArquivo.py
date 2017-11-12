@@ -20,11 +20,12 @@ def main():
 
     with open("insere_localization_teste.sql", 'w') as f:
         for file in os.listdir(pasta):
-            if file.startswith("CORE") or file.startswith("EXCLUSIVE"):
+            if file.startswith("SHARED"):
                 with open(pasta + file, 'r') as g:
                     linhas = g.readlines()
                     for line in linhas:
                         lista = line.split()
+                        print lista[9]
                         loc_identification = lista[2]
                         host_gene =  lista[0]
                         start = int(lista[3])
@@ -33,7 +34,7 @@ def main():
                         strand = "+"
                         #f.write("INSERT INTO localization (loc_identification,host_gene,sequence,start,end,strand)\n")
                         #f.write("VALUES({},{},{},{},{},{})\n".format("'"+loc_identification+"'","'"+host_gene+"'","'"+sequence+"'",start,end,"'"+strand+"'"))
-                        print loc_identification,host_gene,start,end
+                        #print loc_identification,host_gene,start,end
 
 if __name__ == '__main__':
     main()
