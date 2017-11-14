@@ -68,24 +68,6 @@ def insere_tabela_type():
             f.write("VALUES({});\n".format("'"+tipo+"'"))
         f.close()
 
-def insere_tabela_group():
-    group_description =['CORE','EXCLUSIVE','SHARED','3_tailed','5_tailed','in_silico']
-    with open("insere_group.sql", 'w') as f:
-        for tipo in group_description:
-            f.write("INSERT INTO group(group_description)")
-            f.write("VALUES({});\n".format("'"+tipo+"'"))
-        f.close()
-
-'''def insere_tabela_feature_analysis_result(pasta):
-    with open("insert_feature_analysis_result.sql", 'a') as f:
-        for file in os.listdir(pasta):
-            caminho = pasta+file
-            if file.endswith("final.gff"):
-                feature_analysis_id = "DEFAULT"
-
-                f.write("INSERT INTO feature_analysis_result(feature_analysis_id,id_feature,id_analysis_type)\n")
-                f.write("VALUES({},{},{})".format(feature_analysis_id,);)'''
-
 #somente sRNAs annotations
 def insere_tabela_feature(pasta):  #tabela feature final.gff
     with open("insert_feature.sql", 'w') as f:
@@ -97,45 +79,17 @@ def insere_tabela_feature(pasta):  #tabela feature final.gff
                     fim = show_value(a['stop'])
                     nome_chrom = show_value(a['chrom'])
                     feature_name = show_value(a['name'])
-                    organism_id = ("(SELECT o.organims_id FROM organism as o WHERE abbreviation like "+nome_chrom+")")
+                    nome_feature = a[2]
+                    organism_id = ("(SELECT o.organism_id FROM organism as o WHERE abbreviation like '"+nome_chrom+"')")
                     publication_id = 1
                     strand = show_value(a['strand'])
-                    f.write("INSERT INTO feature (organism_id,feature_name,publication_id,start,end,strand,sequence) \n")  # preenche tabela feature
-                    f.write("VALUES({},{},{},{},{},{},{});\n".format(organism_id, "'" + feature_name + "'",
-                                                                            publication_id, start, fim, "'" + strand + "'",
-                                                                            "'" + org_sequencia(nome_chrom, start,fim)+"'"))
-                    f.write("#Insercao na tabela associativa analise_result\n")
+                    f.write("INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name) \n")  # preenche tabela feature
+                    f.write("VALUES({},{},{},{},{},{},{});\n".format(organism_id,publication_id, start, fim, "'" + strand + "'",
+                                                                            "'" + org_sequencia(nome_chrom, start,fim)+"'", "'" + feature_name + "'"))
                     f.write("INSERT INTO feature_analysis_result (id_feature,id_analysis_type)\n")
-                    f.write("VALUES (SELECT MAX(id) FROM feature),0)\n")
-                    f.write("#Insercao na tabela associativa type\n")
+                    f.write("VALUES ((SELECT MAX(feature_id) FROM feature),0);\n")
                     f.write("INSERT INTO feature_type (feature_id,type_id)\n")
-                    f.write("(VALUES (SELECT MAX(id) FROM feature),3)\n")
-        f.close()
-
-def insere_tabela_feature_alien(pasta):
-    with open("insert_feature.sql", 'w') as f:
-        for file in os.listdir(pasta):
-            if file.endswith("alienhunter.gff"):
-                i = BedTool(pasta + file)  # acrescenta na string sRNAs com o arquivo .gff66693734
-                aux = ''
-                for k, a in enumerate(i):  # lista todas as linhas de i(arquivo) com indice a, e k sendo cada arquivo
-                    organism_id = 10
-                    start = show_value(a['start'])
-                    fim = show_value(a['stop'])
-                    nome_chrom = show_value(a['chrom'])
-                    feature_name = show_value(a['name'])
-                    publication_id = 1
-                    strand = show_value(a['strand'])
-                    precursor_mature = 'N'
-                    candidate_know = 'N'
-                    f.write("INSERT INTO feature (organism_id,feature_name,publication_id,start,end,chromossome,strand,sequence,precursor_mature,candidate_know) \n")  # preenche tabela feature
-                    f.write("VALUES({},{},{},{},{},{},{},{},{},{});\n".format(organism_id, "'" + feature_name + "'",
-                                                                            publication_id, start, fim,
-                                                                            "'" + nome_chrom + "'", "'" + strand + "'",
-                                                                            "'" + org_sequencia(nome_chrom, start,
-                                                                                                fim) + "'",
-                                                                            "'" + precursor_mature + "'",
-                                                                            "'" + candidate_know + "'"))
+                    f.write("VALUES ((SELECT MAX(feature_id) FROM feature),3);\n")
         f.close()
 
 def insere_localization_shared(pasta):
@@ -159,12 +113,12 @@ def insere_localization(pasta):
                         end = int(lista[4])
                         sequence = org_sequencia(host_gene, start, end)
                         strand = "+"
-                        feature_id = "SELECT f.feature_id FROM feature f,localization l WHERE l.loc_identification like f.chromossome and f.start > l.start and f.end < l.end"
+                        feature_id = "(SELECT f.feature_id FROM feature f,localization l WHERE f.start > l.start and f.end < l.end)"
                         f.write("INSERT INTO localization (loc_identification,host_gene,sequence,start,end,strand)\n")
-                        f.write("VALUES({},{},{},{},{},{})\n".format("'"+loc_identification+"'","'"+host_gene+"'","'"+sequence+"'",start,end,"'"+strand+"'"))
+                        f.write("VALUES({},{},{},{},{},{});\n".format("'"+loc_identification+"'","'"+host_gene+"'","'"+sequence+"'",start,end,"'"+strand+"'"))
                         f.write("#insercao na tabela associativa\n")
                         f.write("INSERT INTO featureloc (loc_id,feature_id)\n")
-                        f.write("VALUES (SELECT MAX(id) FROM localization),"+feature_id+")\n")
+                        f.write("VALUES ((SELECT MAX(loc_id) FROM localization),"+feature_id+");\n")
 
 def main():
     #Pastas
@@ -178,7 +132,6 @@ def main():
     insere_tabela_feature(sRNAs_annotations)
     insere_tabela_analysis_type()
     insere_tabela_type()
-    insere_tabela_group()
     insere_localization(regions_annotations)
 if __name__ == '__main__':
     main()
