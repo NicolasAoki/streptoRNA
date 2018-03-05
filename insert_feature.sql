@@ -1,9 +1,5 @@
 INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
 VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'AE009948'),2,922412,922761,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
-
-
-
-
 INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
 VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'AE009948'),2,739286,739400,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
 INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
@@ -229,3 +225,2006 @@ VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP00381
 INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
 VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1565879,1565944,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
 INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,538664,538729,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,575998,576063,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1990436,1990501,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,103767,103832,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,924944,925009,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGGTTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1360888,1361033,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,866399,866488,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,846978,847076,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1103362,1103457,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,421516,421601,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1157506,1157638,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1064717,1064836,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,242783,242864,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1343235,1343360,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1328868,1328947,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,878392,878505,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1541992,1542090,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1261400,1261549,'-','AATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,664122,664312,'+','CTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','rli28',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,90348,90420,'+','GAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1073750,1073886,'-','GGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTCATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCAACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,101394,101492,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,664613,664702,'-','TTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGTTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,664379,664467,'-','GTTATATCGAAATATTGGGTCACCGTCTTTTTAACGGTTCTACATTGGAGTTGAGTTGGTAGCTCAACTCCTTTTTCTACGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,97194,97284,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,102253,102343,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,522231,522321,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,537148,537238,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,574482,574572,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,753956,754046,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,923422,923512,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1514484,1514574,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1567368,1567458,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1991925,1992015,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,97002,97172,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,102061,102231,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,522039,522209,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,536956,537126,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,574290,574460,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,753764,753934,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,923230,923400,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1514596,1514766,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1567480,1567650,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,1992037,1992207,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,552087,552232,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,2028642,2028708,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAACTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,286177,286303,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003810'),2,386329,386457,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,643862,643976,'+','AATTACGGTCTTCGTTTACCACATTCATTTTCAGATGATGAATTGCGTGAAATCGCTAAATTAGTACATGATGCTGGTAAAGAATTGACAGTAGCTTGTAATGCACTCATGCAT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,1095244,1095377,'-','TATACCGTACTTTTCATCAATCCAAACTTGGTTCATCTCAGGTCGTAATAATGGAATATGATGATCGCCGCTTAAATTTGTTCCTGCTTTGTTATTAATTAAAAAAGATATTTGTTTTCGTTGTTTTTCAGAT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,803294,803384,'-','ATGCTTTCTTGCTAAAGAAAATATTATGAAAACATGGTATAATGTAGACGATGGAAAATAAGAAATCAAGGAGTTAAGCAAGAAACTCTT','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,295289,295657,'+','TTGAAAATATGTATTTTTACCACAAGGTAATGGCTGTATTTTCAATGATTTTGCTTCTATTGCACAAAATTGGTCTTGGACAAGGCGGACATGGAAGTGAGTTTGCAAAGACTATTGGCAGTGCGGGATTATATCTTTTTCTAAGTATTGTTTTTGTAGCTTATTTCTGAAATTTTTTAAAGTATGAAATTTGGCGTTTTATTCATCGCTTTGTTTATTTAGCCTACATTTTGGGATTGGTACATACTTTTATGATTTTAGGAGATAGGACACTAGGAAATACTTTACTCAGTTTAATCGTATTAGGTTATGCTGTCATTGGGGTTATATCTGGATTTTATATTATTTTCCTATATTCTAGAATGCGT','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,1680402,1680593,'+','ACAAAATACAACATTAAACTTTAAAACTAACTTTCAGGAATTGTCGCCAGAACAACTAAATAATATCACTGGTGGTGGTTGGATTGATGATATTAAGAAAATAATAAACTTAGATAAATTGAACTTTTTAAGACTATAATATGATTTCGAAAGTTTGGCAGAAACTAAAATCTTGGCTACTTGTTGCAATA','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,822058,822407,'-','AGATTATTCAGGATATTCTGCATGCAGATGCTCCAACACCATTCCCATCAAATGAAACTAATCCTGAAAAAATGCGTCAGTGGCTTGCAACTGTTACTAAGATTAACATTGGACAAAGAACCAATCCATTCCAGCGTTTTGGTCTATCATTGATGCCTAATATTGAAGTTCTAGGAATTGGGTTTACTCCGATTAATGATATGACGCCAGTTTTGCAATTCAAAAAACTTAAACAGCTTTGGATGACAGATACTGGTATTACAGATTATTCTTTCCTTGATAAGATGCCACTATTAGAAGGATTGGATATTTCACAAAACGGTATTAAGCATTTATCTTTCCTTACAAA','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,1183956,1184101,'-','GGCAAAATCAACATCAAAATCTTTAACATCAAATTTATCTGCACCTATACCAATTTCTTCATCTGGTCCAAAGCCAACTCTAATTTCACAATGCTCAATTTCTGGATGCGAAGCCAAATATTCCATAGCTGTCATGATTTCTGCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,737101,737190,'+','AAGTTAATGGCGAACCTTGTAATCATTGTGATATTTGTCGAGATATTACAAATGGTAGTTTAGAGGATGTCATTGAAATTGATGCTGCG','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,717666,717764,'-','GGTTGGATTTCTGGAAATCCAAAGGACATTCCGTTGAGCCTTCAGCTAACTTGGTTCCTGTGAACGACCCAACGCTTCTTTGGATCAACTCAGGTGTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,951218,951313,'-','GGATGATAACCAGACGGTACCCAATGAAAATAATAATAATTAATGCTATCAAACGTTTTAAAAATTTAAACATATTATTTATTTTGAATATCCTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,384861,384946,'+','TTTTAAACTTTGTCCCTCCTATTATATCATATCACTATATCATACTAGGAATTATTATTTTTGGATAATTAAATAAAGAAAACGT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,1005774,1005906,'+','ATTACCTAAAATCAATTTTGAGCCCTCTTTTTTATAGGCTGTTTTTTCACCATTTTTCACAATATTACCATAGAACGCATTTGCCTTTTTATTGATATGCGATACTTTAATAACACTTGTTAAGCGATGTAC','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,913825,913944,'-','AAAAAGAGTGTCATTAAATCTCTCCAAAGTATTAATTAGTCCGTTATAACATAGGTATAAAATGATTCATTTCATTACTCATTTAAAATGTCTCTCTATCAAGTATTCTCAAGACAATT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,539193,539237,'-','AAACATGCCAGACGTGTCATCTCGTCTAACTTTTTAAAATTAGA','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,228456,228537,'+','AAACGAATCAGTTGTTTTTGATGTTGTAATCAGCCAACGCGCTAGCCTTCACCAAGGTACTCACGCGGTTAAAAACCGTTC','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,1166305,1166430,'-','GAAGAATCTTTAGACAGATTAGTCATTCCAAGAAGGTAAGACTCAAATAATAATTGAACCTTATCCTCTTTATGTTGTGGTATAGAAGATAAATCTATCTTCATATAACCACCTTCAACGTCATT','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,1152063,1152142,'-','AAGCTGCTAACTCTCTGACTATCTCCATTTAAACCAATTGGGACATAAGGGGTTAAAATTCTAACACCTGATGCCTTTA','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,749095,749208,'+','AAAGGCGGTCAAAACAGGAATGTTAGCGGAGAGGGAAACGATTAGTTTAGTCGCTTCATATTTAAAAAAATATCCGCAACCTTATGTATTAGATCCTGTTATGGTGGCAACTA','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,1349579,1349677,'-','AGTCGAACCTGCTCGTAAGGGCTATGCTGGTACAATGTTTTTATATCGTAAAGGGTTAAATCCTATTGTTAGCTTCCCTGAAATCGATGCTCCTACTA','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,90639,90711,'+','CACGAGCGATGGCTGAGCTGACACATCCTAATATTGTCGCTATTCGTGATATAGGTGAAGAAGACGGACAGC','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,178850,178907,'+','AAGTTGGTGCTTTAGAGTCTCAACAATCAGAATTAGAAGCGCAAAATGTTCAACTTG','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,922436,922572,'-','TTGTTTTTAATCCTAATTTGAGTTCTGCCATTTCAAATGACTTATGTGTTCTTGTTGAATTCTCAAAAAAGAGATTTGACACATAGTAATCTTTATCAAAACCAATGTTGCTAGGATTTTCTTTGACTTCGATACT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,100043,100141,'+','AAAGGGGATCAAATATGATAAAAATTGGTTTATTCTGTGCAGCAGGTTTTTCAACAGGTATGTTAGTAAACAATATGAAAATCGCAGCGGATAAAGAA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,511889,512034,'-','CAAGGGGCGTCCTTTTTTAGAGAAAGATTTAAGAAGATTTTGAGGAGTGATACCTTCTAGATTTTTAACATAATGCCAATCAGGTTCACCGCCAGGATAACCAATATGGAGCCCATCGTGGTGATAACCTATACTAGTCAGGTCA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,1786790,1786856,'-','TTCTTTAATTTTAATTTTGACATTCATCTTATCCAACTGTGTTTGCGTTGCTGGAACATGAACTGT','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,257662,257788,'+','AAGAATTCTTTGGTTCATCACAGCTGTCACAATTCATGGACCAACACAACCCTCTATCAGAATTGTCGCACAAACGCCGTCTCTCTGCCTTAGGACCTGGTGGTTTGACACGTGACCGTGCTGGAT','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP003919'),2,351734,351862,'-','ATGCAGAGACACCAATGATGTTTAATCCATTGTTCAGGACACCAATAATGAGAGCACCAATCAATGTTCCAATGATACGTCCTTTCCCACCAGATAAAGACGTTCCACCTAAGACAACGGTGGCAATA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,740551,740665,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,1247093,1247226,'-','TAAGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,181065,181122,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,906671,906775,'-','AAAAAAGCACCGATTCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,298076,298444,'+','TTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,1849572,1849763,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,926430,926779,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,1345940,1346085,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,839216,839305,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,820066,820164,'-','CCAATTCAAACCACAATTCCTACGCTCGTTCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,1099935,1100030,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,428192,428277,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,1152975,1153107,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,1061040,1061163,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGTAACTAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,618887,618931,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,231876,231957,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,1328288,1328413,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,1313923,1314002,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,851210,851323,'+','ATGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,1520584,1520682,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,91444,91516,'+','GAGTGTTATGATGATGGAATCAATTGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,1070318,1070454,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTACGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,101709,101807,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,550517,550662,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,1979381,1979447,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,763020,763129,'+','TGACACAAGGAGTAGTTTAGAGGGAGAACGCCTTGATAGAGGAGGCTCACGTTCAAATCGTGGCTATTGTGTTGAAAAAACACCTATCATTTGATAAGTGTTTTTTATT','SpF41_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,762768,762878,'+','CAACACATTGAGTAGTATATTGGAATTGCGCCTTGATGGAAGAGATTCCGGTTCAAATCGTGGCTATTGTGTTGAAAAAAACACTTATCAAATGATAGGTGTTTTTTATT','SpF41_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,259975,260101,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAAAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP006910'),2,360120,360248,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,650836,650950,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,1109358,1109491,'-','TAAGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,810543,810633,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTAGCCTTATTTTAACTCGCTGTGCCGTTTCGAATAGTTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,71724,72092,'+','TTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,1702131,1702322,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,828757,829106,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGGGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,1204012,1204157,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,743969,744058,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTACACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,724400,724498,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,960326,960421,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,163578,163663,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,1018954,1019086,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,923248,923367,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAAATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAGTACCTTAAATGTTTT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,532845,532889,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,379188,379269,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,1186361,1186486,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTATATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,1171990,1172069,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCTTTGCTCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,755947,756060,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATACTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,1373560,1373658,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,241317,241389,'+','GAGTGTTATGATGATGTAATCGATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATAATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,329234,329291,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,931830,931966,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,250444,250542,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,505478,505623,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,1804521,1804587,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,34125,34251,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007482'),2,128383,128511,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,650405,650519,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,1108840,1108973,'-','TAAGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,810112,810202,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTAGCCTTATTTTAACTCGCTGTGCCGTTTCGAATAGTTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,71525,71893,'+','TTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,1701597,1701788,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,828326,828675,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGGGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,1203494,1203639,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,743538,743627,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTACACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,723969,724067,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,959875,959970,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,163323,163408,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,1018436,1018568,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,922797,922916,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAAATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAGTACCTTAAATGTTTT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,532414,532458,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,378840,378921,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,1185843,1185968,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTATATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,1171472,1171551,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCTTTGCTCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,755516,755629,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATACTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,1373026,1373124,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,241039,241111,'+','GAGTGTTATGATGATGTAATCGATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATAATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,328886,328943,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,931379,931515,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,250096,250194,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,505047,505192,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,1803963,1804029,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,33926,34052,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007565'),2,128128,128256,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,787743,787857,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,563272,563316,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1332922,1333055,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,962014,962104,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTAGCCTTATTTTAACGCGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1311653,1311807,'-','AACAAAAGTTTCTTCATGCGTTTGGCGTGCCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','SSRC38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,323178,323546,'+','TTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,2052400,2052591,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,982706,983055,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1742169,1742250,'-','TAGAGTAGGTCGCTGATTTGAGCCATCTCCTCAGAAACCCCTCGTCAAACCGTGCGTAAGGTTTTCCCTTACACGGCTTTC','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1196537,1196602,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1758477,1758542,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,2218481,2218546,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,161728,161793,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,201549,201614,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,415460,415525,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,740682,740747,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,772728,772793,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,798082,798147,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,929699,929764,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1014630,1014695,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1095007,1095072,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1179717,1179782,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1584257,1584322,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1604732,1604797,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,2163682,2163747,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,556273,556338,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,107876,107941,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,952109,952174,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1432599,1432744,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,890154,890243,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,866389,866487,'-','CCAATTCAAACCACAATTCCTACGCTCGTTCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1143198,1143293,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,425389,425474,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1204593,1204725,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1103505,1103624,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,246350,246431,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1414980,1415105,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1400615,1400694,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,902147,902260,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTGTCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1618261,1618359,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1331828,1331977,'-','AATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,95501,95573,'+','GAGTGTTATGATGATGGAATCAATTGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,191500,191557,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1112145,1112281,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,105503,105601,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,106362,106452,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,160214,160304,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,200035,200125,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,416949,417039,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,554759,554849,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,739168,739258,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,771214,771304,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,796568,796658,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,928185,928275,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,950595,950685,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1013116,1013206,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1093493,1093583,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1181206,1181296,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1198026,1198116,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1585746,1585836,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1603218,1603308,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1759966,1760056,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,2165171,2165261,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,2219970,2220060,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,106170,106340,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,160022,160192,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,199843,200013,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,417061,417231,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,554567,554737,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,738976,739146,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,771022,771192,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,796376,796546,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,927993,928163,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,950403,950573,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1012924,1013094,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1093301,1093471,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1181318,1181488,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1198138,1198308,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1585858,1586028,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1603026,1603196,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1760078,1760248,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,2165283,2165453,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,2220082,2220252,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1743988,1744164,'-','TTCGTTACGGACTGTAGGTTTGCTCGCTCCCACGGACTGAGATAAGACCAATGAATATCAGCCTACTGGGGATAACGTTAGTCGGCATTGCTTCCGCATTTGGATTACTCCGCATACGTATGCCATAGCTACCTAACCGAACTGGTTAATTGTTAGGACAGGACTTTCACCTGTTA','group-II-D1D4-4',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,1814703,1815078,'-','CGCTGAGATTACACGTTTAGTCAGTTGTCTTTCAAAACCTTATGTTTTAGTTTTTTATCCACTCAAATCCCTTCAAGTAACAACCATGCGCGGTTAGTATCGCTAACCACTCGTTACGCCGCAAACTACTAAGCCATTTTTCAATTAACGAAAACCCCGCTAAAGGTCTAAGCTGCTTTACTCTTTGACTTTGCTATTATCCTTGCGAGACTCTAGCAGGTAGCCTAGCTACCGAAGCACACTTTCGTTTGCGACGGGCAATGACTTTTGCTTTATTCCAATATTTTCAACAAATAGCATTGTTTTCGTGTATCGCAGACGTGCATTGCCTTGCGTTTCGTCGCCTTTTGAGCAACAAAATGCGCAACGCCTACT','GOLLD',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,532488,532633,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,2202676,2202742,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,283514,283640,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007570'),2,388346,388474,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,826174,826288,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,562143,562187,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1363041,1363174,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,997417,997507,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTAGCCTTATTTTAACGCGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1341807,1341961,'-','AACAAAAGTTTCTTCATGCGTTTGGCGTGCCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','SSRC38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,321133,321501,'+','TTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,2020091,2020282,'-','GGAAGCTGTATTGGCACCGATGATCCACTTTTTGTATTGATCCCGCACAAAATAAGCAGGTGGGTAACTCGCACCTCTTTAAGTGGCTTCCGCGTGTTAACGGCTTGCGCACTAGAGATGACTTCGTTTCCCGAAATACAAAGAAATAGTCGGTCAACACTTAGATGTGGATTCGTATGCCACAGCAATGT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1018109,1018458,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,160177,160242,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,199998,200063,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,413416,413481,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,811159,811224,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,834427,834492,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1050034,1050099,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1213312,1213377,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1614870,1614935,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1780533,1780598,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,2134277,2134342,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,2190638,2190703,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,555144,555209,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,519359,519424,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,107876,107941,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,987512,987577,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1462717,1462862,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,928977,929066,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,905212,905310,'-','CCAATTCAAACCACAATTCCTACGCTCGTTCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1176794,1176889,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,423345,423430,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1234764,1234896,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1137053,1137172,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,244799,244880,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1445099,1445224,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1430734,1430813,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,940971,941084,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTGTCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1643885,1643983,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1361947,1362096,'-','AATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,95501,95573,'+','GAGTGTTATGATGATGGAATCAATTGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,189949,190006,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1145741,1145877,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,105503,105601,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,106362,106452,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,158663,158753,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,198484,198574,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,414905,414995,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,517845,517935,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,553630,553720,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,809645,809735,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,832913,833003,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,985998,986088,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1048520,1048610,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1214801,1214891,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1616359,1616449,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1782022,1782112,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,2135766,2135856,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,2192127,2192217,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,106170,106340,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,158471,158641,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,198292,198462,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,415017,415187,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,517653,517823,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,553438,553608,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,809453,809623,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,832721,832891,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,985806,985976,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1048328,1048498,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1214913,1215083,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1616471,1616641,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,1782134,1782304,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,2135878,2136048,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,2192239,2192409,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,532794,532939,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,2174835,2174901,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,281469,281595,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007571'),2,386302,386430,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,818189,818303,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,583633,583677,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1359304,1359437,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,992165,992255,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTAGCCTTATTTTAACGCGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,2189124,2189190,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1338035,1338189,'-','AACAAAAGTTTCTTCATGCGTTTGGCGTGCCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','SSRC38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,338077,338445,'+','TTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,2035423,2035614,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1012857,1013206,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1769066,1769147,'-','TAGAGTAGGTCGCTGATTTGAGCCATCTCCTCAGAAACCCCTCGTCAAACCGTGCGTAAGGTTTTCCCTTACACGGCTTTC','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,161731,161796,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,215009,215074,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,429253,429318,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,648979,649044,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,769564,769629,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,803174,803239,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,828528,828593,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1046344,1046409,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1209522,1209587,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1611132,1611197,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1631607,1631672,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1785372,1785437,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,2150140,2150205,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,2206253,2206318,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,576634,576699,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,107876,107941,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,980700,980765,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,2045639,2045704,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1458980,1459125,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,920601,920690,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,896836,896934,'-','CCAATTCAAACCACAATTCCTACGCTCGTTCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1173003,1173098,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,439182,439267,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1230974,1231106,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1133262,1133381,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,261249,261330,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1441362,1441487,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1426997,1427076,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,932595,932708,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTGTCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1645141,1645239,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1358210,1358359,'-','AATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,95501,95573,'+','GAGTGTTATGATGATGGAATCAATTGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,204960,205017,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1141950,1142086,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,105503,105601,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,106362,106452,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,160217,160307,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,213495,213585,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,430742,430832,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,575120,575210,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,647465,647555,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,768050,768140,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,801660,801750,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,827014,827104,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,979186,979276,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1044830,1044920,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1211011,1211101,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1612621,1612711,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1630093,1630183,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1786861,1786951,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,2047128,2047218,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,2151629,2151719,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,2207742,2207832,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,106170,106340,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,160025,160195,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,213303,213473,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,430854,431024,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,574928,575098,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,647273,647443,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,767858,768028,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,801468,801638,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,826822,826992,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,978994,979164,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1044638,1044808,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1211123,1211293,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1612733,1612903,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1629901,1630071,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1786973,1787143,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,2047240,2047410,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,2151741,2151911,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,2207854,2208024,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,1770885,1771061,'-','TTCGTTACGGACTGTAGGTTTGCTCGCTCCCACGGACTGAGATAAGACCAATGAATATCAGCCTACTGGGGATAACGTTAGTCGGCATTGCTTCCGCATTTGGATTACTCCGCATACGTATGCCATAGCTACCTAACCGAACTGGTTAATTGTTAGGACAGGACTTTCACCTGTTA','group-II-D1D4-4',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,551285,551430,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,298413,298539,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007572'),2,402139,402267,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,987571,987920,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,805375,805489,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,541529,541573,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,1394301,1394434,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,178964,179021,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,686616,686704,'-','GTTATATCGAAATATTGGGTCACCGTCTTTTTAACGGTTCTACATTGGAGTTGAGTTGGTAGCTCAACTCCTTTTTCTACGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,966537,966641,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,1368518,1368621,'-','AAAAAGACGACAGAATTATTATTTTCTATCGTCTAAAATATGTGTATTAAATTTTCATCATTAGATAACCTTAAAAACTCTTTTTCATCCAATAATATTGTCT','SpF39_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,1297996,1298161,'-','TAATTTTACTCCTTTATCAATGCTTTGTCAATGGCAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','SSRC38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,311339,311707,'+','TTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,2017990,2018181,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,1492708,1492853,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,899952,900041,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,880531,880629,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,1143988,1144083,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,408583,408668,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,1201988,1202120,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,1104286,1104405,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,231125,231206,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,1475056,1475181,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,1460689,1460768,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,911946,912059,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,1668805,1668903,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAGCTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,1393207,1393356,'-','ACAAAAATCCTGCCAAAAATTTTTTGGCAGGATTTTTGGCAGGAAACTAAATCAATTTATCAGTTTCTTCAAATCGCTATAGGCTCTAAAAGACTGGTAAATCGGGATTCCGCTCTCAAATTGCTATAAGCTTCTTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,686359,686549,'+','CTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','rli28',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,90575,90647,'+','GAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,1114368,1114504,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,99993,100091,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,686850,686939,'-','TTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGTTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,572783,573158,'+','GCAGGCGTTGCGCATTTTGTTGTTCAAAAGGCGACGAAACGCAAGGCAATGCACGTCTGCGATACACGAAAACAATGCTATTTGTTGAAAATATTGGAATAAAGCAAAAGTCATTGCCCGTCGCAAACGAAAGTGTGCTTCGGTAGCTAGGCTACCTGCTAGAGTCTCGCAAGGATAATAGCAAAGTCAAAGAGTAAAGCAGCTTAGACCTTTAGCGGGGTTTTCGTTAATTGAAAAATGGCTTAGTAGTTTGTGGCGTAACGAGTGGTTAGCGATACTAACCGCGCATGGTTGTTACTTGAAGGGATTTGAGTGGATAAAAAACTAAAACATAAGGTTTTGAAAGACAACTGACTAAACGTGTAATCTCAGCGT','GOLLD',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,514040,514185,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,2186881,2186947,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,273241,273367,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007631'),2,373396,373524,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,311926,312294,'+','TTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,753003,753117,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,570282,570326,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1233804,1233937,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,179040,179097,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,915698,915803,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTAAATACGGACTGGATTAAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1856152,1856343,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,934969,935318,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,737989,738054,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,905792,905857,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1353050,1353195,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,847300,847389,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,828232,828330,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1069932,1070027,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,407204,407289,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1123268,1123400,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1031377,1031496,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,231614,231695,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1333949,1334074,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1301698,1301777,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,859294,859407,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTGTCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1516691,1516789,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1865036,1865219,'+','GAAATATGATATAATAATGAAGCAGAAAAGTTAAGACGGTGGCTCTTATTTCTGAAAGGTAGGTGGTCCCATGGGCAATTCATCAAAATCCAACAGAAAGGAGGAGCTAGATTTGTCTACCTTTGAGGTCTTAACACTCATGTTTATAGCAGGTAACTTCGTTATCGCTCTCGTGAAGTTAGT','rli28',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,90970,91042,'+','GAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1040313,1040449,'-','TGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,100197,100295,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1865278,1865362,'-','ATTTTTTAACGGTTATTTTCTGCCACCGTCTTAAACGGTTCTGCTAAGCAGTTGTTAGAAGCAACTGCTTTTTATTTACAATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,736487,736565,'+','TAGTAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,904290,904368,'+','TAGTAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1222329,1222407,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTACTAG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,904086,904256,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1222441,1222611,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,736283,736453,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCATGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,542793,542938,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,2027080,2027146,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,273830,273956,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,372469,372597,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP007632'),2,1220711,1220870,'-','TAATTTTACTCCTTTATCAATGCTTTGTCAATGACAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACAATCGAGTAGAGGCTAATCTCTAGCCCCTCTC','SSRC38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,869866,870215,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,688924,689038,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,1245439,1245572,'-','AGGCACAAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,173615,173672,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,850372,850477,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,296231,296599,'+','TTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,1851320,1851511,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,1213696,1213792,'-','TAGGCTAAGTATCCAGCGCCTTACCGTATTACTACGGCAGGTTTCCAGATACTCGCCCCCGAACCGTACGTACACCTCTCAATGTATACGGCTCTC','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,1343829,1343974,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,783786,783875,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,763964,764062,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTC','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,1033603,1033698,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACTGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,393481,393566,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,1086889,1087021,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,994572,994691,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,543755,543799,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,224916,224997,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,1326176,1326301,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTACTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,1311805,1311884,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGACTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACCGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,795780,795893,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,1518273,1518371,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,1244343,1244492,'-','ACAAAAATCCTGCCAAAGTTTTTTTGGCAGGATTTTTGGCAGGAAACCAAATCAATTTATCAGTTTCTCTAAATCGCTATAAGCTCTAAAAGACTGGTAAATCGGGCTTCCGCTCTCAAATTGCTATGTGCTTCTTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,1177655,1177803,'-','AATAAAACACCCCCACAATAATTTGTGGGGGTGTTTTTTAGGGAATATTCAAATGAATTATCCCTTTTTTAATCGCCTTAACTTTAACGAAAAGGCTTTAAAAATAGGCTTTCACCTTTAAATAATCAGGAACTGATTATTTAAGAGT','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,85415,85487,'+','GAGTGTTATGATGATGGAATCAATTGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,1003985,1004121,'-','GGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,94604,94702,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,516266,516411,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,1961691,1961757,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,565290,565366,'+','CTTTATGGGGTTAAGGCTTAAAAGCCTTGATATTAAGCACTTTGGGACATCATCCCAAGGTGCTTTTTTAGAATTT','SpF01_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,573303,573405,'+','AAGCACAAGGGATAGTATAGAAGGAGTACACCTTGATAGAGGTAGCCACGGTGCGAATCCGTGTCATTGTGCTTGCATCTAGGAAACTAGGTGCCTTTTATT','SpF41_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,258134,258260,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010319'),2,358291,358419,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,954553,954902,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,774073,774187,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,552845,552889,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,1294170,1294303,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,178824,178881,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,935235,935339,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,1273018,1273183,'-','TAATTTTACTCCTTTATCAATGCTTTGTCAATGGCAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','SSRC38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,321073,321441,'+','TTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,1916365,1916556,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,1392562,1392707,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,868650,868739,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,849229,849327,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,1119484,1119579,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,418321,418406,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,1172819,1172951,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTATATTGACATCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,1080980,1081099,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,230125,230206,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,1374910,1375035,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,1360543,1360622,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,880644,880757,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,1567207,1567305,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAGCTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,1293076,1293225,'-','AATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,655235,655425,'+','CTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','rli28',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,90443,90515,'+','GAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,1089865,1090001,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,99860,99958,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,655496,655585,'-','TTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGGTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,525356,525501,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,2057636,2057702,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,282969,283095,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP010867'),2,383134,383262,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,955572,955921,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,772974,773088,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,583468,583512,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1263730,1263863,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,192661,192718,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,935990,936094,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,324509,324877,'+','TTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1888056,1888247,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,98943,99008,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,524215,524280,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,756620,756685,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1514445,1514510,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1567329,1567394,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,539132,539197,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,576464,576529,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1992046,1992111,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,926086,926151,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,103999,104064,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1362124,1362269,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,867549,867638,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,848127,848225,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1104600,1104695,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,421741,421826,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1158744,1158876,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1065859,1065978,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,243014,243095,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1344471,1344596,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1330104,1330183,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,879542,879655,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1543442,1543540,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1262636,1262785,'-','AATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,665272,665462,'+','CTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','rli28',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,90346,90418,'+','GAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1074988,1075124,'-','GGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTCATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCAACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,101626,101724,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,665763,665852,'-','TTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGTTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,665529,665617,'-','GTTATATCGAAATATTGGGTCACCGTCTTTTTAACGGTTCTACATTGGAGTTGAGTTGGTAGCTCAACTCCTTTTTCTACGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,97429,97519,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,102485,102575,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,522701,522791,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,537618,537708,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,574950,575040,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,755106,755196,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,924572,924662,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1515934,1516024,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1568818,1568908,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1993535,1993625,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,97237,97407,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,102293,102463,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,522509,522679,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,537426,537596,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,574758,574928,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,754914,755084,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,924380,924550,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1516046,1516216,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1568930,1569100,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,1993647,1993817,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,552555,552700,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,2030252,2030318,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAACTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,286405,286531,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011325'),2,386554,386682,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,949716,950065,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,767275,767389,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,577770,577814,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1257875,1258008,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,186966,187023,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,659831,659919,'-','GTTATATCGAAATATTGGGTCACCGTCTTTTTAACGGTTCTACATTGGAGTTGAGTTGGTAGCTCAACTCCTTTTTCTACGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,930200,930304,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,318813,319181,'+','TTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1871292,1871483,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,93248,93313,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,518517,518582,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,750921,750986,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1497364,1497429,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1550248,1550313,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,533434,533499,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,570766,570831,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1975281,1975346,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,920296,920361,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,98304,98369,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1345151,1345296,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,861849,861938,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,842427,842525,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1098744,1098839,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,416044,416129,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1152888,1153020,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1060003,1060122,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,237319,237400,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1327498,1327623,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1313131,1313210,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,873752,873865,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1526361,1526459,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1256781,1256930,'-','AATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,659574,659764,'+','CTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','rli28',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,84514,84586,'+','GAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1069132,1069268,'-','GGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTCATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCAACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,95931,96029,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,660065,660154,'-','TTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGTTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,91734,91824,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,96790,96880,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,517003,517093,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,531920,532010,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,569252,569342,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,749407,749497,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,918782,918872,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1498853,1498943,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1551737,1551827,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1976770,1976860,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,91542,91712,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,96598,96768,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,516811,516981,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,531728,531898,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,569060,569230,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,749215,749385,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,918590,918760,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1498965,1499135,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1551849,1552019,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,1976882,1977052,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,546857,547002,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,2013487,2013553,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAACTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,280710,280836,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011326'),2,380858,380986,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,955318,955667,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,772720,772834,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,583232,583276,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1263490,1263623,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,192427,192484,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,665293,665381,'-','GTTATATCGAAATATTGGGTCACCGTCTTTTTAACGGTTCTACATTGGAGTTGAGTTGGTAGCTCAACTCCTTTTTCTACGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,935736,935840,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,324275,324643,'+','TTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1887684,1887875,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,523979,524044,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,756366,756431,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1514073,1514138,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1566957,1567022,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,538896,538961,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,576228,576293,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1991674,1991739,'-','TCGAGTAGAGGCTAATCTCTAGCCCCTCTCACACCACCGTACGTGCCGTTCGGCATACGGCGGTT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,925832,925897,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,103765,103830,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1361884,1362029,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,867295,867384,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,847873,847971,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1104442,1104537,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,421505,421590,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1158540,1158672,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1065605,1065724,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,242780,242861,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1344231,1344356,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1329864,1329943,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,879288,879401,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1543070,1543168,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1262396,1262545,'-','AATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,665036,665226,'+','CTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','rli28',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,90347,90419,'+','GAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1074830,1074966,'-','GGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTCATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCAACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,665527,665616,'-','TTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGTTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,102251,102341,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,522465,522555,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,537382,537472,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,574714,574804,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,754852,754942,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,924318,924408,'+','GAGGGTAAAACCTAATAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1515562,1515652,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1568446,1568536,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1993163,1993253,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTATTAGGTTTTACCCTCG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,102059,102229,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,522273,522443,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,537190,537360,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,574522,574692,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,754660,754830,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,924126,924296,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1515674,1515844,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1568558,1568728,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,1993275,1993445,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,552319,552464,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,2029880,2029946,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAACTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,286171,286297,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011327'),2,386318,386446,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,652340,652454,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,1111196,1111329,'-','TAAGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,812047,812137,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTAGCCTTATTTTAACTCGCTGTGCCGTTTCGAATAGTTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,71690,72058,'+','TTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,1703927,1704118,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,830261,830610,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGGGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,1205763,1205908,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,745473,745562,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTACACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,725904,726002,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,961819,961914,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,163558,163643,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,1020783,1020915,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,924741,924860,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAAATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAGTACCTTAAATGTTTT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,534349,534393,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,380692,380773,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,1188112,1188237,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTATATGGAATCTTGGCATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,1173741,1173820,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCTTTGCTCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,757451,757564,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATACTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,1375359,1375457,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,241857,241929,'+','GAGTGTTATGATGATGTAATCGATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATAATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,330738,330795,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,933323,933459,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,251948,252046,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,506982,507127,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,1806363,1806429,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,34091,34217,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011328'),2,128363,128491,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,753837,753951,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,547459,547503,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,1372273,1372406,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,179032,179089,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,633698,633786,'-','GTTATATCGAAATATTGGGTCACCGTCTTTTTAACGGTTCTACATTGGAGTTGAGTTGGTAGCTCAACTCCTTTTTCTACGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,915001,915105,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,1247721,1247875,'-','AACAAAAGTTTCTTCATGCGTTTGGCGTGCCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','SSRC38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,315557,315925,'+','TTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,1967195,1967386,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,936876,937225,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,1471981,1472126,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,848415,848504,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,828993,829091,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,1090720,1090815,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,412790,412875,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,1145358,1145490,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTACTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,229398,229479,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,1453004,1453129,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,1438638,1438717,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCTCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,860409,860522,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,1634326,1634424,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,1371179,1371328,'-','ACAAAAATCCTGCCAAAGAATTTTTGGCAGGATTTTTGGCAGGAAACCAAATCAATTTATCAGTTTCTATCAATCGCTTATCGCTCTCAAAGACTGGTAAATAGGGATTCCGCAATCTAATTATGATATGACTCTTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,1974088,1974272,'+','GAAATATGATATAATAATGAAGCAGAAAAGTTAAGACGGTGGCTCTTATTTCTGAAAGGTAGGTGGTGCCCATGGGCAATTCATCAAAATCCAACAGAAAGGAGGAGCTAGATTTGTCTACCTTTGAGGTCTTAACACTCATGTTTATAGCAGGTAACTTCGTTATCGCTCTCGTGAAGTTAGT','rli28',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,633441,633631,'+','CTTTAATGGTATACTATTAAATGTAGAAAAGTGAAGACGGTGGCTCCTAAATCCTGAAAGAGAGAGGTGAAGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','rli28',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,90640,90712,'+','GAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,1059666,1059802,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,100057,100155,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,633932,634021,'-','TTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTTCTACATTGGGAGTTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,519970,520115,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,2112969,2113035,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,277452,277578,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP011329'),2,377602,377730,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,929088,929437,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,748377,748491,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,597389,597433,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,1286513,1286646,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,205600,205657,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,909485,909589,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,1265199,1265364,'-','TAATTTTACTCCTTTATCAATGCTTTGTCAATGGCAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','SSRC38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,336829,337197,'+','TTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,1900137,1900328,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,1384909,1385054,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,842900,842989,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,823477,823575,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,1077661,1077756,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,434034,434119,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,1131850,1131982,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTATAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,1039304,1039423,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,256901,256982,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,1367258,1367383,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,1352893,1352972,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTGACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,854894,855007,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,1560351,1560449,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,1285419,1285568,'-','AATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,70922,70994,'+','GAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,1048049,1048185,'-','GGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTCATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCAACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,80345,80443,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,97851,98226,'+','GCAGGCGTTGCGCATTTTGTAGCTCAAAAGGCGACGAAACGCAAGGCAATGCACGTCTGCGATACACGAACACAATGCTATTTGTTGAAAATATTGGAATAAAGCAAAAGTCATTGCCCGTCGCAAACGAAAGTGTGCTTCGGTAGCTAGGCTACCTGCTAGAGTCTCGCAAGGATAATAGCAAAGTCAAAGAGTAAAGCAGCTTAGACCTTTCGCGGGGTTTTCGTTAATTGAAAAATGGCTTAGTAGTTTGTGACGTAACGAGTGGTTAGCGATACTAACCGTGCATGGTTGTTACTTGAAGGGATTTGAGTGGATAAAAAACTAAAACATAAGGTTTTGAAAGACAGCTGATAAGACGTGTAATCTCAGCGT','GOLLD',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,569900,570045,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,2062911,2062977,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAACTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,298725,298851,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP012419'),2,398860,398988,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,978184,978533,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,797516,797630,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,562723,562767,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,1319094,1319227,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,179257,179314,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,958678,958782,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,1297943,1298108,'-','TAATTTTACTCCTTTATCAATGCTTTGTCAATGGCAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','SSRC38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,331190,331558,'+','TTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,1941196,1941387,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,1418347,1418492,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,892093,892182,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,872672,872770,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,1144408,1144503,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,428436,428521,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,1197743,1197875,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTATATTGACATCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,1105472,1105591,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,230558,230639,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,1399834,1399959,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,1385467,1385546,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,904087,904200,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,1592197,1592295,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAGCTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,1318000,1318149,'-','AATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,1949983,1950166,'+','GAAATATGATATAATAATGAAGCAGAAAAGTTAAGACGGTGGCTCTTATTTCTGAAAGGTAGGTGGTCCCATGGGCAATTCATCAAAATCCAACAGAAAGGAGGAGCTAGATTTGTCTACCTTTGAGGTCTTAACACTCATGTTTATAGCAGGTAACTTCGTTATCGCTCTCGTGAAGTTAGT','rli28',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,678767,678957,'+','CTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','rli28',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,90443,90515,'+','GAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,1114789,1114925,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,99860,99958,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,679028,679117,'-','TTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGGTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,1950225,1950309,'-','ATTTTTTAACGGTTATTTTCTGCCACCGTCTTAAACGGTTCTGCTAAGCAGTTGTTAGAAGCAACTGCTTTTTATTTACAATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,535234,535379,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,2131533,2131599,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,293086,293212,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'CP013202'),2,393249,393377,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,650865,650979,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,1109430,1109563,'-','TAAGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,810572,810662,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTAGCCTTATTTTAACTCGCTGTGCCGTTTCGAATAGTTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,71725,72093,'+','TTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,1702250,1702441,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,828786,829135,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGGGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,1204084,1204229,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,743998,744087,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTACACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,724429,724527,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,960355,960450,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,163593,163678,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,1019026,1019158,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,923277,923396,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAAATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAGTACCTTAAATGTTTT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,532874,532918,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,379216,379297,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,1186433,1186558,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTATATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,1172062,1172141,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCTTTGCTCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,755976,756089,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATACTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,1373679,1373777,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,241335,241407,'+','GAGTGTTATGATGATGTAATCGATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATAATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,329262,329319,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,931859,931995,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,250472,250570,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,505507,505652,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,1804687,1804753,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,34126,34252,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'FO393392'),2,128398,128526,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,953560,953909,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCGAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,772684,772798,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,552634,552678,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,1340967,1341100,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,178832,178889,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,933846,933950,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,1273224,1273389,'-','TAATTTTACTCCTTTATCAATGCTTTGTCAATGGCAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACATATAAAAAAATAGAGAGAACCAAATTGGTTCTCTCTA','SSRC38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,321093,321461,'+','TTTTTGGATAATCGCGTAGTATTGAGATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,1962312,1962503,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,1439359,1439504,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,867261,867350,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATGCAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,847840,847938,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,1118829,1118924,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,418337,418422,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,1173024,1173156,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTATATTGACATCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,1079988,1080107,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,230133,230214,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,1421707,1421832,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,1407340,1407419,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,879255,879368,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTATCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,1614019,1614117,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAGCTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,1339873,1340022,'-','ACAAAAATCCTGCCAAAAATTTTTTGGCAGGATTTTTGGCAGGAAACTAAATCAATTTATCAGTTTCTTCAAATCGCTATAAGCTCTAAAAGACTGGTAAATCGGGATTCCGCTCTCAAATTGCTATAAGCTTCTTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,1293282,1293431,'-','AATAAAACCCCACCAAGATTTAATCTTGGTGGGGTTTTGGTGGGGAATGATAACATTCTCCCGATTTTTTATCGCTCTAAGCAATTCTAAAACCTTGATTTACTAGGCTTCCGCAATCAAATTGCGATACTCTATTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,653846,654036,'+','CTTTAATGGTATACTATTAAGTGTAGAAAAGTGAAGACGGTGGTTCCTAAATCCTGAAAGAGAGAGGTGATGCCTATGGGCAATTCATCAAAATCTGATGGAAAGGAGGGAGCTTTCTTTTGACCGCTTTTGAAGTCGTGCAAATCATCATTGGTTTTGGTAGTTTTACCGTTGCTTTGATTGGCTTGTG','rli28',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,90444,90516,'+','GAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,1089210,1089346,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,99864,99962,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,654107,654196,'-','TTATAGTCTAATTAAACGAGTCACCGTCTTTTTAACGGTCCTACATTGGGGGGTGGATTGCCGTCCAGCTCCTTTTTATAAGTTCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,525145,525290,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,2104258,2104324,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,282989,283115,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952104'),2,383150,383278,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,947725,948074,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,764993,765107,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTGCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,1305082,1305215,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,181090,181147,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACTTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,927358,927462,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,303907,304275,'+','TTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,1934035,1934226,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,1403472,1403617,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,862084,862173,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,841551,841649,'-','CCAATTCAAACCACAATTCCTACGCTCGTTCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,1097558,1097653,'-','CTATTTATTAGCTTACTTATTGCTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,402667,402752,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,1150854,1150986,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,1058817,1058936,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,558934,558978,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,231412,231493,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,1385819,1385944,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,1371447,1371526,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGGGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,872767,872880,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTGTCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,1587448,1587546,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,1303988,1304137,'-','AACAAAATCCTGCCAAAGAATTTTTGGCAGGATTTTTGGCAGGAAACCAAATTAATTTATCAGTTTCTCTAAATCGCTATATGCTCTAAAAGACTGGTAAATCGGGCTTCCGCTCTCAAATTGCTACGTGCTTCTTATTTAAGAGTAAC','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,1547938,1548126,'+','TCCCTATGATATAATAAACCTCGTAACAAAGTAAAAGACGGTAGTCGTAGCCTTATGTCTGGAGGTGGTGCTTATGTATGTAAGTCACAGAAACCAAAAGAAAGGAGACGACAAAGTTTGCCAGTTTATGAAACGCTTACTTTGATGATTGCCTTTGGTACTCTGATAGTAGCTATCATGAATAGCAA','rli28',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,90590,90662,'+','GAGTGTTATGATGATGGAATCAATTGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,1067940,1068076,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,100852,100950,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCAATGTAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,1548181,1548267,'-','ATATAAACAAATACGGTAAGGCTGCCGTCTTAAACGGTGTTACCACAGGAGATTGTTTGCGCAATCTCCTTTTTCTATGTCCATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,531444,531589,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,2075291,2075357,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,2053385,2053465,'-','GAAATCAAAAAAAGCACCTTGGAATAACGCCCCAAAGTGCTTAGTATCAAGGCTTTTAAGCCTATCTTATTCAATAAAAT','SpF01_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,265808,265934,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952105'),2,367463,367591,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,974564,974913,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,793461,793575,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTGCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,1262553,1262686,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,181827,181884,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,954828,954933,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTGAATACGGACTGGATTAAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,304690,305058,'+','TTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,1876075,1876266,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,649724,649800,'-','TCGAGTAGGTCGGGGATATTACTATCCCTTTCCCCTCTAAGAACCGTGCATGAGAGTTTCCCCTCACACGGCTCAA','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,630869,630959,'+','AACGCGGAGTGCGGTGAAAGTCGCACGCTCCGTGTGAATGGGGGGAAAAGTTTGAGATATTTATAATATCAGGAACTTACCTATCCATAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,1360971,1361116,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,888241,888330,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,868660,868758,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,1114308,1114403,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,401982,402067,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,1167640,1167772,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,1075810,1075929,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGAGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,559086,559130,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,232164,232245,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,1343315,1343440,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,1328939,1329018,'-','CCTCTGTGAAGACTCGCCTATGAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,900235,900348,'+','GTGATATACTTAGTAAGTTGTTTTACACGACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTGTCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,1538294,1538392,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,1261457,1261605,'-','AATAAAACACCCCCACAATAATTTGTGGGGGTGTTTTTTAGGGAATATTCAAATGAATTATCCCTTTTTTAATCGCCTTAACTTTAACGAAAAGGCTTTAAAAATAGGCTTTCACCTTTAAATAATCAGGAACTGATTATTTAAGAGT','rli38',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,91693,91765,'+','GAGTGTTATGATGATGGAATCAATTGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,1084696,1084832,'-','GAAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGACAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,101345,101443,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,628267,628475,'+','AGAACTGATAATCTGACAGGTGGAATGATGAAGTAACGCTCTGAAACGCCTGCCCTGAGCCTCCGACAAGCATTGAATGAGGAAACTCAGAATGTTTGAAGCTCGGTAAAGACGGCTGAAAGATACCGTAATAGTTGATGAACATATATCTTCTATCGAAAACTATCCAGAGGTGGGTAGCGTATCCAACAGGTCGGGGGTCTATAAA','group-II-D1D4-5',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,651889,652017,'-','TCCCTAACCACTTTGTTGCTGGCAGTTTCGGTATTTCCTCACGGTTTTACCTCAAGTAGGGCTACTTTAATATCGGCTTACCACACTTAAGTGCAGTCGATACTCGGCTCAACTAACGGAATAGTTGG','group-II-D1D4-7',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,531603,531748,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,1994730,1994796,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,266584,266710,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HF952106'),2,366759,366887,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,702662,702776,'+','AATTTCTTCGGGGTCAGGTGAAAATCCTAACCGGCGGTATAGTCCGCGAGCTTTCGAGCATGAACTGGTGTGATTCCAGTACCGACAGTAAAGTCTGGATGAGAGAAGAATTCA','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,549754,549798,'-','GTCACTTAGTTTTTTATTCTGGGAAGTTTTCGAACCAGTCCGAG','PreQ1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1225452,1225585,'-','TAGGCACAAAAAAATCGCACCTAAACCTAGACACGAAAGTACAATACGTTATTTTATAATGACGTTTTGTGCCTCGGTAGGAATATTATGAGCACTGCTCCCCTACTGTCTTAGGTCAGTTTCATCAGAAACT','L10_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,181610,181667,'+','TTTGTCGTCTGTCTAGGTTGAAATATTGTCCGACCTAGATATACAGCAGTTAAATCA','Lacto-rpoB',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,865369,865474,'-','AAAAAAGCACCGAATCGGTGCTCACTTTTTCAAGCTAAATACGGACTGGATTAAAAAATCACTGCCTTATTTTAACGTGCTGTGCTGTTTCGAATAATTCCAACA','tracrRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,312988,313356,'+','TTTTTGGATAATCGCGTAGTATTGATATACTATGAGGAAAGTCCATGCTAGCACTGGCTGTGATGCCAGTAGTGTTTGTGCTAGGCGAAAAAATAAGCCTAGGGAGATAGCTAGCTATCTTACGGCAAGCAAAAGGGCTAAGTCTTTGGATATGCCTGAATAGCTTTGAAAGTGCCACAGTGACGTAGTTTCTAGGGAAATCTAGAAAGTGGAACGCGGTAAACCCCTCAAGCTAGCAACCCAAACTTTGGTAGGGGCATGGGATAGTTGGAATGAGAACAATCTATCCTGACTGCTTTGCAGTAGACAGATGATTATCGAAAGAAACAATTCCTAGTTGTTTCTGGAACAAAACATGGCTTATAGAA','RNaseP_bact_b',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1846991,1847182,'+','CATTGCTGTGGCATACGAATCCACATCTAAGTGTTGACCGACTATTTCTTTGTATTTCGGGAAACGAAGTCATCTCTAGTGCGCAAGCCGTTAACACGCGGAAGCCACTTAAAGAGGTGCGAGTTACCCACCTGCTTATTTTGTGCGGGATCAATACAAAAAGTGGATCATCGGTGCCAATACAGCTTCCT','6S',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,884639,884988,'-','TATGGAGCCGGTGGGAGTCGAACCCACGTCCAAACATCTGCTAATATATTTGTCTACAACTATAGGTTATGTATTGATTTAACTAGGTGATGACACATAACTCAAGCCCTCACATAGCGAGTCTATAAATCTCTTTTTAACTAACTAGACAGTAGCCAAACGTAGTTTGCTGATAAATAAGACCTTCTAGCAAAACGCAAACAATCTTGTGAAGATCACGCAGGCTGTTTTTTAGGCAGCTAATGCGTAAGAATTTGTATTTTTTGCAGTTATATTTAACTGGCATTTTACATCTGCCGATGAGTCGCAAAATATACCTCATAATGCCTGTCGAATCCGTAACGACCCC','tmRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,687648,687713,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,855463,855528,'+','ACCGCCGTATGCCGAACGGCACGTACGGTGGTGTGAGAGGGGCTAGAGATTAGCCTCTACTCGAT','Intron_gpII',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1342468,1342613,'-','TTTGTCTTCTCCCATCCAGACTTTACTGTCGGTTGTGGAATCTCACCACATCAGCTTTCGCTCGCGGACTGATGCTTCACAACTGACAAATAAGTTGGAAGCGATTACCGCCGGTCGGGAATTACACCCTGCCCTGAAGACACCT','FMN',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,796971,797060,'+','TAGGACATTTGGGGTGCGTAACAGCTGAGATTATACCCATTGAACTTGATACAGTTAGTACTGTCGAAGGGAAATGTGTGCCATTACAA','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,777904,778002,'-','CCAATTCAAACCACAATTCCTACGCTCGTCCTAACGAGATCAGGTTAGAGGATTTTGCATATCTGCAATCTCAGCTCAAGGCACTCCCTTGTGTATTT','TPP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1051032,1051127,'-','CTATTTATTAGCTTACTTATTGTTAGACATTACGGTGTCTTGTAGAGACGCTAAGCCAATCCTCAGCATAAATAAGTAAATCATATATTTAATTG','Purine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,410228,410313,'+','CTTTGGAGCAACATTTACTCGTGAAGTGGGTCAGGGGAGGAATCCAGCAGCCCTAAGCGATGCTAAATGTGTGCTCTTTTTATTT','Bacteria_small_SRP',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1104370,1104502,'+','GACGGACTTCTGGAGAGACCTATAAGTAGCAACATCTTTGTATTGACACCAAGATGTGCTCTAGGCGCCGAAGGGGCAAGAAGAGTAAAACAACTCCTCCAATCTCTCAGGCAAAAGGACAGAAGCTAAAAG','Glycine',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1012573,1012692,'-','AGAAAAAAGCCTCCTAAAACAAGGAGGCTCTGCAAAATAGTAAGCTAGATAGGGAACTAACTTACTATTTGTTAACGCAATTCCTTGTTTGCCTCTCTGGACAATACCTTAAAGGATAT','PyrR',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,231811,231892,'+','GTATTGTTTACCCCATTTGTAAGGCCCCGGAACCTTTCAAATACTCTCGTGGACCGGAACATCCACACCTGTAAACAAAAA','L13_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1323367,1323492,'-','GAGAAAAACGAAAGCGGACTTGATAAATCAAGCCCGCACATATAATCTTCCTAGATGGAATCTTGACATGTTGGGCCAGACAACCTAAGTCGCAAGGCGAGAAGTTCTCACTTCTGCTTTTCTCA','L20_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1291799,1291878,'-','CCTCTGTGAAGACTCGCCTATAAATCGTGAGAGCCTTGCCCTACTTAATCTAACGATTTTCGCGCGGTTGCACAGGATG','L21_leader',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,808965,809078,'+','GTGATATACTTAGTAAGTTGTTTTACACAACCCTTGATGCTTAGTTCCCTTTCATCAAGCATATTACAAACGTTAGAAGTGTTAACTGTCTAAACGTTAAAGGAGAAATTATG','preQ1-II',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1508061,1508159,'-','AAAAAACCACACTGCTCGGAGTCAATCTCAGCAAACAATGTGGTTTATGGTGGTTTGTTAACTTAAATCATAACAGGTTTGATTTAAACTAACAAATC','23S-methyl',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1852581,1852764,'+','GAAATATGATATAATAATGAAGCAGAAAAGTTAAGACGGTGGCTCTTATTTCTGAAAGGTAGGTGGTCCCATGGGCAATTCATCAAAATCCAACAGAAAGGAGGAGCTAGATTTGTCTACCTTTGAGGTCTTAACACTCATGTTTATAGCAGGTAACTTCGTTATCGCTCTCGTGAAGTTAGT','rli28',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,91257,91329,'+','GAGTGTTATGATGATGGAATCAATCGATTCTTAGTCTAGCTCTGGTCTACCGCTGAGAATTATTCTCAGCGG','L17DE',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1021413,1021549,'-','TGAATTACAAGTAGTAGTAAGCTAAGGGCACCTTTTCAAGTGTGATAAGAAGGTTCACACAACTTATCAAGATCCGCTCCTGCGTTTATAATCTCCCTGCGCAATAGTGGTAAAACCACATATCGACTCATCGCAT','asd',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,101275,101373,'+','CGTTATAGCATAAAAACACGTTGCAGTTGGTAGTCTGCAAGCGTTCAGTGAACGTCAGTAACCTTCCCTCCAGGTCGTCCATTGCAATTTAATATTTA','yjdF',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1852823,1852907,'-','ATTTTTTAACGGTTATTTTCTGCCACCGTCTTAAACGGTTCTGCTAAGCAGTTGTTAGAAGCAACTGCTTTTTATTTACAATTA','RatA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,686146,686224,'+','TAGTAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,853961,854039,'+','TAGTAACAACGAACGACAAGAAGTCAGCCGAACCCATAGTAGTGATGAAGTTTCTGTAATGGAAATGGAACGAAGGGG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1204220,1204298,'-','CCCTTCGTTCCATTTCCATTACAGAAACTTCATCACTACTATGGGTTCGGCTGACTTCTTGTCGTTCGTTGTTACTAG','group-II-D1D4-1',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,853757,853927,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCGTGGCTCTACGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1204332,1204502,'-','GGACATCTTTCCTCGTTTACTCTCGTGATTTACGTATATAGGTTACGACTACCTATTTGGACTTTAGAGTTTATAGCCCCCTCATCCGCTATATACGCCTTCATATCACGTTTCTGTTCGTAGAGCCACGATTTCGCTATCCCTTCCTCTCCCCGCTACCTCACGATAGT','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,685942,686112,'+','CTATCGTGAGGTAGCGGGGAGAGGAAGGGATAGCGAAATCATGGCTCTATGAACAGAAACGTGATATGAAGGCGTATATAGCGGATGAGGGGGCTATAAACTCTAAAGTCCAAATAGGTAGTCGTAACCTATATACGTAAATCACGAGAGTAAACGAGGAAAGATGTCCG','group-II-D1D4-3',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,520827,520972,'-','GTAGCAGATTACCTTGCTGAAGGTGAAAAAGTACAATTAATCGGTTTTGGTAACTTTGAAGTTCGTGAACGTGCAGCTCGTAAAGGTCGTAACCCACAAACTGGTGCAGAAATCGAAATTGCAGCATCAAAAGTTCCAGCATTTA','sau-50',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,2030692,2030758,'-','AACTCTCGAAAATTGTACGTCAAAAAGACTTACAAATTCCATGAGCTTTGACCATCATAGTTATTG','Spd-sr37',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,274889,275015,'+','CTGTTTTTTTAGCGAGCTCAAGGTAGTGAAAGTTGGGTAGAATAGGATGAATATTGGCACTTTTTAGTGAGTAAAAGTACAATCAAAAATGAAGTAATAAATTAGGGTGGAACCGCGTCTTTGACG','SpR19_sRNA',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,375056,375184,'-','CTTGTTCTTCCTCCTTAAAAAATTTTTTCGTTGACATAAAGAAGAATAATCTCCTTCCAATCGTAAAATTGGCCATTCTTTTTCATTTCAACGAAATTATAGAACAGATATATTTTAAAACGTTTTCA','SSRC34',7,2);
+INSERT INTO feature (organism_id,publication_id,start,end,strand,sequence,feature_name,type_type_id,analysis_id) 
+VALUES((SELECT o.organism_id FROM organism as o WHERE abbreviation like 'HG939456'),2,1202603,1202762,'-','TAATTTTACTCCTTTATCAATGCTTTGTCAATGACAACTACCATCTTTTATCACATCAACTGAAGGGATAAGCAAAAGGCAATTGTTGACAGCTATTTGTCCTAACTTCTTTTTGATGAGGTAGCACAATCGAGTAGAGGCTAATCTCTAGCCCCTCTC','SSRC38',7,2);
