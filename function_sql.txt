@@ -1,0 +1,4 @@
+INSERT INTO loc_feature(id_feature,id_loc)
+SELECT f.feature_id, l.loc_id 
+FROM feature as f,localization as l 
+WHERE l.start <= f.start and f.end <= l.end;
