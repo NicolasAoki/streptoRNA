@@ -4,3 +4,5 @@ INSERT INTO type(description)
 VALUES('mirtron');
 INSERT INTO type(description)
 VALUES('miRNA');
+INSERT INTO type(description)
+VALUES('sRNA');

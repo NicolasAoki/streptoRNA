@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `streptornadb`.`type` (
   PRIMARY KEY (`type_id`),
   UNIQUE INDEX `group_id_UNIQUE` (`type_id` ASC))
 ENGINE = InnoDB
-AUTO_INCREMENT = 8
+AUTO_INCREMENT = 11
 DEFAULT CHARACTER SET = utf8;
 
 
@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS `streptornadb`.`organism` (
   PRIMARY KEY (`organism_id`),
   UNIQUE INDEX `organism_id_UNIQUE` (`organism_id` ASC))
 ENGINE = InnoDB
-AUTO_INCREMENT = 55
+AUTO_INCREMENT = 82
 DEFAULT CHARACTER SET = utf8;
 
 
@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS `streptornadb`.`publication` (
   UNIQUE INDEX `pubmed_id_UNIQUE` (`pubmed_id` ASC),
   UNIQUE INDEX `publication_id_UNIQUE` (`publication_id` ASC))
 ENGINE = InnoDB
-AUTO_INCREMENT = 3
+AUTO_INCREMENT = 4
 DEFAULT CHARACTER SET = utf8;
 
 
@@ -99,6 +99,10 @@ CREATE TABLE IF NOT EXISTS `streptornadb`.`feature` (
   `feature_name` VARCHAR(20) NOT NULL,
   `type_type_id` INT(11) NOT NULL,
   `analysis_id` INT(11) NULL DEFAULT NULL,
+  `bit_score` FLOAT NOT NULL,
+  `feature_RF` VARCHAR(20) NOT NULL,
+  `e_value` VARCHAR(20) NOT NULL,
+  `feature_function` VARCHAR(200) NULL DEFAULT NULL,
   PRIMARY KEY (`feature_id`),
   UNIQUE INDEX `feature_id_UNIQUE` (`feature_id` ASC),
   INDEX `id_organism_idx` (`organism_id` ASC),
@@ -126,7 +130,7 @@ CREATE TABLE IF NOT EXISTS `streptornadb`.`feature` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
-AUTO_INCREMENT = 1230
+AUTO_INCREMENT = 2347
 DEFAULT CHARACTER SET = utf8;
 
 
@@ -145,7 +149,7 @@ CREATE TABLE IF NOT EXISTS `streptornadb`.`localization` (
   PRIMARY KEY (`loc_id`),
   UNIQUE INDEX `feature_loc_id_UNIQUE` (`loc_id` ASC))
 ENGINE = InnoDB
-AUTO_INCREMENT = 49885
+AUTO_INCREMENT = 63751
 DEFAULT CHARACTER SET = utf8;
 
 
@@ -172,7 +176,7 @@ CREATE TABLE IF NOT EXISTS `streptornadb`.`loc_feature` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
-AUTO_INCREMENT = 32768
+AUTO_INCREMENT = 40959
 DEFAULT CHARACTER SET = utf8;
 
 
