@@ -31,16 +31,35 @@ def insere_hgt(pasta):
                     linhas = g.readlines()
                     for line in linhas:
                         lista = line.split()
-                        loc_identification = lista[2]
-                        host_gene =  lista[0]
-                        start = int(lista[3])
-                        end = int(lista[4])
-                        sequence = org_sequencia(host_gene, start, end)
-                        f.write("INSERT INTO localization (loc_identification,host_gene,sequence,start,end)\n")
-                        f.write("VALUES({},{},{},{},{});\n".format("'"+loc_identification+"'","'"+host_gene+"'","'"+sequence+"'",start,end))
+                        organism_id = 1
+                        start = int(lista[2])
+                        end = int(lista[3])
+                        tool =  lista[1]
+                        value = lista[4]
+                        strand = lista[5]
+                        colour = lista[6]
+                        threshold = lista[7]
+                        f.write("INSERT INTO hgt (organism_id,tool,start,end,value,colour,threshold)\n")
+                        f.write("VALUES({},{},{},{},{},{},{});\n".format("'"+loc_identification+"'","'"+host_gene+"'","'"+sequence+"'",start,end))
                     g.close()
         f.close()
 
+def testa_hgt(pasta)
+    for file in os.listdir(pasta):
+            with open(pasta + file, 'r') as g:
+                linhas = g.readlines()
+                for line in linhas:
+                    lista = line.split()
+                    organism_id = 1
+                    start = int(lista[2])
+                    end = int(lista[3])
+                    tool =  lista[1]
+                    value = lista[4]
+                    strand = lista[5]
+                    colour = lista[6]
+                    threshold = lista[7]
+                    print("VALUES({},{},{},{},{},{},{});\n".format("'"+loc_identification+"'","'"+host_gene+"'","'"+sequence+"'",start,end))
+                g.close()
 def main():
     #Pastas
     hgt_regions ="/home/nicolasaoki/Desktop/gitRespotitories/streptoRNA/arquivos/HGT_regions/"
@@ -48,6 +67,7 @@ def main():
     #inserts
     #insere_localization_exclusive(regions_annotations)
     #insere_localization_core(regions_annotations)
-    insere_hgt(regions_annotations)
+    #insere_hgt(regions_annotations)
+    testa_hgt(hgt_regions)
 if __name__ == '__main__':
     main()
