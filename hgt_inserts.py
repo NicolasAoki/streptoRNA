@@ -5,7 +5,7 @@ import time
 
 #retira a sequencia desejada do organismo
 def org_sequencia(s,comeco,fim):
-    arquivo = "/home/nicolasaoki/Desktop/gitRespotitories/streptoRNA/arquivos/Organismos/"+s+".fasta"
+    arquivo = "Desktop/gitRepositories/streptoRNA/arquivos/Organismos/"+s+".fasta"
     nova_string = ''
     with open(arquivo) as f:
         lines = f.readlines()
@@ -44,7 +44,7 @@ def insere_hgt(pasta):
                     g.close()
         f.close()
 
-def testa_hgt(pasta)
+def testa_hgt(pasta):
     for file in os.listdir(pasta):
             with open(pasta + file, 'r') as g:
                 linhas = g.readlines()
@@ -62,12 +62,12 @@ def testa_hgt(pasta)
                 g.close()
 def main():
     #Pastas
-    hgt_regions ="/home/nicolasaoki/Desktop/gitRespotitories/streptoRNA/arquivos/HGT_regions/"
+    hgt_regions ='home/nicolasaoki/Desktop/gitRepositories/streptoRNA/arquivos/HGT_regions/'
 
     #inserts
     #insere_localization_exclusive(regions_annotations)
     #insere_localization_core(regions_annotations)
-    #insere_hgt(regions_annotations)
+    #insere_hgt(hgt_regions)
     testa_hgt(hgt_regions)
 if __name__ == '__main__':
     main()
