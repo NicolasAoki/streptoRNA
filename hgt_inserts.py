@@ -50,15 +50,20 @@ def testa_hgt(pasta):
                 linhas = g.readlines()
                 for line in linhas:
                     lista = line.split()
+                    outrasInfos = lista[8].split(";")
                     organism_id = 1
-                    start = int(lista[2])
-                    end = int(lista[3])
-                    tool =  lista[1]
-                    value = lista[4]
-                    strand = lista[5]
-                    colour = lista[6]
-                    threshold = lista[7]
-                    print("VALUES({},{},{},{},{},{},{});\n".format("'"+loc_identification+"'","'"+host_gene+"'","'"+sequence+"'",start,end))
+                    organism = lista[0]
+                    start = int(lista[3])
+                    end = int(lista[4])
+                    tool =  outrasInfos[2]
+                    tool = tool[10:] #alienhunter
+                    value = lista[5]
+                    strand = lista[6]
+                    colour = outrasInfos[1]
+                    colour = colour[7:]
+                    threshold = outrasInfos[3]
+                    threshold = threshold[16:]
+                    print("VALUES({},{},{},{},{},{},{});\n".format(start,end,tool,value,colour,threshold,strand))
                 g.close()
 def main():
     #Pastas
