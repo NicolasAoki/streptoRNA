@@ -62,12 +62,12 @@ def testa_hgt(pasta):
                 g.close()
 def main():
     #Pastas
-    hgt_regions ='home/nicolasaoki/Desktop/gitRepositories/streptoRNA/arquivos/HGT_regions/'
-
+    hgt_regions ='/home/nicolasaoki/Desktop/gitRepositories/streptoRNA/arquivos/HGT_regions/'
     #inserts
     #insere_localization_exclusive(regions_annotations)
     #insere_localization_core(regions_annotations)
     #insere_hgt(hgt_regions)
     testa_hgt(hgt_regions)
+
 if __name__ == '__main__':
     main()
