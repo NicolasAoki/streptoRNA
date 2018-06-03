@@ -5,7 +5,7 @@ import time
 
 #retira a sequencia desejada do organismo
 def org_sequencia(s,comeco,fim):
-    arquivo = "/Users/Nicolas/Desktop/streptoRNA/arquivos/Organismos/"+s+".fasta"
+    arquivo = "/home/nicolasaoki/gitRepos/streptoRNA/arquivos/Organismos/"+s+".fasta"
     nova_string = ''
     with open(arquivo) as f:
         lines = f.readlines()
@@ -79,10 +79,10 @@ def insere_localization_shared_col_inicio(pasta):
 
 def main():
     #Pastas
-    organismos ="/Users/Nicolas/Desktop/streptoRNA/arquivos/Organismos/"
-    sRNAs_annotations ="/Users/Nicolas/Desktop/streptoRNA/arquivos/sRNAs_annotations/"
-    hgt_regions ="/Users/Nicolas/Desktop/streptoRNA/arquivos/HGT_regions/"
-    regions_annotations ="/Users/Nicolas/Desktop/streptoRNA/"
+    organismos ="/home/nicolasaoki/gitRepos/streptoRNA/arquivos/Organismos/"
+    sRNAs_annotations ="/home/nicolasaoki/gitRepos/streptoRNA/arquivos/sRNAs_annotations/"
+    hgt_regions ="/home/nicolasaoki/gitRepos/streptoRNA/arquivos/HGT_regions/"
+    regions_annotations ="/home/nicolasaoki/gitRepos/streptoRNA/"
     #inserts
     #insere_localization_exclusive(regions_annotations)
     #insere_localization_core(regions_annotations)
